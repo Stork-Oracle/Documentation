@@ -1,6 +1,6 @@
 ---
-description: Programming API reference for the Stork EVM contract.
 icon: ethereum
+description: Programming API reference for the Stork EVM contract.
 layout:
   title:
     visible: true
@@ -68,28 +68,6 @@ You can now interface with the Stork contract.
 The Stork contract is designed to be upgradeable using [OpenZeppelin's proxy pattern](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies). Ensure the proxy address remains consistent when interacting with the contract to avoid version mismatches.
 
 ## Methods
-
-### Initialize Stork
-
-```solidity
-function _initialize(
-    address storkPublicKey,
-    uint validTimePeriodSeconds,
-    uint singleUpdateFeeInWei
-) internal;
-```
-
-**Description**
-
-Initializes the Stork contract with the provided public key, valid time period, and fee for updating values.
-
-**Parameters**
-
-* `storkPublicKey`: The EVM public key used for signature verification.
-* `validTimePeriodSeconds`: The duration for which feed values are considered valid.
-* `singleUpdateFeeInWei`: Fee required for a single update in Wei.
-
-
 
 ### Update Temporal Numeric Values V1
 
@@ -223,54 +201,6 @@ Retrieves the current version of the contract.
 **Returns**
 
 * `string`: The version string (e.g., "1.0.2").
-
-### **Update Valid Time Period Seconds**
-
-```solidity
-function updateValidTimePeriodSeconds(
-    uint validTimePeriodSeconds
-    ) public virtual;
-```
-
-**Description**
-
-Updates the valid time period for feed values. Must be implemented in derived contracts.
-
-**Parameters**
-
-* `validTimePeriodSeconds`: The new valid time period in seconds. Updates the valid time period for feed values. Must be implemented in derived contracts.
-
-### **Update Single Update Fee in Wei**
-
-```solidity
-function updateSingleUpdateFeeInWei(
-    uint singleUpdateFeeInWei
-    ) public virtual;
-```
-
-**Description**
-
-Updates the fee for a single update in Wei. Must be implemented in derived contracts.
-
-**Parameters**
-
-* `singleUpdateFeeInWei`: The new fee for a single update in Wei. Updates the fee for a single update in Wei. Must be implemented in derived contracts.
-
-### **Update Stork Public Key**
-
-```solidity
-function updateStorkPublicKey(
-    address storkPublicKey
-    ) public virtual;
-```
-
-**Description**
-
-Updates the EVM public key used for signature verification. Must be implemented in derived contracts.
-
-**Parameters**
-
-* `storkPublicKey`: The new EVM public key for signature verification. Updates the EVM public key used for signature verification. Must be implemented in derived contracts.
 
 ## Examples
 
