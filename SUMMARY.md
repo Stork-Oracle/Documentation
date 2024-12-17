@@ -1,37 +1,42 @@
 # Table of contents
 
-## Welcome
+## INTRODUCTION
 
-* [What is Stork?](README.md)
+* [Welcome to Stork](README.md)
+* [Core Concepts](introduction/core-concepts.md)
+* [How It Works](introduction/how-it-works.md)
+* [Products](introduction/products.md)
 
-## Stork for Real Time
+## Getting Started
 
-* [What is Stork for Real Time?](stork-for-real-time/what-is-stork-for-real-time.md)
-* [Architecture](stork-for-real-time/architecture.md)
-* [API Reference](stork-for-real-time/api-reference/README.md)
-  * [Websocket API](stork-for-real-time/api-reference/websocket-api/README.md)
-    * [Getting Started](stork-for-real-time/api-reference/websocket-api/getting-started.md)
-    * [Rate Limits](stork-for-real-time/api-reference/websocket-api/rate-limits.md)
-    * [Connection Management](stork-for-real-time/api-reference/websocket-api/connection-management.md)
-  * [REST API](stork-for-real-time/api-reference/rest-api.md)
-* [Data Feeds](stork-for-real-time/data-feeds/README.md)
-  * [Index Price](stork-for-real-time/data-feeds/index-price.md)
-  * [Perpetual Future Mark Price Index](stork-for-real-time/data-feeds/perpetual-future-mark-price-index.md)
-  * [Available Markets](stork-for-real-time/data-feeds/available-markets.md)
-* [Supported Chains](stork-for-real-time/supported-chains.md)
-* [Release Notes](stork-for-real-time/release-notes.md)
+* [Becoming a Publisher](getting-started/becoming-a-publisher.md)
+* [Becoming a Subscriber](getting-started/becoming-a-subscriber.md)
+* [Putting Data On-Chain](getting-started/putting-data-on-chain.md)
+* [Accessing Data On-Chain](getting-started/accessing-data-on-chain.md)
 
-## Stork for Starkex
+## API Reference
 
-* [Stork for StarkEx API](stork-for-starkex/stork-for-starkex-api/README.md)
-  * [Getting Started](stork-for-starkex/stork-for-starkex-api/getting-started.md)
-  * [Rate Limits](stork-for-starkex/stork-for-starkex-api/rate-limits.md)
-  * [Connection Management](stork-for-starkex/stork-for-starkex-api/connection-management.md)
-* [Verifying Prices On-Chain](stork-for-starkex/verifying-prices-on-chain/README.md)
-  * [Publishers](stork-for-starkex/verifying-prices-on-chain/publishers.md)
+* [Websocket API](api-reference/websocket-api/README.md)
+  * [Publisher](api-reference/websocket-api/publisher.md)
+  * [Subscriber](api-reference/websocket-api/subscriber.md)
+* [REST API](api-reference/rest-api.md)
+* [Contract APIs](api-reference/contract-apis/README.md)
+  * [EVM](api-reference/contract-apis/evm.md)
+  * [Solana](api-reference/contract-apis/solana.md)
+  * [Sui](api-reference/contract-apis/sui.md)
+* [Chain Pusher Configs](api-reference/chain-pusher-configs/README.md)
+  * [Asset Config YAML](api-reference/chain-pusher-configs/asset-config-yaml.md)
+* [Publisher Agent Configs](api-reference/publisher-agent-configs/README.md)
+  * [Config JSON](api-reference/publisher-agent-configs/config-json.md)
+  * [Keys JSON](api-reference/publisher-agent-configs/keys-json.md)
 
-## Stork for Options
+## Resources
 
-* [What is Stork for Options?](stork-for-options/what-is-stork-for-options/README.md)
-  * [Implied Volatility](stork-for-options/what-is-stork-for-options/implied-volatility.md)
-  * [Underlying Futures Price](stork-for-options/what-is-stork-for-options/underlying-futures-price.md)
+* [Asset ID Registry](resources/asset-id-registry.md)
+* [Contract Addresses](resources/contract-addresses/README.md)
+  * [EVM](resources/contract-addresses/evm.md)
+  * [Solana](resources/contract-addresses/solana.md)
+  * [Sui](resources/contract-addresses/sui.md)
+* [Adapters](resources/adapters.md)
+* [Public Keys](resources/public-keys.md)
+* [FAQ](resources/faq.md)

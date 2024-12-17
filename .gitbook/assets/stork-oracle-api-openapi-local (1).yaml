@@ -1,0 +1,300 @@
+openapi: 3.0.3
+info:
+  title: Stork Oracle API
+  version: "1.0"
+  description: |-
+    # 
+    Real-Time and historical data API for Stork signed data.  
+  
+    ## Authentication
+    Currently, all Stork Oracle API endpoints are permissioned using Basic auth. All REST requests must include an ```Authorization``` header with the value set as ```Basic <token>```. For example with the token ```gmork123```:
+    ```Bash
+    curl -X GET 'https://rest.jp.stork-oracle.network/v1/prices/assets' -H "Authorization: Basic gmork123"
+    ```
+servers:
+  - url: http://localhost:8080/v1 
+tags:
+  - name: Prices
+    description: Stork for Real Time prices and assets
+  - name: Trading View
+    description: Historical price metrics
+paths:
+  /prices/assets:
+    get:
+      tags:
+        - Prices
+      summary: List available assets
+      description: Get the list of availble asset IDs.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/AssetID'
+        "404":
+          description: Not Found
+      security:
+        - token_auth: []
+
+  /prices/latest:
+    get:
+      tags:
+        - Prices
+      summary: Get latest prices
+      description: Get latest real-time prices for specified assets.
+      parameters:
+        - name: assets
+          in: query
+          description: Comma-separated list of asset symbols (e.g., BTCUSD)
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/AggregatedSignedPrice'  
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                  $ref: "#/components/schemas/ErrorResponse"
+      security:
+        - token_auth: []
+            
+  /tradingview/history:
+    get:
+      tags:
+        - Trading View
+      summary: Get historical price metrics
+      description: Get OHLC price data for a specific asset within a time range
+      parameters:
+        - name: from
+          in: query
+          description: Start timestamp (Unix seconds)
+          required: true
+          schema:
+            type: integer
+        - name: to
+          in: query
+          description: Start timestamp (Unix seconds)
+          required: true
+          schema:
+            type: integer
+        - name: resolution
+          in: query
+          description: Time resolution in minutes, or 1 day, 1 week, or 1 month.
+          required: true
+          schema:
+            type: string
+            enum:
+              - "1"
+              - "2"
+              - "5"
+              - "15"
+              - "30"
+              - "60"
+              - "120"
+              - "240"
+              - "360"
+              - "720"
+              - "D"
+              - "1D"
+              - "W"
+              - "1W"
+              - "M"
+              - "1M"
+        - name: symbol
+          in: query
+          description: Asset ID
+          required: true
+          schema: 
+            $ref: "#/components/schemas/AssetID"
+      responses:
+        "200":
+          description: successful operation
+      security:
+        - token_auth: []
+components:
+  schemas:
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string 
+    AssetID:
+      type: string
+      description: A unique identifier for an asset.
+      example: "BTCUSD"
+    EncodedAssetID:
+      type: string
+      description: A base64-encoded asset identifier.
+      example: "0x7404e3d104ea7841c3d9e6fd20adfe99b4ad586bc08d8f3bd3afef894cf184de"
+    PublisherKey:
+      type: string
+      description: The key identifying the publisher.
+      example: "0x51aa9e9C781F85a2C0636A835EB80114c4553098"
+    SignatureType:
+      type: string
+      description: The type of signature in use.
+      enum:
+        - evm
+        - stark
+      example: "evm"
+    QuantizedPrice:
+      type: string
+      description: A price value multiplied by 10^18 represented as a string.
+      example: "101344782928537490000000"
+    Timestamp:
+          type: integer
+          format: int64
+          description: The UNIX nanosecond timestamp for the signature.
+          example: 1734127259251174232
+    Metadata:
+      type: object
+      additionalProperties: true
+      description: A key-value map for additional metadata.
+      nullable: true
+      example: null
+    StarkSignature:
+      type: object
+      properties:
+        r:
+          type: string
+          example: "0x123456789abcdef"
+        s:
+          type: string
+          example: "0xfedcba987654321"
+      description: Represents a Stark signature with `r` and `s` values.
+    EvmSignature:
+      type: object
+      properties:
+        r:
+          type: string
+          description: r value of ECDSA secp256k1 signature.
+          example: "0xb193e9ff3e3c0346ca74e194b8eab13cc9d49b73a68167b7a021ec979cb3aef7"
+        s:
+          type: string
+          description: s value of ECDSA secp256k1 signature.
+          example: "0x07a7176c245e24777755ae3037450862bb4dbc1e4ff49304cd82c3d818a8e598"
+        v:
+          type: string
+          description: v value of ECDSA secp256k1 signature.
+          example: "0x1b"
+      description: Represents an EVM compliant ECDSA secp256k1 signature with `r`, `s`, and `v` values.
+    TimestampedSignature:
+      type: object
+      properties:
+        signature:
+          oneOf:
+            - $ref: '#/components/schemas/EvmSignature'
+            - $ref: '#/components/schemas/StarkSignature'
+        timestamp:
+          $ref: '#/components/schemas/Timestamp'
+        msg_hash:
+          type: string
+          description: A hash of the signed message.
+          example: "0x977891628f4fc326f858ec33ba03da335e2ec4648a9f9332ab0317a64165fa7c"
+      description: A signature with a timestamp and message hash.
+    StorkCalculationAlg:
+      type: object
+      properties:
+        type:
+          type: string
+          description: The type of calculation algorithm.
+          enum:
+            - median
+            - average
+            - weighted average
+          example: "median"
+        version:
+          type: string
+          description: Version of the calculation algorithm.
+          example: "v1"
+        checksum:
+          type: string
+          description: Checksum for validation.
+          example: "9be7e9f9ed459417d96112a7467bd0b27575a2c7847195c68f805b70ce1795ba"
+      description: Contains metadata about a calculation algorithm.
+    PublisherSignedPrice:
+      type: object
+      properties:
+        publisher_key:
+          $ref: '#/components/schemas/PublisherKey'
+        external_asset_id:
+            $ref: '#/components/schemas/AssetID'
+        signature_type:
+          $ref: '#/components/schemas/SignatureType'
+        price:
+          $ref: '#/components/schemas/QuantizedPrice'
+        timestamped_signature:
+          $ref: '#/components/schemas/TimestampedSignature'
+        metadata:
+          $ref: '#/components/schemas/Metadata'
+      required:
+        - publisher_key
+        - external_asset_id
+        - signature_type
+        - price
+        - timestamped_signature
+      description: Contains signed price data from a publisher.
+    StorkSignedPrice:
+      type: object
+      properties:
+        public_key:
+          type: string
+          example: "0x0a803F9b1CCe32e2773e0d2e98b37E0775cA5d44"
+        encoded_asset_id:
+          $ref: '#/components/schemas/EncodedAssetID'
+        price:
+          $ref: '#/components/schemas/QuantizedPrice'
+        timestamped_signature:
+          $ref: '#/components/schemas/TimestampedSignature'
+        publisher_merkle_root:
+          type: string
+          description: Root hash for the Merkle tree of publishers.
+          example: "0x4e0a03960cea21f67d7f2b66c5457fa4fea3632a68d0f3bc01adb0588446efdf"
+        calculation_alg:
+          $ref: '#/components/schemas/StorkCalculationAlg'
+      description: A signed price from an aggregator.
+    AggregatedSignedPrice:
+      type: object
+      properties:
+        timestamp:
+          $ref: '#/components/schemas/Timestamp'
+        asset_id:
+          $ref: '#/components/schemas/AssetID'
+        signature_type:
+          $ref: '#/components/schemas/SignatureType'
+        trigger:
+          type: string
+          example: "unspecified"
+        price:
+          $ref: '#/components/schemas/QuantizedPrice'
+        stork_signed_price:
+          $ref: '#/components/schemas/StorkSignedPrice'
+        signed_prices:
+          type: array
+          items:
+            $ref: '#/components/schemas/PublisherSignedPrice'
+      description: Represents an aggregated signed price with multiple sources.
+  securitySchemes:
+    token_auth:
+      description: Enter your token in the format of "Basic <token>"
+      type: apiKey
+      name: Authorization
+      in: header

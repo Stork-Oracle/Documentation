@@ -1,2 +1,0 @@
-# Stork for StarkEx API
-
