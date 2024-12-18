@@ -1,8 +1,8 @@
 ---
-description: >-
-  Understanding the layers of Storks core architecture and how they work
-  together.
 icon: arrows-spin
+description: >-
+  Understanding the layers of Stork's core architecture and how they work
+  together.
 ---
 
 # How It Works
