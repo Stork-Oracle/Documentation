@@ -1,8 +1,8 @@
 ---
+icon: sliders-simple
 description: >-
   This document describes the structure and usage of the config JSON file used
   by the Stork Publisher Agent.
-icon: sliders-simple
 layout:
   title:
     visible: true
@@ -81,13 +81,6 @@ The `config.json` file contains non-secret configuration settings for the Publis
 * **Example**: `{"type": "subscribe", "data": ["BTCUSD"]}`
 * **Required**: No
 
-### **`PullBasedAuth --`**
-
-* **Type**: String
-* **Description**: The authentication token or key used to access the pull-based websocket server.
-* **Example**: `"Bearer abc123"`
-* **Required**: No
-
 ### **`ClockPeriod`**
 
 * **Type**: String
@@ -162,13 +155,6 @@ The `config.json` file contains non-secret configuration settings for the Publis
 * **Default**: `"10s"`
 * **Required**: No
 
-### **`OracleId --`**
-
-* **Type**: String
-* **Description**: The 5 character unique identifier for the oracle.
-* **Required**: Yes
-* **Example**: `"oracl"`
-
 ## Example `config.json`
 
 ```json
@@ -178,7 +164,6 @@ The `config.json` file contains non-secret configuration settings for the Publis
   "SignEveryUpdate": true,
   "PullBasedWsUrl": "wss://example.com/ws",
   "PullBasedWsSubscriptionRequest": {"type": "subscribe", "data": ["BTCUSD"]},
-  "PullBasedAuth": "Bearer abc123",
   "ClockPeriod": "500ms",
   "DeltaCheckPeriod": "10ms",
   "ChangeThresholdPercent": 0.1,
@@ -189,7 +174,6 @@ The `config.json` file contains non-secret configuration settings for the Publis
   "PublisherMetadataBaseUrl": "https://rest.jp.stork-oracle.network",
   "PullBasedWsReconnectDelay": "5s",
   "PullBasedWsReadTimeout": "10s",
-  "OracleId": "oracl"
 }
 ```
 

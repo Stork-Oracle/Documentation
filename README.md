@@ -1,6 +1,6 @@
 ---
-description: Welcome to Stork!
 icon: bird
+description: Welcome to Stork!
 layout:
   title:
     visible: true
@@ -18,7 +18,7 @@ layout:
 
 Stork is an oracle protocol that enables ultra low latency connections between data providers and both on and off-chain applications. The most common use-case for Stork is pulling and consuming market data in the form of real time price feeds for DeFi.
 
-The core technical principle of Stork are:
+The core technical principles of Stork are:
 
 * Modularity
 * Low latency / high throughput
