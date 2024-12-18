@@ -34,7 +34,7 @@ Estimating gas fees for putting data on chain with the Chain Pusher can be diffi
 * Gas prices vary chain-to-chain, even Testnet-to-Mainnet of the same chain.
 * Gas prices can vary based on block-to-block or epoch-to-epoch network conditions on some chains.
 
-That being said, Stork has written our contracts to be optimized for gas efficiency, so can be sure the gas to put an update on-chain is the lowest you can get with any oracle.
+That being said, Stork has written our contracts to be optimized for gas efficiency, so you can be sure the gas to put an update on-chain is the lowest you can get with any oracle.
 
 </details>
 

@@ -5,7 +5,7 @@ description: Using Stork data in your smart-contract.
 
 # Accessing Data On-Chain
 
-Storks on-chain contracts are what ultimately allow leveraging Storks low-latency trustless data on-chain. This involves calling the chain-specific contracts version of a `get_temporal_numeric_value` function with the appropriate information about the relevant [Asset ID. ](../introduction/core-concepts.md#asset-ids)
+Stork's on-chain contracts are what ultimately allow leveraging Storks low-latency trustless data on-chain. This involves calling the chain-specific contracts version of a `get_temporal_numeric_value` function with the appropriate information about the relevant [Asset ID. ](../introduction/core-concepts.md#asset-ids)
 
 To see which chains Stork currently supports, see the Contract Addresses section:
 
