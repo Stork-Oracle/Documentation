@@ -18,7 +18,7 @@ layout:
 
 ## SDK
 
-EVM contracts can program against the Stork contract's interface by creating an interface and contract to include aliases for the methods and structs required from the Stork contract.  The Stork contract can also be used via the [Pyth and Chainlink](../../resources/adapters.md) adapters. The Stork contract is built using [Hardhat](https://hardhat.org/).
+EVM contracts can program against the [Stork contract'](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/evm)s interface by creating an interface and contract to include aliases for the methods and structs required from the Stork contract.  The Stork contract can also be used via the [Pyth and Chainlink](../../resources/adapters.md) adapters. The Stork contract is built using [Hardhat](https://hardhat.org/).
 
 ## Getting Started
 
