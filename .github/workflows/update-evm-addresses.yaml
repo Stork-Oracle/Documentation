@@ -51,18 +51,24 @@ jobs:
               "\n\n"
             ) | join("")' > temp/new_evm_table.md
           
-          # Extract just the header content (everything before first ## heading)
+          # Normalize table formatting for comparison
           if [ -f resources/contract-addresses/evm.md ]; then
-            sed '/^## /q' resources/contract-addresses/evm.md | sed '$d' > temp/header.md
-            # Save the existing tables (everything from first ## onwards)
-            sed -n '/^## /,$p' resources/contract-addresses/evm.md > temp/existing_evm_table.md
+            # Extract and normalize existing tables
+            sed -n '/^## /,$p' resources/contract-addresses/evm.md | \
+              sed 's/|[ ]*\([^|]*\)[ ]*|/|\1|/g' | \
+              sed 's/-*|-*/-|-/g' > temp/existing_evm_table_normalized.md
+            
+            # Normalize new tables
+            cat temp/new_evm_table.md | \
+              sed 's/|[ ]*\([^|]*\)[ ]*|/|\1|/g' | \
+              sed 's/-*|-*/-|-/g' > temp/new_evm_table_normalized.md
+            
+            # Compare normalized versions
+            diff_output=$(diff temp/new_evm_table_normalized.md temp/existing_evm_table_normalized.md || true)
           else
-            touch temp/header.md
-            touch temp/existing_evm_table.md
+            diff_output="Initial creation"
           fi
           
-          # Compare the tables
-          diff_output=$(diff temp/new_evm_table.md temp/existing_evm_table.md || true)
           echo "diff_output<<EOF" >> $GITHUB_ENV
           echo "$diff_output" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
