@@ -47,18 +47,16 @@ jobs:
             .data | group_by(.name) | sort_by(.[0].name) |
             map(
               "## \(.[0].name)\n\n| Network | Address |\n| -------- | -------- |\n" + 
-              (. | sort_by(.subname) | map("| \(.subname) | \(.proxy_address) |") | join("\n")) +
+              (. | sort_by(.subname) | map("| \(.subname) | `\(.proxy_address)` |") | join("\n")) +
               "\n\n"
             ) | join("")' > temp/new_evm_table.md
           
-          # Extract just the tables part from the existing file
+          # Extract just the header content (everything before first heading, excluding the heading)
           if [ -f resources/contract-addresses/evm.md ]; then
-            # Save the header content (everything before first ##)
-            sed '/^## /q' resources/contract-addresses/evm.md > temp/header.md
+            sed '/^#/q' resources/contract-addresses/evm.md | sed '$d' > temp/header.md
             # Save the existing tables (everything from first ## onwards)
             sed -n '/^## /,$p' resources/contract-addresses/evm.md > temp/existing_evm_table.md
           else
-            # If file doesn't exist, create empty files
             touch temp/header.md
             touch temp/existing_evm_table.md
           fi
