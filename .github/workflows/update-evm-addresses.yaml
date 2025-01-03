@@ -34,6 +34,13 @@ jobs:
           # Create temporary directory for working files
           mkdir -p temp
           
+          # Extract header content (everything before first ## heading)
+          if [ -f resources/contract-addresses/evm.md ]; then
+            sed '/^## /q' resources/contract-addresses/evm.md | sed '$d' > temp/header.md
+          else
+            touch temp/header.md
+          fi
+
           # Generate new EVM table
           curl -s "https://rest.dev.jp.stork-oracle.network/v1/deployments/evm" | jq -r '
             .data |= map({
