@@ -7,12 +7,6 @@ description: Contract Addresses for EVM chains.
 
 For documentation on interacting with these contracts in your contract, please see the [EVM API reference](../../api-reference/contract-apis/evm.md).
 
-## Arbitrum
-
-| Network | Address                                      |
-| ------- | -------------------------------------------- |
-| Sepolia | `0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627` |
-
 ## Berachain
 
 | Network | Address                                      |
