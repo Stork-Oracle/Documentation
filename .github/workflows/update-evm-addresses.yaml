@@ -63,18 +63,16 @@ jobs:
             # Extract and normalize existing tables
             sed -n '/^## /,$p' resources/contract-addresses/evm.md | \
               sed 's/|[ ]*\([^|]*\)[ ]*|/|\1|/g' | \
-              sed 's/|-*|/-|-/g' | \
-              sed 's/| *Network *| *Address *|/|Network|Address|/g' | \
-              sed 's/| *- *| *- *|/|-|-|/g' > temp/existing_evm_table_normalized.md
+              sed 's/|[ ]*Network[ ]*|[ ]*Address[ ]*|/|Network|Address|/g' | \
+              sed 's/|[ ]*-[-]*[ ]*|[ ]*-[-]*[ ]*|/|-|-|/g' > temp/existing_evm_table_normalized.md
             
             # Normalize new tables
             cat temp/new_evm_table.md | \
               sed 's/|[ ]*\([^|]*\)[ ]*|/|\1|/g' | \
-              sed 's/|-*|/-|-/g' | \
-              sed 's/| *Network *| *Address *|/|Network|Address|/g' | \
-              sed 's/| *- *| *- *|/|-|-|/g' > temp/new_evm_table_normalized.md
+              sed 's/|[ ]*Network[ ]*|[ ]*Address[ ]*|/|Network|Address|/g' | \
+              sed 's/|[ ]*-[-]*[ ]*|[ ]*-[-]*[ ]*|/|-|-|/g' > temp/new_evm_table_normalized.md
             
-            # Compare normalized versions
+            # Compare normalized versions (ignoring whitespace and blank lines)
             diff_output=$(diff -w -B temp/new_evm_table_normalized.md temp/existing_evm_table_normalized.md || true)
           else
             diff_output="Initial creation"
