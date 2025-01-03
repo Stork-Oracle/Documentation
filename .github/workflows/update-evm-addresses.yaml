@@ -51,9 +51,9 @@ jobs:
               "\n\n"
             ) | join("")' > temp/new_evm_table.md
           
-          # Extract just the header content (everything before first heading, excluding the heading)
+          # Extract just the header content (everything before first ## heading)
           if [ -f resources/contract-addresses/evm.md ]; then
-            sed '/^#/q' resources/contract-addresses/evm.md | sed '$d' > temp/header.md
+            sed '/^## /q' resources/contract-addresses/evm.md | sed '$d' > temp/header.md
             # Save the existing tables (everything from first ## onwards)
             sed -n '/^## /,$p' resources/contract-addresses/evm.md > temp/existing_evm_table.md
           else
