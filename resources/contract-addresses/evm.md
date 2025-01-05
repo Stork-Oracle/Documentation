@@ -111,6 +111,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
+## Mezo
+
+| Network | Address |
+| -------- | -------- |
+| Matsnet Testnet | `0x43c3F9E58615a7900287581b97b2fD2A6504Fb84` |
+
 ## Mitosis
 
 | Network | Address |
