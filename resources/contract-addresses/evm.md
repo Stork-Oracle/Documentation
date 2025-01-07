@@ -7,10 +7,17 @@ description: Contract Addresses for EVM chains.
 
 For documentation on interacting with these contracts in your contract, please see the [EVM API reference](../../api-reference/contract-apis/evm.md).
 
+## Abstract
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | `0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9` |
+
 ## Arbitrum
 
 | Network | Address |
 | -------- | -------- |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 | Sepolia | `0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627` |
 
 ## Berachain
@@ -29,6 +36,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
+| Mainnet | `0x647DFd812BC1e116c6992CB2bC353b2112176fD6` |
 | Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Bob
@@ -36,6 +44,18 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Sepolia | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+
+## Botanix
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+
+## Bsquared
+
+| Network | Address |
+| -------- | -------- |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Citrea
 
@@ -109,13 +129,14 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 | Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Mezo
 
 | Network | Address |
 | -------- | -------- |
-| Matsnet Testnet | `0x43c3F9E58615a7900287581b97b2fD2A6504Fb84` |
+| Matsnet Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Mitosis
 
@@ -164,6 +185,7 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Devnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Polygon
 
