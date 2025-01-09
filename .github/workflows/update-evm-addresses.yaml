@@ -2,7 +2,7 @@ name: Update EVM Addresses
 
 on:
   schedule:
-    - cron: '* 20 * * *'  # Run daily at 8pm UTC (3pm EST)
+    - cron: '0 20 * * *'  # Run daily at 8pm UTC (3pm EST)
   workflow_dispatch:      # Allow manual triggers
 
 jobs:
