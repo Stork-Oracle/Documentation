@@ -108,3 +108,17 @@ $$
 where:
 
 * SpotPrice(it): Price of USDT-USD exchange i at time t
+
+
+### EMA Garman-Klass Volatility
+
+[Garman-Klass](https://portfolioslab.com/tools/garman-klass) is a common estimator of price volatility based on OHLC prices, improving on the basic volatility by considering extreme prices within a period instead of just the start and end of a period.
+
+Traditionally Garman-Klass volatility is computed over a fixed period and gives every period an equal weight. Since Stork deals with real time data we'd prefer to weigh recent volatility more heavily. We use the Garman-Klass formula's computation for each OHLC period, but rather than taking an average over a fixed number of periods, we apply an exponential moving average so that we can quickly report sudden increases in volatility.
+
+We compute the EMA volatility for period n+1 given the EMA volatility for period n, the open, high, low and close prices for period n, and a fixed decay parameter lambda using the formula:
+$$
+\left(\hat\sigma^{GK}_{n+1}\right)^2 = \lambda \left[\frac{1}{2}\log\left(\frac{H_n}{L_n}\right)^2-(\log(4)-1) \log \left( \frac{C_n}{O_n}\right)^2\right] + (1-\lambda)\left(\hat\sigma^{GK}_{n}\right)^2
+$$
+
+EMA Garman-Klass Volatility feed names are suffixed with `_VGK`.
