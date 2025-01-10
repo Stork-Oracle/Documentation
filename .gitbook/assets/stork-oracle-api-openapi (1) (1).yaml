@@ -294,7 +294,7 @@ components:
       description: Represents an aggregated signed price with multiple sources.
   securitySchemes:
     token_auth:
-      description: Enter your token in the format of ```Basic <token>```
+      description: Enter your token in the format of "Basic <token>"
       type: apiKey
       name: Authorization
       in: header

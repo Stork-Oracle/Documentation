@@ -33,17 +33,17 @@ There is currently a universal rate limit of 5 requests/sec.
 Need a higher rate limit? Reach out to Stork.  [sales@stork.network](mailto:sales@stork.network) or [Twitter DMs](https://x.com/storkoracle) open.
 {% endhint %}
 
-{% swagger src="../.gitbook/assets/stork-oracle-api-openapi (5).yaml" path="/prices/assets" method="get" %}
-[stork-oracle-api-openapi (5).yaml](<../.gitbook/assets/stork-oracle-api-openapi (5).yaml>)
+
+
+{% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/prices/assets" method="get" %}
+[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/stork-oracle-api-openapi (5).yaml" path="/prices/latest" method="get" %}
-[stork-oracle-api-openapi (5).yaml](<../.gitbook/assets/stork-oracle-api-openapi (5).yaml>)
+{% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/prices/latest" method="get" %}
+[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/stork-oracle-api-openapi (5).yaml" path="/tradingview/history" method="get" %}
-[stork-oracle-api-openapi (5).yaml](<../.gitbook/assets/stork-oracle-api-openapi (5).yaml>)
+{% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/tradingview/history" method="get" %}
+[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
 {% endswagger %}
-
-
 
