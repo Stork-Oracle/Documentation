@@ -7,7 +7,7 @@ description: Programming API reference for the Stork Sui contract.
 
 ## SDK
 
-Sui contracts can program against the [Stork contract's](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/sui) interface by including is as a project dependency.
+Sui contracts can integrate with the [Stork contract](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/sui) by including it as a project dependency.
 
 ## Installation
 
@@ -16,7 +16,7 @@ Sui contracts can program against the [Stork contract's](https://github.com/Stor
 After setting up your Sui Move project, add the Stork contract to your project dependencies by adding the following line to the `[dependencies]` section of your projects `Move.toml`:
 
 ```toml
-//Move.toml
+// Move.toml
 [dependencies]
 stork = { git = "https://github.com/stork-oracle/stork-external.git", subdir = "contracts/sui/contracts", rev = "main" }
 ```

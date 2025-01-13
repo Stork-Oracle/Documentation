@@ -8,7 +8,21 @@ description: >-
 
 # Contract Addresses
 
-* [EVM](evm.md)
-* [Solana](solana.md)
-* [Sui](solana.md)
+{% content-ref url="evm.md" %}
+[evm.md](evm.md)
+{% endcontent-ref %}
+
+{% content-ref url="solana.md" %}
+[solana.md](solana.md)
+{% endcontent-ref %}
+
+{% content-ref url="sui.md" %}
+[sui.md](sui.md)
+{% endcontent-ref %}
+
+{% content-ref url="aptos.md" %}
+[aptos.md](aptos.md)
+{% endcontent-ref %}
+
+
 
