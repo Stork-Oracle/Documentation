@@ -9,6 +9,8 @@ description: 'The following price feeds are available on each chain Stork suppor
 Want a price feed that isn't listed here? Reach out to Stork and let us know what assets you need so we can integrate them in as little as 24 hours. [sales@stork.network](mailto:sales@stork.network) or [Twitter DMs](https://x.com/StorkOracle) open
 {% endhint %}
 
+More information on the types of feeds we support is available [here](../introduction/core-concepts.md#prices)
+
 | Asset ID |  Encoded Asset ID |
 |----------|------------|
 | 1000000BONKUSD | 0xdca96d03da5fd6aeea354d15a23dcc9ed4b1885599ff0c97a86dc28afc82ecf5 |
