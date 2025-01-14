@@ -42,19 +42,17 @@ jobs:
           fi
 
           # Generate new EVM table
-          curl -s "https://rest.jp.stork-oracle.network/v1/deployments/evm" | jq -r '
+          curl -s "https://rest.dev.jp.stork-oracle.network/v1/deployments/evm" | jq -r '
             .data |= map({
-              name: (.network | split(" ")[0]),
-              subname: (if .network | split(" ")[1:] | length > 0 
-                      then .network | split(" ")[1:] | join(" ")
-                      else "Mainnet" 
-                      end),
-              proxy_address: .proxy_address
+              name: .network,
+              environment: .environment,
+              proxy_address: .proxy_address,
+              block_explorer_url: .block_explorer_url
             }) |
             .data | group_by(.name) | sort_by(.[0].name) |
             map(
               "## \(.[0].name)\n\n| Network | Address |\n| -------- | -------- |\n" + 
-              (. | sort_by(.subname) | map("| \(.subname) | `\(.proxy_address)` |") | join("\n")) +
+              (. | sort_by(.environment) | map("| \(.environment) | [\`\(.proxy_address)\`](\(.block_explorer_url)/address/\(.proxy_address)) |") | join("\n")) +
               "\n\n"
             ) | join("")' > temp/new_evm_table.md
           
