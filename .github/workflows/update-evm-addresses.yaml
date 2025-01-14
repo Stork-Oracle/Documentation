@@ -42,7 +42,7 @@ jobs:
           fi
 
           # Generate new EVM table
-          curl -s "https://rest.dev.jp.stork-oracle.network/v1/deployments/evm" | jq -r '
+          curl -s "https://rest.jp.stork-oracle.network/v1/deployments/evm" | jq -r '
             .data |= map({
               name: .network,
               environment: .environment,
