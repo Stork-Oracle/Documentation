@@ -11,14 +11,14 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9` |
+| Mainnet | `0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9` |
 
 ## Arbitrum
 
 | Network | Address |
 | -------- | -------- |
+| Mainnet | `0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627` |
 | Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
-| Sepolia | `0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627` |
 
 ## Base
 
@@ -30,32 +30,32 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Bevm
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Bitlayer
 
 | Network | Address |
 | -------- | -------- |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 | Mainnet | `0x647DFd812BC1e116c6992CB2bC353b2112176fD6` |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Bob
 
 | Network | Address |
 | -------- | -------- |
-| Sepolia | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Botanix
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Bsquared
 
@@ -67,14 +67,14 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Core
 
 | Network | Address |
 | -------- | -------- |
 | Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## CrossFi
 
@@ -86,25 +86,31 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0x647DFd812BC1e116c6992CB2bC353b2112176fD6` |
+| Mainnet | `0x647DFd812BC1e116c6992CB2bC353b2112176fD6` |
 
 ## Filecoin
 
 | Network | Address |
 | -------- | -------- |
-| Calibration | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Glue
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Goat
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+
+## Hemi
+
+| Network | Address |
+| -------- | -------- |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Holesky
 
@@ -116,8 +122,8 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Pegasus Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
-| Phoenix Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Lorenzo
 
@@ -129,20 +135,20 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Sepolia | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Merlin
 
 | Network | Address |
 | -------- | -------- |
 | Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Mezo
 
 | Network | Address |
 | -------- | -------- |
-| Matsnet Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Mitosis
 
@@ -156,29 +162,23 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
-## Monad
-
-| Network | Address |
-| -------- | -------- |
-| Devnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
-
 ## Movement
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Omni
 
 | Network | Address |
 | -------- | -------- |
-| Omega | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Open
 
 | Network | Address |
 | -------- | -------- |
-| Campus Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Campus | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Ozean
 
@@ -190,49 +190,49 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Devnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 | Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Polygon
 
 | Network | Address |
 | -------- | -------- |
-| Amoy | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 | Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Rootstock
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Scroll
 
 | Network | Address |
 | -------- | -------- |
 | Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
-| Sepolia | `0xbB4105F349072B15e300f3dAeB701EF986ae5372` |
+| Mainnet | `0xbB4105F349072B15e300f3dAeB701EF986ae5372` |
 
 ## Sonic
 
 | Network | Address |
 | -------- | -------- |
-| Blaze Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 | Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Sophon
 
 | Network | Address |
 | -------- | -------- |
 | Mainnet | `0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9` |
-| Testnet | `0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9` |
+| Mainnet | `0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9` |
 
 ## Story
 
 | Network | Address |
 | -------- | -------- |
-| Odyssey Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Superseed
 
@@ -244,7 +244,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Turin | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Taraxa
 
@@ -256,13 +256,13 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
+| Mainnet | `0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62` |
 
 ## Xlayer
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | `0x647DFd812BC1e116c6992CB2bC353b2112176fD6` |
+| Mainnet | `0x647DFd812BC1e116c6992CB2bC353b2112176fD6` |
 
 ## Zetachain
 
