@@ -1,6 +1,6 @@
 ---
-description: Th
 icon: file-signature
+description: Th
 layout:
   title:
     visible: true
@@ -33,4 +33,8 @@ The following APIs are available for supported chains:&#x20;
 
 {% content-ref url="sui.md" %}
 [sui.md](sui.md)
+{% endcontent-ref %}
+
+{% content-ref url="aptos.md" %}
+[aptos.md](aptos.md)
 {% endcontent-ref %}
