@@ -52,7 +52,7 @@ jobs:
             .data | group_by(.name) | sort_by(.[0].name) |
             map(
               "## \(.[0].name)\n\n| Network | Address |\n| -------- | -------- |\n" + 
-              (. | sort_by(.environment) | map("| \(.environment) | [\`\(.proxy_address)\`](\(.block_explorer_url)/address/\(.proxy_address)) |") | join("\n")) +
+              (. | sort_by(.environment) | map("| \(.environment) | [\(.proxy_address)](\(.block_explorer_url)/address/\(.proxy_address)) |") | join("\n")) +
               "\n\n"
             ) | join("")' > temp/new_evm_table.md
           
