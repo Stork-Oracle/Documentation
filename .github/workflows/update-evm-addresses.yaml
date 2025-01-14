@@ -47,7 +47,7 @@ jobs:
               name: .network,
               environment: .environment,
               proxy_address: .proxy_address,
-              block_explorer_url: .block_explorer_url
+              block_explorer_url: (.block_explorer_url | rtrimstr("/"))
             }) |
             .data | group_by(.name) | sort_by(.[0].name) |
             map(
