@@ -17,8 +17,8 @@ layout:
 
 For documentation on interacting with these contracts in your contract, please see the [Aptos API reference](../../api-reference/contract-apis/aptos.md).
 
-| Network | Address        |
-| ------- | -------------- |
-| Mainnet | Coming soon... |
-| Testnet | Coming soon... |
+| Network | Address                                                                                                                                                                                                     |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | Coming soon...                                                                                                                                                                                              |
+| Testnet | [0x68ba7261bf09152006999d7f53432ed540e238d8f1050e1fe739738309f58217](https://explorer.aptoslabs.com/object/0x68ba7261bf09152006999d7f53432ed540e238d8f1050e1fe739738309f58217/transactions?network=testnet) |
 
