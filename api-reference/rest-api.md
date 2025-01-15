@@ -22,7 +22,7 @@ Real-Time and historical Data API for Stork signed data.
 All REST requests must include an `Authorization` header with the value set as `Basic <token>` . For example if your token is `gmork123`:
 
 ```bash
-curl -x GET 'https://api.jp.stork-oracle.network/priced/assets' -H "Authorization: Basic gmork123"
+curl -x GET 'https://rest.jp.stork-oracle.network/priced/assets' -H "Authorization: Basic gmork123"
 ```
 
 ## Rate Limits
