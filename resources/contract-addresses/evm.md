@@ -252,6 +252,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Mainnet | [0x7D06cc8210228365896A3cc8Aac88c5551529112](https://tara.to/address/0x7D06cc8210228365896A3cc8Aac88c5551529112) |
 
+## Unichain
+
+| Network | Address |
+| -------- | -------- |
+| Sepolia | [0x266795f5A45AEc26aBF7E1c923dC15Cbb1A4Ed96](https://sepolia.uniscan.xyz/address/0x266795f5A45AEc26aBF7E1c923dC15Cbb1A4Ed96) |
+
 ## Volmex
 
 | Network | Address |
