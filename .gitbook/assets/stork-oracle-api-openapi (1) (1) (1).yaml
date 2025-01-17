@@ -13,21 +13,18 @@ info:
     ```
 servers:
   - url: https://rest.jp.stork-oracle.network/v1
-  - url: https://rest.dev.stork-oracle.network/v1
 tags:
   - name: Prices
     description: Stork for Real Time prices and assets
   - name: Trading View
     description: Historical price metrics
-  - name: Options
-    description: Stork for Options data
 paths:
   /prices/assets:
     get:
       tags:
         - Prices
-      summary: List Available Assets
-      description: Get the list of available asset IDs.
+      summary: List available assets
+      description: Get the list of availble asset IDs.
       responses:
         "200":
           description: OK
@@ -42,17 +39,19 @@ paths:
                       $ref: '#/components/schemas/AssetID'
         "404":
           description: Not Found
+      security:
+        - token_auth: []
 
   /prices/latest:
     get:
       tags:
         - Prices
-      summary: Get Latest Prices
+      summary: Get latest prices
       description: Get latest real-time prices for specified assets.
       parameters:
         - name: assets
           in: query
-          description: Comma-separated list of asset symbols (e.g. BTCUSD,ETHUSD)
+          description: Comma-separated list of asset symbols (e.g., BTCUSD)
           required: true
           schema:
             type: string
@@ -81,8 +80,8 @@ paths:
     get:
       tags:
         - Trading View
-      summary: Get Historical Price Metrics
-      description: Get OHLC price data for a specific asset within a time range.
+      summary: Get historical price metrics
+      description: Get OHLC price data for a specific asset within a time range
       parameters:
         - name: from
           in: query
@@ -130,93 +129,6 @@ paths:
           description: successful operation
       security:
         - token_auth: []
-  /deployments/evm:
-    get:
-      tags:
-        - Deployments
-      summary: List EVM chain Deployments
-      description: Get the list of EVM chain deployments and their details.
-      responses:
-        "200":
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  data:
-                    type: array
-                    items:
-                      $ref: "#/components/schemas/Deployment"
-        "404":
-          description: Not Found
-
-  /options/implied_volatility:
-    get:
-      tags:
-        - Options
-      summary: Get Implied Volatility
-      description: Get signed implied volatility data for a specific option.
-      parameters: 
-        - $ref: '#/components/parameters/SymbolParam'
-        - $ref: '#/components/parameters/OptionsExpiryParam'
-        - $ref: '#/components/parameters/OptionsStrikeParam'
-        - $ref: '#/components/parameters/OptionsTypeParam'
-      responses:
-        '200':
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/AggregatedSignedImpliedVolatility'
-        '400':
-          description: Bad Request
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ErrorResponse"
-        '500':
-          description: Internal Server Error
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ErrorResponse"
-      security:
-        - token_auth: []
-
-  /options/underlying_future_price:
-    get:
-      tags:
-        - Options
-      summary: Get Underlying Future Price
-      description: Get signed underlying future price data for a specific option.
-      parameters:
-        - $ref: '#/components/parameters/SymbolParam'
-        - $ref: '#/components/parameters/OptionsExpiryParam'
-        - $ref: '#/components/parameters/OptionsStrikeParam'
-        - $ref: '#/components/parameters/OptionsTypeParam'
-      responses:
-        '200':
-          description: OK
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/UnderlyingFuturePriceResponse'
-        '400':
-          description: Bad Request
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ErrorResponse"
-        '500':
-          description: Internal Server Error
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/ErrorResponse"
-      security:
-        - token_auth: []
-
 components:
   schemas:
     ErrorResponse:
@@ -380,145 +292,9 @@ components:
           items:
             $ref: '#/components/schemas/PublisherSignedPrice'
       description: Represents an aggregated signed price with multiple sources.
-    Deployment:
-      type: object
-      properties:
-        chain_id:
-          type: integer
-          example: 50401
-          description: The chain ID of the deployment.
-        network:
-          type: string
-          example: "Sophon"
-          description: The network of the deployment.
-        environment:
-          type: string
-          example: "Mainnet"
-          description: The environment of the deployment.
-        proxy_address:
-          type: string
-          example: "0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9"
-          description: The proxy address of the deployment.
-        block_explorer_url:
-          type: string
-          example: "https://explorer.sophon.xyz/"
-          description: The block explorer URL of the deployment.
-      description: Represents an EVM chain deployment.
-    AggregatedSignedImpliedVolatility:
-      type: object
-      properties:
-        symbol:
-          $ref: '#/components/schemas/AssetID'
-        expiry:
-          type: string
-          format: date
-          example: "2024-12-31"
-        strike:
-          type: string
-          example: "50000"
-        type:
-          type: string
-          enum: [PUT, CALL]
-        timestamp:
-          type: integer
-          format: int64
-          description: Unix timestamp in nanoseconds
-        stork_signed_implied_volatility:
-          $ref: '#/components/schemas/StorkSignedPrice'
-        signed_implied_volatilities:
-          type: array
-          items:
-            $ref: '#/components/schemas/SignedImpliedVolatility'
-      description: Aggregated implied volatility data with signatures
-
-    SignedImpliedVolatility:
-      type: object
-      properties:
-        external_asset_id:
-          $ref: '#/components/schemas/AssetID'
-        implied_volatility:
-          $ref: '#/components/schemas/QuantizedPrice'
-        timestamped_signature:
-          $ref: '#/components/schemas/TimestampedSignature'
-        public_key:
-          type: string
-          example: "0x51aa9e9C781F85a2C0636A835EB80114c4553098"
-      description: Signed implied volatility data from a single source
-
-    UnderlyingFuturePriceResponse:
-      type: object
-      properties:
-        symbol:
-          $ref: '#/components/schemas/AssetID'
-        expiry:
-          type: string
-          format: date
-          example: "2024-12-31"
-        strike:
-          type: string
-          example: "50000"
-        type:
-          type: string
-          enum: [PUT, CALL]
-        timestamp:
-          type: integer
-          format: int64
-          description: Unix timestamp in nanoseconds
-        signed_underlying_future_prices:
-          type: array
-          items:
-            $ref: '#/components/schemas/SignedUnderlyingFuturePrice'
-      description: Response containing signed underlying future price data
-
-    SignedUnderlyingFuturePrice:
-      type: object
-      properties:
-        underlying_future_price:
-          $ref: '#/components/schemas/QuantizedPrice'
-        timestamped_signature:
-          $ref: '#/components/schemas/TimestampedSignature'
-        external_asset_id:
-          $ref: '#/components/schemas/AssetID'
-        public_key:
-          type: string
-          example: "0x51aa9e9C781F85a2C0636A835EB80114c4553098"
-      description: Signed underlying future price data from a single source
-  parameters:
-    SymbolParam:
-        name: symbol
-        in: query
-        description: Asset symbol (e.g. BTCUSD)
-        required: true
-        schema:
-          type: string
-    OptionsExpiryParam:
-      name: expiry
-      in: query
-      description: Option expiry date in YYYY-MM-DD format
-      required: true
-      schema:
-        type: string
-        format: date
-
-    OptionsStrikeParam:
-      name: strike
-      in: query
-      description: Strike price in USD
-      required: true
-      schema:
-        type: string
-
-    OptionsTypeParam:
-      name: type
-      in: query
-      description: Option type (PUT or CALL)
-      required: true
-      schema:
-        type: string
-        enum: [PUT, CALL] 
   securitySchemes:
     token_auth:
-      description: Enter your token in the format of "Basic your-token"
+      description: Enter your token in the format of "Basic <token>"
       type: apiKey
       name: Authorization
-      in: header 
+      in: header

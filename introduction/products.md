@@ -1,6 +1,6 @@
 ---
-description: Stork for Real Time, Options, StarkEx, and the Composite Oracle Service.
 icon: shelves
+description: Stork for Real Time, Options, StarkEx, and the Composite Oracle Service.
 ---
 
 # Products
@@ -13,12 +13,12 @@ Using an off-chain, decentralized feed gives protocols the ability to perform in
 
 ### Stork for Options
 
-Stork for Options is a just-in-time derivative oracle. Queried via REST APIs, derivatives such as
+Stork for Options is a just-in-time derivative oracle. Queried via REST API, derivatives such as
 
 * Implied Volatility
 * Underlying Futures Prices
 
-among others are calculated upon API request based on Storks real time prices.
+among others are calculated upon API request based on Storks real time prices. For more information on using Stork for Options, see [REST API](../api-reference/rest-api.md#options-implied_volatility).
 
 ### Stork for StarkEx
 

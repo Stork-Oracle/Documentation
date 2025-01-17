@@ -13,6 +13,7 @@ info:
     ```
 servers:
   - url: https://rest.jp.stork-oracle.network/v1
+  - url: https://rest.dev.stork-oracle.network/v1
 tags:
   - name: Prices
     description: Stork for Real Time prices and assets
@@ -23,8 +24,8 @@ paths:
     get:
       tags:
         - Prices
-      summary: List available assets
-      description: Get the list of availble asset IDs.
+      summary: List Available Assets
+      description: Get the list of available asset IDs.
       responses:
         "200":
           description: OK
@@ -39,14 +40,12 @@ paths:
                       $ref: '#/components/schemas/AssetID'
         "404":
           description: Not Found
-      security:
-        - token_auth: []
 
   /prices/latest:
     get:
       tags:
         - Prices
-      summary: Get latest prices
+      summary: Get Latest Prices
       description: Get latest real-time prices for specified assets.
       parameters:
         - name: assets
@@ -80,8 +79,8 @@ paths:
     get:
       tags:
         - Trading View
-      summary: Get historical price metrics
-      description: Get OHLC price data for a specific asset within a time range
+      summary: Get Historical Price Metrics
+      description: Get OHLC price data for a specific asset within a time range.
       parameters:
         - name: from
           in: query
@@ -129,6 +128,27 @@ paths:
           description: successful operation
       security:
         - token_auth: []
+  /deployments/evm:
+    get:
+      tags:
+        - Deployments
+      summary: List EVM chain Deployments
+      description: Get the list of EVM chain deployments and their details.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Deployment"
+        "404":
+          description: Not Found
+
 components:
   schemas:
     ErrorResponse:
@@ -292,9 +312,25 @@ components:
           items:
             $ref: '#/components/schemas/PublisherSignedPrice'
       description: Represents an aggregated signed price with multiple sources.
+    Deployment:
+      type: object
+      properties:
+        chain_id:
+          type: integer
+          example: 50401
+          description: The chain ID of the deployment.
+        network:
+          type: string
+          example: "sophon"
+          description: The network of the deployment.
+        proxy_address:
+          type: string
+          example: "0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9"
+          description: The proxy address of the deployment.
+      description: Represents an EVM chain deployment.
   securitySchemes:
     token_auth:
-      description: Enter your token in the format of ```Basic <token>```
+      description: Enter your token in the format of "Basic your-token"
       type: apiKey
       name: Authorization
       in: header

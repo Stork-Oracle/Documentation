@@ -35,20 +35,27 @@ Need a higher rate limit? Reach out to Stork.  [sales@stork.network](mailto:sale
 
 
 
-
-
-{% swagger src="../.gitbook/assets/stork-oracle-api-openapi (6).yaml" path="/prices/assets" method="get" %}
-[stork-oracle-api-openapi (6).yaml](<../.gitbook/assets/stork-oracle-api-openapi (6).yaml>)
+{% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/prices/assets" method="get" %}
+[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/stork-oracle-api-openapi (6).yaml" path="/prices/latest" method="get" %}
-[stork-oracle-api-openapi (6).yaml](<../.gitbook/assets/stork-oracle-api-openapi (6).yaml>)
+{% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/prices/latest" method="get" %}
+[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/stork-oracle-api-openapi (6).yaml" path="/tradingview/history" method="get" %}
-[stork-oracle-api-openapi (6).yaml](<../.gitbook/assets/stork-oracle-api-openapi (6).yaml>)
+{% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/tradingview/history" method="get" %}
+[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
 {% endswagger %}
 
-{% swagger src="../.gitbook/assets/stork-oracle-api-openapi (6).yaml" path="/deployments/evm" method="get" %}
-[stork-oracle-api-openapi (6).yaml](<../.gitbook/assets/stork-oracle-api-openapi (6).yaml>)
+{% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/deployments/evm" method="get" %}
+[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
 {% endswagger %}
+
+{% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/options/implied_volatility" method="get" %}
+[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
+{% endswagger %}
+
+{% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/options/underlying_future_price" method="get" %}
+[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
+{% endswagger %}
+
