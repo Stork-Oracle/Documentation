@@ -82,12 +82,6 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://xfiscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
-## EVM on Flow
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://evm.flowscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
 ## Expchain
 
 | Network | Address |
@@ -99,6 +93,12 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Calibration | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://calibration.filfox.info/en/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
+## Flow EVM
+
+| Network | Address |
+| -------- | -------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://evm.flowscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Glue
 
