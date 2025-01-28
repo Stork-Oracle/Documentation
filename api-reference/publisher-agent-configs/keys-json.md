@@ -1,8 +1,8 @@
 ---
+icon: key
 description: >-
   This document describes the structure and usage of the keys. JSON file used by
   the Stork Publisher Agent.
-icon: key
 layout:
   title:
     visible: true
@@ -28,7 +28,7 @@ The `keys.json` file contains sensitive configuration settings, including privat
 
 ## JSON Structure
 
-```
+```json
 {
   "EvmPrivateKey": <string>,
   "EvmPublicKey": <string>,

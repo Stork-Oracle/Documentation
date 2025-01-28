@@ -24,7 +24,7 @@ The `config.json` file contains non-secret configuration settings for the Publis
 
 ## JSON Structure
 
-```
+```json
 {
   "SignatureTypes": [<string>],
   "IncomingWsPort": <integer>,
