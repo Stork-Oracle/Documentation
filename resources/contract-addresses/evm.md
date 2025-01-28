@@ -192,6 +192,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://ozean-testnet.explorer.caldera.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## Perennial
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-perennial-testnet-op-base-tia-dphnnr04wr.t.conduit.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Plume
 
 | Network | Address |
@@ -275,6 +281,13 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Testnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://www.oklink.com/xlayer-test/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
+
+## ZKsync
+
+| Network | Address |
+| -------- | -------- |
+| Mainnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.zksync.io/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
+| Sepolia | [0xa4EdaB501dD4B3aD9Ad6d30dE1B3a29b8d9a9858](https://sepolia.explorer.zksync.io/address/0xa4EdaB501dD4B3aD9Ad6d30dE1B3a29b8d9a9858) |
 
 ## Zetachain
 
