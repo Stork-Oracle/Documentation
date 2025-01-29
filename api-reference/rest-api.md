@@ -33,7 +33,9 @@ There is currently a universal rate limit of 5 requests/sec.
 Need a higher rate limit? Reach out to Stork.  [sales@stork.network](mailto:sales@stork.network) or [Twitter DMs](https://x.com/storkoracle) open.
 {% endhint %}
 
+## Note
 
+Due to the implementation of the gitbook openapi integration, some loss of precision on large numbers may be experienced. This causes the signed prices returned from the interactive section to be unverifiable. To test getting one-off verifiable prices, we recommend using curl commands to query the REST api.
 
 {% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/prices/assets" method="get" %}
 [stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
