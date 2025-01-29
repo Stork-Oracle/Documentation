@@ -35,7 +35,7 @@ Need a higher rate limit? Reach out to Stork.  [sales@stork.network](mailto:sale
 
 ## Note
 
-Due to the implementation of the gitbook openapi integration, some loss of precision on large numbers may be experienced. This causes the signed prices returned from the interactive section to be unverifiable. To test getting one-off verifiable prices, we recommend using curl commands to query the REST api.
+This tool is meant to illustrate the structure of REST api responses, but unfortunately due to third party limitations, some loss of precision on large numbers may be experienced in the browser. If you wish to test the verifiability of Stork prices from the REST api, we recommend using CURL to view the raw response.
 
 {% swagger src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/prices/assets" method="get" %}
 [stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
