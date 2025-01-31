@@ -13,6 +13,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Testnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.testnet.abs.xyz/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
 
+## Apechain
+
+| Network | Address |
+| -------- | -------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://apescan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Arbitrum
 
 | Network | Address |
