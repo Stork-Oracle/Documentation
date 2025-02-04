@@ -18,7 +18,7 @@ layout:
 
 ## SDK
 
-Solana contracts can program against [Stork's contract](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/solana) using the stork-sdk rust crate available on [crates.io](https://crates.io/crates/stork-solana-sdk).  This SDK provides useful methods and structs for **reading** from stork price feed account. The Stork contract and SDK are built on top of [Anchor](https://github.com/coral-xyz/anchor).
+Solana contracts can program against [Stork's contract](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/solana) using the stork-solana-sdk rust crate available on [crates.io](https://crates.io/crates/stork-solana-sdk).  This SDK provides useful methods and structs for **reading** from stork price feed account. The Stork contract and SDK are built on top of [Anchor](https://github.com/coral-xyz/anchor).
 
 ### Installation
 
@@ -48,7 +48,7 @@ You can now import the stork-sdk's interfaces with:
 
 ### Documentation
 
-Documentation for the methods, structs, and constants provided by the stork\_solana\_sdk can be found on [doc.rs](https://docs.rs/stork-solana-sdk).
+Documentation for the methods, structs, and constants provided by the stork-solana-sdk can be found on [doc.rs](https://docs.rs/stork-solana-sdk).
 
 ### Examples
 
