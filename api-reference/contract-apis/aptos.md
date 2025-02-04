@@ -1,6 +1,6 @@
 ---
-description: Programming API reference for the Stork Aptos contract.
 icon: circle-waveform-lines
+description: Programming API reference for the Stork Aptos contract.
 ---
 
 # Aptos
@@ -250,7 +250,7 @@ View function that checks whether or not the `StorkState` resource exists. This 
 
 ## Examples
 
-example usage of the Stork Aptos contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/examples/aptos).
+Example usage of the Stork Aptos contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/examples/aptos).
 
 
 

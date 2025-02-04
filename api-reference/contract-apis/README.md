@@ -38,3 +38,7 @@ The following APIs are available for supported chains:&#x20;
 {% content-ref url="aptos.md" %}
 [aptos.md](aptos.md)
 {% endcontent-ref %}
+
+{% content-ref url="cosmwasm.md" %}
+[cosmwasm.md](cosmwasm.md)
+{% endcontent-ref %}

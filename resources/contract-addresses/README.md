@@ -24,5 +24,9 @@ description: >-
 [aptos.md](aptos.md)
 {% endcontent-ref %}
 
+{% content-ref url="cosmwasm.md" %}
+[cosmwasm.md](cosmwasm.md)
+{% endcontent-ref %}
+
 
 
