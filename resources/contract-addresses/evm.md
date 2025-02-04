@@ -130,6 +130,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://holesky.etherscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## HyperEVM
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.purrsec.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Lightlink
 
 | Network | Address |
