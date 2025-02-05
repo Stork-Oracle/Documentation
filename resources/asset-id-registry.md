@@ -295,6 +295,7 @@ More information on the types of feeds we support is available [here](../introdu
 | STRKUSDMARK | 0x0ed4b291f487fbd55c70ef5dd4bc76d0cd4b9aa9e6c065566af7f60560edcc43 |
 | STRKUSDT | 0xe2ea9ca52bed0501a1f52818b1b570ac44fc01f01a6b89bd5690d2a278d7981e |
 | STSUSD | 0x8e7e8222de7e2c8d6dc4c20a802bebc1a7eec17b50989635080cba3b6461ea97 |
+| STSUSD_RR | 0x814aad7fcf7e5abd8e408da3d51133dc5fd4adda4ead46281b880d9dec5e62af |
 | STXUSD | 0x4ac60eef00a0b5b33347d79125a5b723ab0d3f9bd21c6c997837533cc7d4bc7a |
 | STXUSDMARK | 0x22528c1b8ad8b31a3755a11d9855dfabb73cace1669e4642fedf85ea10b15871 |
 | STXUSDT | 0x797228415de8935d9bce8011ffdcf01ffa3e7d35769a004ea0679f4a8dfbccc6 |
