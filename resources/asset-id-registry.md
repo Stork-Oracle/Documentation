@@ -74,6 +74,7 @@ More information on the types of feeds we support is available [here](../introdu
 | BCHUSDMARK | 0x96eb88c2579738acf680b8c264d6acbd4dca3b7f6fa123391ab6c2bdf9250b53 |
 | BEAMUSD | 0x7a103d78776b2ff5b0221e26ca533850e59f16be7381ccc952ada02e73beeef7 |
 | BENJIUSD | 0x9d458d8010cab0eb140156be4e0a13d98b0cda752cb250ea8218085341c86d51 |
+| BERAUSD | 0x9c7a8f90aa21b1e368d1a5f7b4d75aa03fec9abb903d84946ef76fd6fd79b312 |
 | BIGTIMEUSDT | 0xf2a2e6d168a7a7151a96c8a0c5ed7ad9531eb09fca9959820ccc4ab889af108a |
 | BITCOINUSD | 0xf04a4325765aeffae0c22a3d7bb622ca016173c413d6d627fee6f64dd86d2150 |
 | BLASTUSD | 0xf407aeee4328ca518b5e82332096071f043a93d05f134c1142f2fff82596792c |
@@ -294,7 +295,6 @@ More information on the types of feeds we support is available [here](../introdu
 | STRKUSD | 0x06abf0d31fda4af02fd51daedd6b0e731fe195454d627e54afe4ff9ac0189d67 |
 | STRKUSDMARK | 0x0ed4b291f487fbd55c70ef5dd4bc76d0cd4b9aa9e6c065566af7f60560edcc43 |
 | STRKUSDT | 0xe2ea9ca52bed0501a1f52818b1b570ac44fc01f01a6b89bd5690d2a278d7981e |
-| STSUSD | 0x8e7e8222de7e2c8d6dc4c20a802bebc1a7eec17b50989635080cba3b6461ea97 |
 | STSUSD_RR | 0x814aad7fcf7e5abd8e408da3d51133dc5fd4adda4ead46281b880d9dec5e62af |
 | STXUSD | 0x4ac60eef00a0b5b33347d79125a5b723ab0d3f9bd21c6c997837533cc7d4bc7a |
 | STXUSDMARK | 0x22528c1b8ad8b31a3755a11d9855dfabb73cace1669e4642fedf85ea10b15871 |
