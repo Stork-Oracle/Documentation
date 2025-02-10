@@ -119,6 +119,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet3.goat.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## Gravity
+
+| Network | Address |
+| -------- | -------- |
+| Alpha Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](hhttps://explorer.gravity.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Hemi
 
 | Network | Address |
