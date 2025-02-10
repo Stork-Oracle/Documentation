@@ -221,6 +221,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-perennial-lsv53i0ed8.t.conduit.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-perennial-testnet-op-base-tia-dphnnr04wr.t.conduit.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Plume
