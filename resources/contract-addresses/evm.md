@@ -123,7 +123,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Alpha Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](hhttps://explorer.gravity.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Alpha Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.gravity.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Hemi
 
