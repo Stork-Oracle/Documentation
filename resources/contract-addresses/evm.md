@@ -187,6 +187,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Matsnet Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.test.mezo.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## Minions
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0x376AdC2c9698E6F3A8Ad7a52810c5341dC7CDeF0.](https://minions.cloud.blockscout.com/address/0x376AdC2c9698E6F3A8Ad7a52810c5341dC7CDeF0.) |
+
 ## Mitosis
 
 | Network | Address |
