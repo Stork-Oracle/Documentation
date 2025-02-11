@@ -26,7 +26,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 ## Atlas
 
-|         |                                                                                                                               |
+| Network | Address                                                                                                                       |
 | ------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [stork1JUZMKYgjNagHiK2KdMmb42iTnYe9bYUCDUk8n](https://explorer.atlas.xyz/address/stork1JUZMKYgjNagHiK2KdMmb42iTnYe9bYUCDUk8n) |
 
