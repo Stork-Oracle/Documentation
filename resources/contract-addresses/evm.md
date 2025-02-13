@@ -168,11 +168,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan-testnet.lorenzo-protocol.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
-## Manta
+## Manta Pacific
 
 | Network | Address |
 | -------- | -------- |
-| Sepolia | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://manta-sepolia.explorer.caldera.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pacific-explorer.manta.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Sepolia Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pacific-explorer.sepolia-testnet.manta.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Merlin
 
