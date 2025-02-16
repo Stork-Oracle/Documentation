@@ -70,6 +70,8 @@ More information on the types of feeds we support is available [here](../introdu
 | AVAXUSDMARK_VGK | 0xadda85313132767f3bcd98b341e741527a9832d229cb5259a6af8d4b0e4f0790 |
 | AXSUSD | 0x2ed39f18a36895cd9e8ed10a808db21c3d7ec7e78bdc2d0d6135c06034829c0f |
 | AZURUSD | 0xcd4bc8c9ccfd4a5f6d4369d06be0094ea723b8275ac7156dabfd5c6454aee625 |
+| B3USD | 0x3d0508474c9e8a5994e3ab46c44c7bb03b984ec9f66218ae96afb32eace9248c |
+| B3USDMARK | 0x59adb86140464431627c331a49d4c5c344bee3d60ff463b5683677672042ea68 |
 | BANANAUSD | 0x75a0dcaf4f3249a7e20c37ac7b3a87ae99494bbf0942b00d78663cbb27805ec0 |
 | BCHUSD | 0xe4fef2d7ba0f6de78e22aa1517ee9e48c28747ce278f4c6c27ea29936d6cc67c |
 | BCHUSDMARK | 0x96eb88c2579738acf680b8c264d6acbd4dca3b7f6fa123391ab6c2bdf9250b53 |
@@ -199,6 +201,7 @@ More information on the types of feeds we support is available [here](../introdu
 | LDOUSD | 0xb8f3dd7373f5aac405b063aee8800cc7f43fbb8c9b53b0d29de58bff2309e9d8 |
 | LDOUSDMARK | 0x663c2d2c32507b7c8a5d9ac519e036f69934fde678bc4cd5bfc2ac30ecebca69 |
 | LDOUSDMARK_VGK | 0xed3a49f5a537760f86b270eed004d65e9aadbb80c36fd1efe3b9792ca94813de |
+| LIBRAUSD | 0x2d53bd8ba35ef8704bfe39077111ac7fa4ec3d2e9e9b55756e8dc0a090eab9a2 |
 | LINKUSD | 0x694cad6038bcbefcc30e11862e412bb58f9c4ac3c9e0f9ed02d3e38b16829263 |
 | LINKUSDMARK | 0xcf2ddf41f42001cfba3bc6ea99d19e6e45e1bcbe02960fb8c02a7bc2b926f4ca |
 | LINKUSDMARK_VGK | 0x4ee3b99f875e90f9b6588ed95e0f05a2f982bf518d7d46bd032d79efbfdb30ac |
