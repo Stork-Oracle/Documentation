@@ -201,7 +201,6 @@ More information on the types of feeds we support is available [here](../introdu
 | LDOUSD | 0xb8f3dd7373f5aac405b063aee8800cc7f43fbb8c9b53b0d29de58bff2309e9d8 |
 | LDOUSDMARK | 0x663c2d2c32507b7c8a5d9ac519e036f69934fde678bc4cd5bfc2ac30ecebca69 |
 | LDOUSDMARK_VGK | 0xed3a49f5a537760f86b270eed004d65e9aadbb80c36fd1efe3b9792ca94813de |
-| LIBRAUSD | 0x2d53bd8ba35ef8704bfe39077111ac7fa4ec3d2e9e9b55756e8dc0a090eab9a2 |
 | LINKUSD | 0x694cad6038bcbefcc30e11862e412bb58f9c4ac3c9e0f9ed02d3e38b16829263 |
 | LINKUSDMARK | 0xcf2ddf41f42001cfba3bc6ea99d19e6e45e1bcbe02960fb8c02a7bc2b926f4ca |
 | LINKUSDMARK_VGK | 0x4ee3b99f875e90f9b6588ed95e0f05a2f982bf518d7d46bd032d79efbfdb30ac |
