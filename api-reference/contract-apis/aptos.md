@@ -154,7 +154,7 @@ all belong to the same update.
 
 #### Errors
 
-* `E_INVALID_SIGNATURE:` If any update's signature verfication fails.
+* `E_INVALID_SIGNATURE:` If any update's signature verification fails.
 * `E_NO_UPDATES`: If the ids vector is empty
 * `E_INVALID_LENGTHS`: If not all the input vectors are the same length.
 
