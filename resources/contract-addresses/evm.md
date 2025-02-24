@@ -76,6 +76,13 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet.citrea.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## Clink
+
+| Network | Address |
+| -------- | -------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.clinkchain.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://c1-testnet.cloud.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Core
 
 | Network | Address |
