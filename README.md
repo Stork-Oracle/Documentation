@@ -30,7 +30,7 @@ Stork is implemented as a [pull oracle](introduction/core-concepts.md#docs-inter
 
 Stork was created with the principle of trustlessness in mind. As such, all data inputs and outputs to Stork are cryptographically verifiable. This includes the underlying publisher data as well as Stork’s aggregated results. Stork currently supports 370+ assets on 60+ chains, including[ EVM](resources/contract-addresses/evm.md) chains, [Solana](resources/contract-addresses/solana.md), [Sui](resources/contract-addresses/sui.md), [Aptos](resources/contract-addresses/aptos.md), and [more](resources/contract-addresses/), and is easily deployed on any other chain not yet supported.&#x20;
 
-Chain deployments and asset additions are available upon request. For a full list of supported chains, see the[ Chain Addresses](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/resources/contract-addresses) page. For a full list of supported assets, see the[ Asset ID Registry](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/resources/asset-id-registry) page.
+Chain deployments and asset additions are available upon request. For a full list of supported chains, see the [Contract Addresses](resources/contract-addresses/) page. For a full list of supported assets, see the [Asset ID Registry](resources/asset-id-registry.md) page.
 
 To learn more about how Stork works, visit [Core Concepts](introduction/core-concepts.md) and [How It Works](introduction/how-it-works.md).
 
