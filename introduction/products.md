@@ -18,7 +18,7 @@ Stork for Options is a just-in-time derivative oracle. Queried via REST API, der
 * Implied Volatility
 * Underlying Futures Prices
 
-among others are calculated upon API request based on Storks real time prices. For more information on using Stork for Options, see [REST API](../api-reference/rest-api.md#options-implied_volatility).
+among others are calculated upon API request based on Storks real time prices. For more information on using Stork for Options, see [REST API](../api-reference/rest-api.md).
 
 ### Stork for StarkEx
 
@@ -26,9 +26,9 @@ Stork maintains a first class partnership with StarkEx. This enables Stork to pr
 
 ### Composite Oracle Service
 
-A Composite Oracle Service (COS) allows for modular and configurable custom[ Aggregators](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#aggregators) enabled by Storks core architecture. A COS is a tuned oracle that provides aggregated data leveraging Stork's decentralized publisher network, while creating a composite of the specific assets and aggregation methods required by a[ Subscriber](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#subscribers).
+A Composite Oracle Service (COS) allows for modular and configurable custom [Aggregators](how-it-works.md#aggregators) enabled by Storks core architecture. A COS is a tuned oracle that provides aggregated data leveraging Stork's decentralized publisher network, while creating a composite of the specific assets and aggregation methods required by a [Subscriber](how-it-works.md#subscribers).
 
-For more information about how Stork’s core architecture enables COS, see[ How It Works](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works).
+For more information about how Stork’s core architecture enables COS, see [How It Works](how-it-works.md).
 
 {% hint style="info" %}
 Interested? Contact Stork Labs to determine appropriate feeds that meet your requirements.  [sales@stork.network](mailto:sales@stork.network) or [Twitter DMs](https://twitter.com/StorkOracle) open.

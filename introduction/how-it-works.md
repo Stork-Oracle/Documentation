@@ -11,10 +11,10 @@ description: >-
 
 Stork can be cleanly divided into 4 core layers:
 
-* [Publishers](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#publisher)
-* [Subscribers](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#subscriber-off-chain-vs-on-chain)
-* [Aggregators](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#aggregator)
-* [On-Chain Contracts](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#on-chain-contracts)
+* [Publishers](how-it-works.md#publishers)
+* [Subscribers](how-it-works.md#subscribers)
+* [Aggregators](how-it-works.md#aggregators)
+* [On-Chain Contracts](how-it-works.md#on-chain-contracts)
 
 <div data-full-width="false"><figure><img src="../.gitbook/assets/Architecture for docs.png" alt=""><figcaption><p>Stork Architecture Diagram</p></figcaption></figure></div>
 
@@ -58,7 +58,7 @@ Aggregators are run by Stork Labs in redundant sets. They are highly configurabl
 
 ### Subscribers
 
-Subscribers are the consumers in the system. After selecting a suitable Aggregator with a specific method and Publishers of the necessary data feeds, the Subscriber listens to the Aggregator's[ websocket](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/stork-for-real-time/api-reference/websocket-api) to continuously receive the latest data as soon as its available. The latest data can also be retrieved in one-off calls to the Aggregator's [REST API](https://rest.jp.stork-oracle.network/swagger/index.html).
+Subscribers are the consumers in the system. After selecting a suitable Aggregator with a specific method and Publishers of the necessary data feeds, the Subscriber listens to the Aggregator's [websocket](../api-reference/websocket-api/) to continuously receive the latest data as soon as its available. The latest data can also be retrieved in one-off calls to the Aggregator's [REST API](../api-reference/rest-api.md).
 
 What the Subscriber does with this data is up to the Subscriber, however the common use-cases can be broadly categorized into to major categories: on-chain and off-chain.
 
@@ -82,18 +82,18 @@ To use data on-chain, there are two strategies.&#x20;
 
 For more information on using these strategies to put data on-chain, please see [Putting Data On-Chain.](../getting-started/putting-data-on-chain.md)
 
-Interested in becoming a subscriber? Check out[ Becoming a Subscriber](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/becoming-a-subscriber) for more info.
+Interested in becoming a subscriber? Check out [Becoming a Subscriber](../getting-started/becoming-a-subscriber.md) for more info.
 
 ### On-Chain Contracts
 
 The official Stork contracts are the on-chain components of Stork. These contracts are responsible for the following:
 
-* Maintaining a registry of[ temporal numeric value](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/core-concepts#temporal-numeric-values) (TNV) feeds that associate an[ encoded asset ID](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/core-concepts#asset-ids) with the most recent data for that asset.
+* Maintaining a registry of [temporal numeric value](core-concepts.md#temporal-numeric-values) (TNV) feeds that associate an [encoded asset ID](core-concepts.md#asset-ids) with the most recent data for that asset.
 * Accepting and verifying TNV updates for recency and signature validity.
 * Updating relevant feeds upon submission and verification of a posted update.
 * Providing public interface functions to easily read the latest value for a feed from another smart contract.
 
-For more information on Stork’s smart-contracts, see the [API Reference](../api-reference/contract-apis/), the[ stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/contracts), or the[ Contract Addresses](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/resources/contract-addresses) page.
+For more information on Stork’s smart-contracts, see the [API Reference](../api-reference/contract-apis/), the[ stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/contracts), or the [Contract Addresses](../resources/contract-addresses/) page.
 
 ## Verifiability
 
@@ -103,8 +103,8 @@ Stork follows the lead of Ethereum and Bitcoin in using `secp256k1` keypairs wit
 
 Signatures in Stork are included in the following places:
 
-1. [Publishers](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#publishers) sign their data updates using their private key
-2. [Aggregators](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#aggregators) sign their data updates using their private key
+1. [Publishers](how-it-works.md#publishers) sign their data updates using their private key
+2. [Aggregators](how-it-works.md#aggregators) sign their data updates using their private key
 
 It's important to remember that Aggregator signatures are signatures for the entire update, including the:
 
@@ -115,8 +115,8 @@ It's important to remember that Aggregator signatures are signatures for the ent
 These signatures allow cryptographic verification in the following instances:
 
 1. Aggregators verify the signatures of their constituent Publishers data to determine which updates to verify, maintaining trustlessness while optimizing for throughput
-2. The[ on-chain contracts](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#on-chain-contracts) verify the Aggregators signatures to ensure only valid updates can ever be posted on-chain
-3. [Subscribers](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#subscribers) can optionally verify both the Aggregators and Publishers signatures before utilizing the data.
+2. The [on-chain contracts](how-it-works.md#on-chain-contracts) verify the Aggregators signatures to ensure only valid updates can ever be posted on-chain
+3. [Subscribers](how-it-works.md#subscribers) can optionally verify both the Aggregators and Publishers signatures before utilizing the data.
 
 This series of signatures and verifications enables end-to-end trustlessness in Stork intrinsically.
 
@@ -126,7 +126,7 @@ Stork has been designed to scale virtually infinitely. Due to Stork’s architec
 
 ## Extensibility
 
-As touched upon in the[ TNV section of Core Concepts](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/core-concepts#temporal-numeric-values), one of Stork’s unique traits is its Temporal Numeric Value primitive. This is primitive that includes a (unix) timestamp and a number. Commonly, this would be an asset price and timestamp of aggregation. It can also represent any sort of timestamped data, allowing for much greater extensibility than other oracles.
+As touched upon in the [TNV section of Core Concepts](core-concepts.md#temporal-numeric-values), one of Stork’s unique traits is its Temporal Numeric Value primitive. This is primitive that includes a (unix) timestamp and a number. Commonly, this would be an asset price and timestamp of aggregation. It can also represent any sort of timestamped data, allowing for much greater extensibility than other oracles.
 
 The specific data you want your app to use on-chain is not prescribed by Stork. Everything from real world prediction market data, personal data like fitness metrics, or social media metrics, and other first party data can and should go on-chain with Stork.
 

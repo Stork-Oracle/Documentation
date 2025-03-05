@@ -1,15 +1,15 @@
 ---
+icon: reflect-both
 description: >-
   Understanding oracle models, Stork-specific data primitives, and Stork's
   advantages.
-icon: reflect-both
 ---
 
 # Core Concepts
 
 ## Push vs Pull Oracles <a href="#docs-internal-guid-4b312e7b-7fff-1147-c04b-bbaadec1a82a" id="docs-internal-guid-4b312e7b-7fff-1147-c04b-bbaadec1a82a"></a>
 
-Oracles are essential for providing on-chain applications access to off-chain data.  Push and pull are the two primary oracle models in use across blockchains. From price and derivatives feeds for DeFi, to weather data for insurance, or outcomes of real-world events for prediction markets, data from oracles is critical to the existence of many of the most popular decentralized apps.
+Oracles are essential for providing on-chain applications access to off-chain data. Push and pull are the two primary oracle models in use across blockchains. From price and derivatives feeds for DeFi, to weather data for insurance, or outcomes of real-world events for prediction markets, data from oracles is critical to the existence of many of the most popular decentralized apps.
 
 Stork's implementation of the pull oracle is exemplified by the following attributes:
 
@@ -33,9 +33,9 @@ The prominent use-case for oracles on blockchains is for price feeds. Oracles fa
 * A UNIX timestamp with nanosecond precision
 * A signed integer, multiplied by `10^18` for 18 decimal places of precision
 
-Out of the box, Stork supports continuous real-time, ephemeral, or one time use data on-chain, so long as it can be represented as a timestamped number.&#x20;
+Out of the box, Stork supports continuous real-time, ephemeral, or one time use data on-chain, so long as it can be represented as a timestamped number.
 
-Stork supports price feeds for[ all your favorite assets](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/resources/asset-id-registry), but can also be used for unique cases, ex: putting your fitness data on-chain, or virality metrics from a social media platform. The data you can put on-chain with Stork is only limited by what you can think of.
+Stork supports price feeds for [all your favorite assets](../resources/asset-id-registry.md), but can also be used for unique cases, ex: putting your fitness data on-chain, or virality metrics from a social media platform. The data you can put on-chain with Stork is only limited by what you can think of.
 
 ## Sub-Second Latency
 
@@ -51,11 +51,11 @@ Stork utilizes signatures to make assurances in a number of places. When sending
 2. The Stork aggregated data is coming from a Stork aggregator.
 3. The Stork aggregator is using the aggregation method asserted.
 
-Stork utilizes ECDSA with `secp256k1` keypairs for signing, which is the same elliptic curve cryptography used by Ethereum. More information on Stork’s use of signatures can be found in[ How It Works](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#verifiability).
+Stork utilizes ECDSA with `secp256k1` keypairs for signing, which is the same elliptic curve cryptography used by Ethereum. More information on Stork’s use of signatures can be found in [How It Works](how-it-works.md#verifiability).
 
 ## Data Aggregation
 
-Data aggregation is the process of collecting multiple discrete data streams representing the same asset and combining them deterministically to output a consolidated distinct output. Stork's data aggregation is resilient to failures of a single source.&#x20;
+Data aggregation is the process of collecting multiple discrete data streams representing the same asset and combining them deterministically to output a consolidated distinct output. Stork's data aggregation is resilient to failures of a single source.
 
 Using just one data source leaves the consumer of that data vulnerable to:
 
@@ -108,7 +108,6 @@ $$
 where:
 
 * SpotPrice(it): Price of USDT-USD exchange i at time t
-
 
 ### EMA Garman-Klass Volatility
 

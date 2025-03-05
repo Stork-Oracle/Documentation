@@ -5,7 +5,7 @@ description: Contributing data to Stork.
 
 # Becoming a Publisher
 
-Publishers on Stork are a decentralized network of data providers that are the origin of all data on Stork. For more information on publishers, see[ How It Works](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/introduction/how-it-works#publishers).
+Publishers on Stork are a decentralized network of data providers that are the origin of all data on Stork. For more information on publishers, see [How It Works](../introduction/how-it-works.md).
 
 ### Who Can Become a Publisher?
 
