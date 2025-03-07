@@ -221,6 +221,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://molten.calderaexplorer.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## Monad
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.monadexplorer.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Movement
 
 | Network | Address |
