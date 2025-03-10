@@ -32,6 +32,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Mainnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://basescan.org/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
 
+## Basecamp
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://basecamp.cloud.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Berachain
 
 | Network | Address |
