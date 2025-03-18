@@ -96,6 +96,12 @@ For documentation on interacting with these contracts in your contract, please s
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan.coredao.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan.test.btcs.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## Cronos ZkEvm
+
+| Network | Address |
+| -------- | -------- |
+| Mainnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.zkevm.cronos.org/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
+
 ## CrossFi
 
 | Network | Address |
