@@ -101,6 +101,7 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.zkevm.cronos.org/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
+| Testnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.zkevm.cronos.org/testnet/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
 
 ## CrossFi
 
