@@ -291,6 +291,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://rootstock-testnet.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## SKALE
+
+| Network | Address |
+| -------- | -------- |
+| Europa Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://juicy-low-small-testnet.explorer.testnet.skalenodes.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Scroll
 
 | Network | Address |
