@@ -203,6 +203,12 @@ For documentation on interacting with these contracts in your contract, please s
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pacific-explorer.manta.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Sepolia Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pacific-explorer.sepolia-testnet.manta.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## MegaETH
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://megaexplorer.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Merlin
 
 | Network | Address |
