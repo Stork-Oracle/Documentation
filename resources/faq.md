@@ -46,7 +46,7 @@ Stork ensures data security and integrity via two methods.
 
 Firstly, Stork uses a series of signatures and verifications to validate that data is always coming from where it says it is, ensuring security. For more information, see [How It Works](../introduction/how-it-works.md#verifiability).
 
-Secondly, Stork uses multiple decentralized publishers feeding data to the Aggregator, which are then aggregated in a way to protect against errant publishers feed bad or malicious data. For More information, see [How It Works](../introduction/how-it-works.md#aggregators).
+Secondly, Stork uses multiple decentralized publishers feeding data to the Aggregator, which are then aggregated in a way to protect against errant publishers feeding bad or malicious data. For More information, see [How It Works](../introduction/how-it-works.md#aggregators).
 
 </details>
 
