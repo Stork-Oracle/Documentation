@@ -295,7 +295,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.explorer.riselabs.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet.riselabs.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Rootstock
 
