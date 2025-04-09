@@ -291,6 +291,12 @@ For documentation on interacting with these contracts in your contract, please s
 | Amoy | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://amoy.polygonscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://polygonscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## RISE
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.explorer.riselabs.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Rootstock
 
 | Network | Address |
