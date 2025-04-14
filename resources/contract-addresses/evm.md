@@ -115,6 +115,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.evm.testnet.cytonic.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## Ethereum
+
+| Network | Address |
+| -------- | -------- |
+| Mainnet | [0x035B5438444f26e6Aab81E91d475b7B1Ac4Fb22b](https://etherscan.io/address/0x035B5438444f26e6Aab81E91d475b7B1Ac4Fb22b) |
+
 ## Expchain
 
 | Network | Address |
