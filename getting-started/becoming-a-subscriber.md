@@ -13,7 +13,7 @@ Anyone who has a need for high-frequency, high-accuracy, low-latency data can be
 
 ### Using Data Off-Chain
 
-Using data off-chain is as simple as listening to the [Aggregator](../introduction/how-it-works.md#aggregators) [websocket](../api-reference/websocket-api/) or hitting it's [REST API](../api-reference/rest-api.md), and then using the update data in your application. Both APIs respond with JSON messages that have a top level field called `data` with the following structure:
+Using data off-chain is as simple as listening to the [Aggregator](../introduction/how-it-works.md#aggregators) [websocket](../api-reference/websocket-api/) or hitting its [REST API](../api-reference/rest-api.md), and then using the update data in your application. Both APIs respond with JSON messages that have a top level field called `data` with the following structure:
 
 <pre><code><strong>{
 </strong><strong>    "data": [

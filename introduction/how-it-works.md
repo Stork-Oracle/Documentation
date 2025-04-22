@@ -58,9 +58,9 @@ Aggregators are run by Stork Labs in redundant sets. They are highly configurabl
 
 ### Subscribers
 
-Subscribers are the consumers in the system. After selecting a suitable Aggregator with a specific method and Publishers of the necessary data feeds, the Subscriber listens to the Aggregator's [websocket](../api-reference/websocket-api/) to continuously receive the latest data as soon as its available. The latest data can also be retrieved in one-off calls to the Aggregator's [REST API](../api-reference/rest-api.md).
+Subscribers are the consumers in the system. After selecting a suitable Aggregator with a specific method and Publishers of the necessary data feeds, the Subscriber listens to the Aggregator's [websocket](../api-reference/websocket-api/) to continuously receive the latest data as soon as it's available. The latest data can also be retrieved in one-off calls to the Aggregator's [REST API](../api-reference/rest-api.md).
 
-What the Subscriber does with this data is up to the Subscriber, however the common use-cases can be broadly categorized into to major categories: on-chain and off-chain.
+What the Subscriber does with this data is up to the Subscriber, however the common use-cases can be broadly categorized into two major categories: on-chain and off-chain.
 
 #### **Off-Chain**
 
