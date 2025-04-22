@@ -238,7 +238,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://blockscout.badnet.mitosis.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Catnet Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://blockscout.catnet.mitosis.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Molten
 
