@@ -5,7 +5,7 @@ description: Various methods for putting off-chain Stork signed data on-chain.
 
 # Putting Data On-Chain
 
-In order for Stork signed data feeds to be usable in on-chain smart contracts, the data must be written to the [Stork contract](../introduction/how-it-works.md#on-chain-contracts) on the relevant blockchain. There are two primary methods to achieve is:
+In order for Stork signed data feeds to be usable in on-chain smart contracts, the data must be written to the [Stork contract](../introduction/how-it-works.md#on-chain-contracts) on the relevant blockchain. There are two primary methods to achieve this:
 
 * Running the open-source Chain Pusher
 * Updating per-interaction in your dApp client
