@@ -13,7 +13,7 @@ To see which chains Stork currently supports, see the Contract Addresses section
 [contract-addresses](../resources/contract-addresses/)
 {% endcontent-ref %}
 
-For specific documentation an interacting with the on-chain contracts interface, see the Contract APIs section:
+For specific documentation and interacting with the on-chain contracts interface, see the Contract APIs section:
 
 {% content-ref url="../api-reference/contract-apis/" %}
 [contract-apis](../api-reference/contract-apis/)
