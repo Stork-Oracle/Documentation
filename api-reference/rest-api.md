@@ -37,27 +37,27 @@ Need a higher rate limit? Reach out to Stork.  [sales@stork.network](mailto:sale
 
 This tool is meant to illustrate the structure of REST api responses, but unfortunately due to third party limitations, some loss of precision on large numbers may be experienced in the browser. If you wish to test the verifiability of Stork prices from the REST api, we recommend using CURL to view the raw response.
 
-{% openapi src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/prices/assets" method="get" %}
-[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
-{% endopenapi %}
+{% openapi-operation spec="rest-api" path="/prices/assets" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}
 
-{% openapi src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/prices/latest" method="get" %}
-[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
-{% endopenapi %}
+{% openapi-operation spec="rest-api" path="/prices/latest" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}
 
-{% openapi src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/tradingview/history" method="get" %}
-[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
-{% endopenapi %}
+{% openapi-operation spec="rest-api" path="/tradingview/history" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}
 
-{% openapi src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/deployments/evm" method="get" %}
-[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
-{% endopenapi %}
+{% openapi-operation spec="rest-api" path="/deployments/evm" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}
 
-{% openapi src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/options/implied_volatility" method="get" %}
-[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
-{% endopenapi %}
+{% openapi-operation spec="rest-api" path="/options/implied_volatility" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}
 
-{% openapi src="../.gitbook/assets/stork-oracle-api-openapi.yaml" path="/options/underlying_future_price" method="get" %}
-[stork-oracle-api-openapi.yaml](../.gitbook/assets/stork-oracle-api-openapi.yaml)
-{% endopenapi %}
+{% openapi-operation spec="rest-api" path="/options/underlying_future_price" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}
 
