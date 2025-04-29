@@ -297,6 +297,12 @@ For documentation on interacting with these contracts in your contract, please s
 | Amoy | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://amoy.polygonscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://polygonscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## Quai
+
+| Network | Address |
+| -------- | -------- |
+| Orchard Testnet Cyprus1 | [0x00754b866956D338bEA6CEc98D0D2aB4508085ff ](https://orchard.quaiscan.io/address/0x00754b866956D338bEA6CEc98D0D2aB4508085ff ) |
+
 ## RISE
 
 | Network | Address |
@@ -347,6 +353,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://storyscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Odyssey Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://odyssey.storyscan.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Superseed
