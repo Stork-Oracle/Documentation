@@ -1,6 +1,6 @@
 ---
-icon: ethereum
 description: Programming API reference for the Stork EVM contract.
+icon: ethereum
 layout:
   title:
     visible: true
@@ -93,9 +93,9 @@ Updates multiple temporal numeric values by verifying signatures and ensuring fr
 
 **Errors**
 
-* `InvalidSignature`: If any feed update fails signature verification.
-* `NoFreshUpdate`: If none of the provided updates are fresher than current values.
-* `InsufficientFee`: If the provided fee is less than the required amount.
+* `InvalidSignature (0x8baa579f)`: If any feed update fails signature verification.
+* `NoFreshUpdate (0xde2c57fa)`: If none of the provided updates are fresher than current values.
+* `InsufficientFee (0x025dbdd4)`: If the provided fee is less than the required amount.
 
 ### Get Temporal Numeric Value V1
 
@@ -119,8 +119,8 @@ Retrieves the latest temporal numeric value for the specified feed ID. Checks fo
 
 **Errors**
 
-* `NotFound`: If no value exists for the given feed ID.
-* `StaleValue`: If the value is older than the valid time period.
+* `NotFound (0xc5723b51)`: If no value exists for the given feed ID.
+* `StaleValue (0x24c4fe43)`: If the value is older than the valid time period.
 
 ### Get Temporal Numeric Value Unsafe V1
 
@@ -144,7 +144,7 @@ Retrieves the latest temporal numeric value for the specified feed ID without ch
 
 **Errors**
 
-* `NotFound`: If no value exists for the given feed ID.
+* `NotFound (0xc5723b51)`: If no value exists for the given feed ID.
 
 ### Get Update Fee V1
 
