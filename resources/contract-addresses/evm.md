@@ -301,6 +301,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
+| Mainnet Cyprus1 | [0x00225fCCCC774e25606bB34821e9Db52af433963 ](https://quaiscan.io/address/0x00225fCCCC774e25606bB34821e9Db52af433963 ) |
 | Orchard Testnet Cyprus1 | [0x00754b866956D338bEA6CEc98D0D2aB4508085ff ](https://orchard.quaiscan.io/address/0x00754b866956D338bEA6CEc98D0D2aB4508085ff ) |
 
 ## RISE
