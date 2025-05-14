@@ -31,6 +31,7 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://basescan.org/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
+| Sepolia | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://sepolia.basescan.org/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
 
 ## Berachain
 
