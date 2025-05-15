@@ -240,6 +240,7 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Catnet Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://blockscout.catnet.mitosis.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Dognet Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://blockscout.dognet.mitosis.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Molten
 
