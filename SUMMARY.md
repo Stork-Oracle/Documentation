@@ -35,6 +35,7 @@
 ## Resources
 
 * [Asset ID Registry](resources/asset-id-registry.md)
+* [Stork Pushed Assets](resources/stork-pushed-assets.md)
 * [Contract Addresses](resources/contract-addresses/README.md)
   * [EVM](resources/contract-addresses/evm.md)
   * [Solana / SVM](resources/contract-addresses/solana.md)
