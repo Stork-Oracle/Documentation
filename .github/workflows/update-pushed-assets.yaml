@@ -44,7 +44,7 @@ jobs:
           # Generate new pushed assets table
           curl -s "https://rest.jp.stork-oracle.network/v0/deployments/stork_pushed_assets" | jq -r '
             .data | to_entries | sort_by(.key) | map(
-              "## \(.key)\n" +
+              "## \(.key)\n\n" +
               (.value | to_entries | sort_by(.key) | map(
                 "\n### \(.key)\n\n| Asset | Max Staleness | Delta % |\n| ----- | ------------- | -------- |\n" +
                 (.value | to_entries | sort_by(.key) | map(
