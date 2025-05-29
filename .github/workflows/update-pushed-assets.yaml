@@ -1,0 +1,98 @@
+name: Update Pushed Assets
+
+on:
+  schedule:
+    - cron: '0 20 * * *'  # Run daily at 8pm UTC (3pm EST)
+  workflow_dispatch:      # Allow manual triggers
+
+jobs:
+  update-pushed-assets:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Cache jq
+        uses: actions/cache@v3
+        with:
+          path: /usr/local/bin/jq
+          key: jq-installation
+
+      - name: Install jq if not cached
+        run: |
+          if [ ! -f /usr/local/bin/jq ]; then
+            sudo apt-get update
+            sudo apt-get install -y jq
+          fi
+
+      - name: Generate and compare tables
+        run: |
+          # Create temporary directory for working files
+          mkdir -p temp
+          
+          # Extract header content (everything up to and including {% endhint %})
+          if [ -f resources/stork-pushed-assets.md ]; then
+            sed '/{% endhint %}/q' resources/stork-pushed-assets.md > temp/header.md
+          else
+            touch temp/header.md
+          fi
+
+          # Generate new pushed assets table
+          curl -s "https://rest.dev.jp.stork-oracle.network/v0/deployments/stork_pushed_assets" | jq -r '
+            .data | to_entries | sort_by(.key) | map(
+              "# \(.key)\n" +
+              (.value | to_entries | sort_by(.key) | map(
+                "\n## \(.key)\n\n| Asset | Max Staleness | Delta % |\n| ----- | ------------- | -------- |\n" +
+                (.value | to_entries | sort_by(.key) | map(
+                  "| \(.key) | \(.value.staleness) | \(.value.delta) |"
+                ) | join("\n"))
+              ) | join("\n\n"))
+            ) | join("\n\n")' > temp/new_pushed_assets_table.md
+          
+          # Normalize table formatting for comparison
+          if [ -f resources/stork-pushed-assets.md ]; then
+            # Extract and normalize existing tables
+            sed -n '/^# /,$p' resources/stork-pushed-assets.md | \
+              sed 's/|[ ]*\([^|]*\)[ ]*|/|\1|/g' | \
+              sed 's/|[ ]*Asset[ ]*|[ ]*Max Staleness[ ]*|[ ]*Delta %[ ]*|/|Asset|Max Staleness|Delta %|/g' | \
+              sed 's/|[ ]*-[-]*[ ]*|[ ]*-[-]*[ ]*|[ ]*-[-]*[ ]*|/|-|-|-|/g' > temp/existing_table_normalized.md
+            
+            # Normalize new tables
+            cat temp/new_pushed_assets_table.md | \
+              sed 's/|[ ]*\([^|]*\)[ ]*|/|\1|/g' | \
+              sed 's/|[ ]*Asset[ ]*|[ ]*Max Staleness[ ]*|[ ]*Delta %[ ]*|/|Asset|Max Staleness|Delta %|/g' | \
+              sed 's/|[ ]*-[-]*[ ]*|[ ]*-[-]*[ ]*|[ ]*-[-]*[ ]*|/|-|-|-|/g' > temp/new_table_normalized.md
+            
+            # Compare normalized versions (ignoring whitespace and blank lines)
+            diff_output=$(diff -w -B temp/new_table_normalized.md temp/existing_table_normalized.md || true)
+          else
+            diff_output="Initial creation"
+          fi
+          
+          echo "diff_output<<EOF" >> $GITHUB_ENV
+          echo "$diff_output" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Update pushed assets file if different
+        if: env.diff_output != ''
+        run: |
+          # Combine header with new table content
+          cat temp/header.md temp/new_pushed_assets_table.md > resources/stork-pushed-assets.md
+          rm -rf temp
+
+      - name: Create Pull Request
+        if: env.diff_output != ''
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update Pushed Assets"
+          title: "Update Pushed Assets"
+          body: "Automated update of the Pushed Assets documentation"
+          branch: update-pushed-assets
+          delete-branch: true
+          base: main
+          draft: false 
