@@ -1,8 +1,8 @@
 ---
-icon: arrows-spin
 description: >-
   Understanding the layers of Stork's core architecture and how they work
   together.
+icon: arrows-spin
 ---
 
 # How It Works
@@ -38,13 +38,13 @@ Where the data starts its journey, Publishers are decentralized independent firm
 
 Publishers make their data available to Aggregators, and by extension Subscribers, by running the[ Stork Publisher Agent](https://github.com/Stork-Oracle/stork-external/blob/main/apps/docs/publisher_agent.md), an open-source application that can easily be deployed via a pre-built docker container. The publisher agent also handles signing and sending the data to Aggregators.
 
-Have data you want to contribute? Check out[ Becoming a Publisher](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/becoming-a-publisher) for more information.
+Have data you want to contribute? Check out[ Becoming a Publisher](../getting-started/becoming-a-publisher.md) for more information.
 
 ### Aggregators
 
 If Stork was a sandwich, Aggregators would be the meat. This is where the heavy lifting happens, and data is consolidated into its final form to be sent along its way. Aggregators simply listen to data from relevant Publishers, aggregate this data using an aggregation function, sign the data (proving not only the source, but also the aggregation method), and then push data containing the aggregate, its signature, as well as all of the original publisher data and their signatures, to subscribers via websocket. They also make this data available via a REST endpoint.
 
-For interacting with Aggregator APIs, see the[ websocket API](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/stork-for-real-time/api-reference/websocket-api) and[ REST API](https://rest.jp.stork-oracle.network/swagger/index.html) docs
+For interacting with Aggregator APIs, see the[ websocket API](../api-reference/websocket-api/) and[ REST API](../api-reference/rest-api.md) docs
 
 Stork Aggregators can use one of several aggregation functions. The available functions are:
 
@@ -75,7 +75,7 @@ While oracles are typically thought of as being used for putting data on-chain, 
 
 A common use of Stork data by a Subscriber is to put the data on-chain for use in smart contracts. Commonly, these are lending protocols, DEXes, or prediction markets.
 
-To use data on-chain, there are two strategies.&#x20;
+To use data on-chain, there are two strategies.
 
 * Running the open-source Chain Pusher
 * Updating per-interaction in your dApp client
@@ -129,4 +129,3 @@ Stork has been designed to scale virtually infinitely. Due to Stork’s architec
 As touched upon in the [TNV section of Core Concepts](core-concepts.md#temporal-numeric-values), one of Stork’s unique traits is its Temporal Numeric Value primitive. This is primitive that includes a (unix) timestamp and a number. Commonly, this would be an asset price and timestamp of aggregation. It can also represent any sort of timestamped data, allowing for much greater extensibility than other oracles.
 
 The specific data you want your app to use on-chain is not prescribed by Stork. Everything from real world prediction market data, personal data like fitness metrics, or social media metrics, and other first party data can and should go on-chain with Stork.
-

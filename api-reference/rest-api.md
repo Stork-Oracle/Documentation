@@ -37,27 +37,34 @@ Need a higher rate limit? Reach out to Stork.  [sales@stork.network](mailto:sale
 
 This tool is meant to illustrate the structure of REST api responses, but unfortunately due to third party limitations, some loss of precision on large numbers may be experienced in the browser. If you wish to test the verifiability of Stork prices from the REST api, we recommend using CURL to view the raw response.
 
-{% openapi-operation spec="rest-api" path="/prices/assets" method="get" %}
+{% openapi-operation spec="rest-api-1" path="/v1/prices/assets" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="rest-api" path="/prices/latest" method="get" %}
+{% openapi-operation spec="rest-api-1" path="/v1/prices/latest" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="rest-api" path="/tradingview/history" method="get" %}
+{% openapi-operation spec="rest-api-1" path="/v1/prices/recent" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="rest-api" path="/deployments/evm" method="get" %}
+{% openapi-operation spec="rest-api-1" path="/v1/tradingview/history" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="rest-api" path="/options/implied_volatility" method="get" %}
+{% openapi-operation spec="rest-api-1" path="/v1/deployments/evm" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
 
-{% openapi-operation spec="rest-api" path="/options/underlying_future_price" method="get" %}
+{% openapi-operation spec="rest-api-1" path="/v0/deployments/stork_pushed_assets" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
 
+{% openapi-operation spec="rest-api-1" path="/v1/options/implied_volatility" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="rest-api-1" path="/v1/options/underlying_future_price" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}
