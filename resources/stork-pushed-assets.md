@@ -10,18 +10,18 @@ A number of feeds on a number of chains are already made available (regularly pu
 {% hint style="info" %}
 Want access to a price feed on-chain that we're not pushing? See the [Putting Data On-Chain](../getting-started/putting-data-on-chain.md) to push it yourself, or reach out to Stork so we can get it pushed for you in as little as 24 hours. [sales@stork.network](mailto:sales@stork.network) or [Twitter DMs](https://x.com/storkoracle) open.
 {% endhint %}
-# Camp
+## Camp
 
-## Testnet
+### Testnet
 
 | Asset | Max Staleness | Delta % |
 | ----- | ------------- | -------- |
 | BTCUSD | 3600 | 0.5 |
 | ETHUSD | 3600 | 0.5 |
 
-# Mitosis
+## Mitosis
 
-## Dognet
+### Dognet
 
 | Asset | Max Staleness | Delta % |
 | ----- | ------------- | -------- |
@@ -29,9 +29,9 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | USDCUSD | 3600 | 0.5 |
 | USDTUSD | 3600 | 0.5 |
 
-# Plume
+## Plume
 
-## Mainnet
+### Mainnet
 
 | Asset | Max Staleness | Delta % |
 | ----- | ------------- | -------- |
