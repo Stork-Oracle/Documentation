@@ -42,7 +42,7 @@ jobs:
           fi
 
           # Generate new pushed assets table
-          curl -s "https://rest.dev.jp.stork-oracle.network/v0/deployments/stork_pushed_assets" | jq -r '
+          curl -s "https://rest.jp.stork-oracle.network/v0/deployments/stork_pushed_assets" | jq -r '
             .data | to_entries | sort_by(.key) | map(
               "# \(.key)\n" +
               (.value | to_entries | sort_by(.key) | map(
