@@ -15,35 +15,36 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 ### Testnet
 
-| Asset  | Max Staleness | Delta % |
-| ------ | ------------- | ------- |
-| BTCUSD | 3600          | 0.5     |
-| ETHUSD | 3600          | 0.5     |
+| Asset | Max Staleness | Delta % |
+| ----- | ------------- | -------- |
+| BTCUSD | 3600 | 0.5 |
+| ETHUSD | 3600 | 0.5 |
 
 ## Mitosis
 
 ### Dognet
 
-| Asset   | Max Staleness | Delta % |
-| ------- | ------------- | ------- |
-| ETHUSD  | 3600          | 0.5     |
-| USDCUSD | 3600          | 0.5     |
-| USDTUSD | 3600          | 0.5     |
+| Asset | Max Staleness | Delta % |
+| ----- | ------------- | -------- |
+| ETHUSD | 3600 | 0.5 |
+| USDCUSD | 3600 | 0.5 |
+| USDTUSD | 3600 | 0.5 |
 
 ## Plume
 
 ### Mainnet
 
-| Asset              | Max Staleness | Delta % |
-| ------------------ | ------------- | ------- |
-| NALPHAUSD          | 3600          | 0.5     |
-| NBASISUSD          | 3600          | 0.5     |
-| NCREDITUSD         | 3600          | 0.5     |
-| NELIXIRUSD         | 3600          | 0.5     |
-| NETFUSD            | 3600          | 0.5     |
-| NINSTOUSD          | 3600          | 0.5     |
-| NPAYFIUSD          | 3600          | 0.5     |
-| NTBILLUSD          | 3600          | 0.5     |
-| NUSDYUSD           | 3600          | 0.5     |
-| NYIELDUSD          | 3600          | 0.5     |
-| SUPEROETHPWETH\_RR | 3600          | 0.5     |
+| Asset | Max Staleness | Delta % |
+| ----- | ------------- | -------- |
+| NALPHAUSD | 3600 | 0.5 |
+| NBASISUSD | 3600 | 0.5 |
+| NCREDITUSD | 3600 | 0.5 |
+| NELIXIRUSD | 3600 | 0.5 |
+| NETFUSD | 3600 | 0.5 |
+| NINSTOUSD | 3600 | 0.5 |
+| NPAYFIUSD | 3600 | 0.5 |
+| NTBILLUSD | 3600 | 0.5 |
+| NUSDYUSD | 3600 | 0.5 |
+| NYIELDUSD | 3600 | 0.5 |
+| SUPEROETHPWETH_RR | 3600 | 0.5 |
+| XAUMUSD | 3600 | 0.5 |
