@@ -60,11 +60,3 @@ This tool is meant to illustrate the structure of REST api responses, but unfort
 {% openapi-operation spec="rest-api-1" path="/v0/deployments/stork_pushed_assets" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
-
-{% openapi-operation spec="rest-api-1" path="/v1/options/implied_volatility" method="get" %}
-[Broken link](broken-reference)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="rest-api-1" path="/v1/options/underlying_future_price" method="get" %}
-[Broken link](broken-reference)
-{% endopenapi-operation %}
