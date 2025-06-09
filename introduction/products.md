@@ -11,15 +11,6 @@ Stork for Real Time is an ultra low-latency, decentralized off and on-chain pric
 
 Using an off-chain, decentralized feed gives protocols the ability to perform initial processing off-chain, and elect to only push on-chain the price updates that are relevant to their product. Since prices are signed in a chain-compatible way, protocols can use Stork’s Contract, or their own smart contract, to verify the feed on-chain, proving that the data is legitimate.
 
-### Stork for Options
-
-Stork for Options is a just-in-time derivative oracle. Queried via REST API, derivatives such as
-
-* Implied Volatility
-* Underlying Futures Prices
-
-among others are calculated upon API request based on Storks real time prices. For more information on using Stork for Options, see [REST API](../api-reference/rest-api.md).
-
 ### Stork for StarkEx
 
 Stork maintains a first class partnership with StarkEx. This enables Stork to provide oracle services that are accepted natively by StarkEx. The key difference between Stork for Real Time and Stork for StarkEx is that the signatures used are compatible with StarkEx, and present only in the publisher messages. Also, publishers use StarkEX's native signatures when providing data for StarkEX users.
