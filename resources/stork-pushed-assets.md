@@ -46,5 +46,10 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | NTBILLUSD | 3600 | 0.5 |
 | NUSDYUSD | 3600 | 0.5 |
 | NYIELDUSD | 3600 | 0.5 |
+| PETHUSD_RR | 3600 | 0.5 |
+| PLUMEUSD | 3600 | 0.5 |
+| PUSDUSD | 3600 | 0.5 |
+| SPLUMEUSD | 3600 | 0.5 |
 | SUPEROETHPWETH_RR | 3600 | 0.5 |
+| WETHUSD | 3600 | 0.5 |
 | XAUMUSD | 3600 | 0.5 |
