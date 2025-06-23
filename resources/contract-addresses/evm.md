@@ -390,6 +390,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Sepolia | [0x266795f5A45AEc26aBF7E1c923dC15Cbb1A4Ed96](https://sepolia.uniscan.xyz/address/0x266795f5A45AEc26aBF7E1c923dC15Cbb1A4Ed96) |
 
+## Viction
+
+| Network | Address |
+| -------- | -------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://www.vicscan.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Xlayer
 
 | Network | Address |
