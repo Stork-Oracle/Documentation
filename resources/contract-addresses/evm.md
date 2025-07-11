@@ -11,7 +11,9 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Testnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.testnet.abs.xyz/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
+| Testnet | [0xedea47572301271280a39F8A7378C7dc54fe5F1E
+](https://explorer.testnet.abs.xyz/address/0xedea47572301271280a39F8A7378C7dc54fe5F1E
+) |
 
 ## Apechain
 
@@ -44,13 +46,6 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://berascan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://bartio.beratrail.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Bevm
-
-| Network | Address |
-| -------- | -------- |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan-testnet.bevm.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Bitlayer
 
@@ -89,13 +84,6 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet.citrea.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
-## Clink
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.clinkchain.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://c1-testnet.cloud.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
 ## Core
 
 | Network | Address |
@@ -126,6 +114,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
+| Holesky | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://holesky.etherscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Mainnet | [0x035B5438444f26e6Aab81E91d475b7B1Ac4Fb22b](https://etherscan.io/address/0x035B5438444f26e6Aab81E91d475b7B1Ac4Fb22b) |
 
 ## Expchain
@@ -170,12 +159,6 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.hemi.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Holesky
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://holesky.etherscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## HyperEVM
 
@@ -406,7 +389,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Mainnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.zksync.io/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
+| Mainnet | [0xedea47572301271280a39F8A7378C7dc54fe5F1E](https://explorer.zksync.io/address/0xedea47572301271280a39F8A7378C7dc54fe5F1E) |
 | Sepolia | [0xa4EdaB501dD4B3aD9Ad6d30dE1B3a29b8d9a9858](https://sepolia.explorer.zksync.io/address/0xa4EdaB501dD4B3aD9Ad6d30dE1B3a29b8d9a9858) |
 
 ## Zetachain
