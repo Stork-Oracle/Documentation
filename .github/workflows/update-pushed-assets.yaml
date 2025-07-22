@@ -48,7 +48,7 @@ jobs:
               (.value | to_entries | sort_by(.key) | map(
                 "\n### \(.key)\n\n| Asset | Max Staleness | Delta |\n| ----- | ------------- | ----- |\n" +
                 (.value | to_entries | sort_by(.key) | map(
-                  "| \(.key) | \(.value.staleness) seconds | \(.value.delta)% |"
+                  "| \(.key) | \(.value.staleness)s | \(.value.delta)% |"
                 ) | join("\n"))
               ) | join("\n\n"))
             ) | join("\n\n")' > temp/new_pushed_assets_table.md
