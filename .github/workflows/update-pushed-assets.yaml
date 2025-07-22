@@ -46,9 +46,9 @@ jobs:
             .data | to_entries | sort_by(.key) | map(
               "## \(.key)\n" +
               (.value | to_entries | sort_by(.key) | map(
-                "\n### \(.key)\n\n| Asset | Max Staleness | Delta % |\n| ----- | ------------- | -------- |\n" +
+                "\n### \(.key)\n\n| Asset | Max Staleness | Delta |\n| ----- | ------------- | ----- |\n" +
                 (.value | to_entries | sort_by(.key) | map(
-                  "| \(.key) | \(.value.staleness) | \(.value.delta) |"
+                  "| \(.key) | \(.value.staleness)s | \(.value.delta)% |"
                 ) | join("\n"))
               ) | join("\n\n"))
             ) | join("\n\n")' > temp/new_pushed_assets_table.md
@@ -58,13 +58,13 @@ jobs:
             # Extract and normalize existing tables
             sed -n '/^# /,$p' resources/stork-pushed-assets.md | \
               sed 's/|[ ]*\([^|]*\)[ ]*|/|\1|/g' | \
-              sed 's/|[ ]*Asset[ ]*|[ ]*Max Staleness[ ]*|[ ]*Delta %[ ]*|/|Asset|Max Staleness|Delta %|/g' | \
+              sed 's/|[ ]*Asset[ ]*|[ ]*Max Staleness[ ]*|[ ]*Delta[ ]*|/|Asset|Max Staleness|Delta|/g' | \
               sed 's/|[ ]*-[-]*[ ]*|[ ]*-[-]*[ ]*|[ ]*-[-]*[ ]*|/|-|-|-|/g' > temp/existing_table_normalized.md
             
             # Normalize new tables
             cat temp/new_pushed_assets_table.md | \
               sed 's/|[ ]*\([^|]*\)[ ]*|/|\1|/g' | \
-              sed 's/|[ ]*Asset[ ]*|[ ]*Max Staleness[ ]*|[ ]*Delta %[ ]*|/|Asset|Max Staleness|Delta %|/g' | \
+              sed 's/|[ ]*Asset[ ]*|[ ]*Max Staleness[ ]*|[ ]*Delta[ ]*|/|Asset|Max Staleness|Delta|/g' | \
               sed 's/|[ ]*-[-]*[ ]*|[ ]*-[-]*[ ]*|[ ]*-[-]*[ ]*|/|-|-|-|/g' > temp/new_table_normalized.md
             
             # Compare normalized versions (ignoring whitespace and blank lines)
