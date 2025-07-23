@@ -338,11 +338,6 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://tac.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Tac
-
-| Network | Address |
-| -------- | -------- |
 | Saint Petersburg Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://spb.explorer.tac.build/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Turin | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://turin.explorer.tac.build/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
