@@ -69,6 +69,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
+| DEUSDUSD_CAPPED_1 | 3600s | 0.5% |
 | NALPHAUSD | 3600s | 0.5% |
 | NBASISUSD | 3600s | 0.5% |
 | NCREDITUSD | 3600s | 0.5% |
