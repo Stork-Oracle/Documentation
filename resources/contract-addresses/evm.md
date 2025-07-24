@@ -26,6 +26,12 @@ For documentation on interacting with these contracts in your contract, please s
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://arbiscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Sepolia | [0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627](https://sepolia.arbiscan.io/address/0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627) |
 
+## Avalanche
+
+| Network | Address |
+| -------- | -------- |
+| C-Chain | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://snowtrace.io/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
+
 ## BNB Smart Chain
 
 | Network | Address |
@@ -215,7 +221,6 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Catnet Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://blockscout.catnet.mitosis.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Dognet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://blockscout.dognet.mitosis.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Molten
@@ -241,12 +246,6 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://edu-chain-testnet.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Ozean
-
-| Network | Address |
-| -------- | -------- |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://ozean-testnet.explorer.caldera.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Perennial
 
