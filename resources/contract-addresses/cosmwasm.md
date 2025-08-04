@@ -1,15 +1,19 @@
 ---
+description: Contract Addresses for CosmWasm chains
 icon: solar-system
 layout:
+  width: default
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
     visible: true
   pagination:
+    visible: true
+  metadata:
     visible: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: Contract Addresses for EVM chains.
+description: Contract Addresses for EVM chains
 icon: ethereum
 ---
 
@@ -9,372 +9,370 @@ For documentation on interacting with these contracts in your contract, please s
 
 ## Abstract
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                           |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0xedea47572301271280a39F8A7378C7dc54fe5F1E](https://explorer.testnet.abs.xyz/address/0xedea47572301271280a39F8A7378C7dc54fe5F1E) |
 
 ## Apechain
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                             |
+| ------- | ------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://apescan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Arbitrum
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://arbiscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network | Address                                                                                                                      |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://arbiscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)         |
 | Sepolia | [0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627](https://sepolia.arbiscan.io/address/0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627) |
 
 ## Avalanche
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                               |
+| ------- | --------------------------------------------------------------------------------------------------------------------- |
 | C-Chain | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://snowtrace.io/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
 
 ## BNB Smart Chain
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0x7D06cc8210228365896A3cc8Aac88c5551529112](https://bscscan.com/address/0x7D06cc8210228365896A3cc8Aac88c5551529112) |
+| Network | Address                                                                                                                      |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [0x7D06cc8210228365896A3cc8Aac88c5551529112](https://bscscan.com/address/0x7D06cc8210228365896A3cc8Aac88c5551529112)         |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.bscscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Base
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://basescan.org/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
+| Network | Address                                                                                                                       |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://basescan.org/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6)         |
 | Sepolia | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://sepolia.basescan.org/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
 
 ## Berachain
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                               |
+| ------- | --------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://berascan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Bitlayer
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://www.btrscan.com/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
+| Network | Address                                                                                                                      |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://www.btrscan.com/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6)     |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.btrscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Bob
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                 |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Sepolia | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://bob-sepolia.explorer.gobob.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Botanix
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                         |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.botanixscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Bsquared
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                            |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.bsquared.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Camp
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                |
+| ------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://basecamp.cloud.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Citrea
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                              |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet.citrea.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Core
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan.coredao.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network | Address                                                                                                                         |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan.coredao.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)       |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan.test.btcs.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Cronos ZkEvm
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.zkevm.cronos.org/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
+| Network | Address                                                                                                                                    |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Mainnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.zkevm.cronos.org/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9)         |
 | Testnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.zkevm.cronos.org/testnet/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
 
 ## CrossFi
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                              |
+| ------- | -------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://xfiscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Cytonic
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                   |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.evm.testnet.cytonic.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Ethereum
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                       |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Holesky | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://holesky.etherscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Mainnet | [0x035B5438444f26e6Aab81E91d475b7B1Ac4Fb22b](https://etherscan.io/address/0x035B5438444f26e6Aab81E91d475b7B1Ac4Fb22b) |
+| Mainnet | [0x035B5438444f26e6Aab81E91d475b7B1Ac4Fb22b](https://etherscan.io/address/0x035B5438444f26e6Aab81E91d475b7B1Ac4Fb22b)         |
 
 ## Expchain
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                 |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://blockscout-testnet.expchain.ai/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
 
 ## Filecoin
 
-| Network | Address |
-| -------- | -------- |
+| Network     | Address                                                                                                                             |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Calibration | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://calibration.filfox.info/en/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Flow EVM
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                  |
+| ------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://evm.flowscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Glue
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                    |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet.dev.gke.glue.net/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Goat
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.goat.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network | Address                                                                                                                                 |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.goat.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)          |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet3.goat.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Gravity
 
-| Network | Address |
-| -------- | -------- |
+| Network       | Address                                                                                                                       |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Alpha Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.gravity.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Hemi
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                    |
+| ------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.hemi.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## HyperEVM
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://purrsec.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network | Address                                                                                                                      |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://purrsec.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)         |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.purrsec.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Ink
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                  |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | Sepolia | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-sepolia.inkonchain.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Lightlink
 
-| Network | Address |
-| -------- | -------- |
+| Network         | Address                                                                                                                       |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Pegasus Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pegasus.lightlink.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Phoenix Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://phoenix.lightlink.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Lisk
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                              |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Sepolia | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://sepolia-blockscout.lisk.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Manta Pacific
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pacific-explorer.manta.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network         | Address                                                                                                                                                 |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet         | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pacific-explorer.manta.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)                 |
 | Sepolia Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pacific-explorer.sepolia-testnet.manta.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## MegaETH
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                   |
+| ------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://megaexplorer.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Merlin
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan.merlinchain.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network | Address                                                                                                                              |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan.merlinchain.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)         |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet-scan.merlinchain.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Mezo
 
-| Network | Address |
-| -------- | -------- |
+| Network         | Address                                                                                                                         |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | Matsnet Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.test.mezo.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Mitosis
 
-| Network | Address |
-| -------- | -------- |
-| Dognet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://blockscout.dognet.mitosis.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network | Address                                                                                                                                |
+| ------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Dognet  | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://blockscout.dognet.mitosis.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Molten
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                             |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://molten.calderaexplorer.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Monad
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                            |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.monadexplorer.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Omni
 
-| Network | Address |
-| -------- | -------- |
-| Omega | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://omega.omniscan.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network | Address                                                                                                                         |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Omega   | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://omega.omniscan.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Open Campus
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                   |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://edu-chain-testnet.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Perennial
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-perennial-lsv53i0ed8.t.conduit.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network | Address                                                                                                                                                                  |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-perennial-lsv53i0ed8.t.conduit.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)                     |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-perennial-testnet-op-base-tia-dphnnr04wr.t.conduit.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Plume
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                    |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://phoenix-explorer.plumenetwork.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet-explorer.plumenetwork.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Polygon
 
-| Network | Address |
-| -------- | -------- |
-| Amoy | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://amoy.polygonscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://polygonscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network | Address                                                                                                                       |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Amoy    | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://amoy.polygonscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://polygonscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)      |
 
 ## Quai
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet Cyprus1 | [0x00225fCCCC774e25606bB34821e9Db52af433963 ](https://quaiscan.io/address/0x00225fCCCC774e25606bB34821e9Db52af433963 ) |
-| Orchard Testnet Cyprus1 | [0x00754b866956D338bEA6CEc98D0D2aB4508085ff ](https://orchard.quaiscan.io/address/0x00754b866956D338bEA6CEc98D0D2aB4508085ff ) |
+| Network                 | Address                                                                                                                      |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet Cyprus1         | [0x00225fCCCC774e25606bB34821e9Db52af433963](https://quaiscan.io/address/0x00225fCCCC774e25606bB34821e9Db52af433963)         |
+| Orchard Testnet Cyprus1 | [0x00754b866956D338bEA6CEc98D0D2aB4508085ff](https://orchard.quaiscan.io/address/0x00754b866956D338bEA6CEc98D0D2aB4508085ff) |
 
 ## RISE
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                |
+| ------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet.riselabs.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Rootstock
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                   |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://rootstock-testnet.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## SKALE
 
-| Network | Address |
-| -------- | -------- |
+| Network        | Address                                                                                                                                                          |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Europa Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://juicy-low-small-testnet.explorer.testnet.skalenodes.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Scroll
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scrollscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network | Address                                                                                                                         |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scrollscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)         |
 | Sepolia | [0xbB4105F349072B15e300f3dAeB701EF986ae5372](https://sepolia.scrollscan.com/address/0xbB4105F349072B15e300f3dAeB701EF986ae5372) |
 
 ## Soneium
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                         |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://soneium.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Sonic
 
-| Network | Address |
-| -------- | -------- |
-| Blaze Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.soniclabs.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.soniclabs.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network       | Address                                                                                                                         |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Blaze Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.soniclabs.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)  |
+| Mainnet       | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.soniclabs.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Sophon
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://sophscan.xyz/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
+| Network | Address                                                                                                                              |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Mainnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://sophscan.xyz/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9)                |
 | Testnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.testnet.sophon.xyz/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
 
 ## Story
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                               |
+| ------- | --------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://storyscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Superseed
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                         |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.superseed.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## TAC
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://tac.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Saint Petersburg Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://spb.explorer.tac.build/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Turin | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://turin.explorer.tac.build/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Network                  | Address                                                                                                                           |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet                  | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://tac.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)       |
+| Saint Petersburg Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://spb.explorer.tac.build/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62)   |
+| Turin                    | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://turin.explorer.tac.build/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Taraxa
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                          |
+| ------- | ---------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0x7D06cc8210228365896A3cc8Aac88c5551529112](https://tara.to/address/0x7D06cc8210228365896A3cc8Aac88c5551529112) |
 
 ## Unichain
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                      |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | Sepolia | [0x266795f5A45AEc26aBF7E1c923dC15Cbb1A4Ed96](https://sepolia.uniscan.xyz/address/0x266795f5A45AEc26aBF7E1c923dC15Cbb1A4Ed96) |
 
 ## Viction
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                  |
+| ------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://www.vicscan.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Xlayer
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                             |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://www.oklink.com/xlayer-test/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
 
 ## ZKsync
 
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xedea47572301271280a39F8A7378C7dc54fe5F1E](https://explorer.zksync.io/address/0xedea47572301271280a39F8A7378C7dc54fe5F1E) |
+| Network | Address                                                                                                                             |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [0xedea47572301271280a39F8A7378C7dc54fe5F1E](https://explorer.zksync.io/address/0xedea47572301271280a39F8A7378C7dc54fe5F1E)         |
 | Sepolia | [0xa4EdaB501dD4B3aD9Ad6d30dE1B3a29b8d9a9858](https://sepolia.explorer.zksync.io/address/0xa4EdaB501dD4B3aD9Ad6d30dE1B3a29b8d9a9858) |
 
 ## Zetachain
 
-| Network | Address |
-| -------- | -------- |
+| Network | Address                                                                                                                                   |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://zetachain-testnet.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-

@@ -42,6 +42,7 @@
   * [Sui](resources/contract-addresses/sui.md)
   * [Aptos](resources/contract-addresses/aptos.md)
   * [CosmWasm](resources/contract-addresses/cosmwasm.md)
+  * [Fuel](resources/contract-addresses/fuel.md)
 * [Adapters](resources/adapters.md)
 * [Public Keys](resources/public-keys.md)
 * [FAQ](resources/faq.md)
