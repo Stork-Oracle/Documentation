@@ -23,6 +23,6 @@ For documentation on interacting with these contracts in your contract, please s
 
 ## Zigchain
 
-|         |                                                                                                                                                                    |
+| Network | Address                                                                                                                                                            |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Testnet | [zig1nhy836nyxckdykea6rqg8lxg9l6qgyeejcjzfzkapa6j9s79pywsxjr7sr](https://app.range.org/address/zig/zig1nhy836nyxckdykea6rqg8lxg9l6qgyeejcjzfzkapa6j9s79pywsxjr7sr) |
