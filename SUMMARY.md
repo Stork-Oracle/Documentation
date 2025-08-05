@@ -26,6 +26,7 @@
   * [Sui](api-reference/contract-apis/sui.md)
   * [Aptos](api-reference/contract-apis/aptos.md)
   * [CosmWasm](api-reference/contract-apis/cosmwasm.md)
+  * [Fuel](api-reference/contract-apis/fuel.md)
 * [Chain Pusher Configs](api-reference/chain-pusher-configs/README.md)
   * [Asset Config YAML](api-reference/chain-pusher-configs/asset-config-yaml.md)
 * [Publisher Agent Configs](api-reference/publisher-agent-configs/README.md)

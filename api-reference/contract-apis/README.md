@@ -1,17 +1,6 @@
 ---
-icon: file-signature
 description: Th
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
+icon: file-signature
 ---
 
 # Contract APIs
@@ -41,4 +30,8 @@ The following APIs are available for supported chains:&#x20;
 
 {% content-ref url="cosmwasm.md" %}
 [cosmwasm.md](cosmwasm.md)
+{% endcontent-ref %}
+
+{% content-ref url="fuel.md" %}
+[fuel.md](fuel.md)
 {% endcontent-ref %}

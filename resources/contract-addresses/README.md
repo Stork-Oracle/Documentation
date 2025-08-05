@@ -1,9 +1,9 @@
 ---
-icon: link-horizontal
 description: >-
-  This sections lists the addresses of the official Stork pull oracle contracts
+  This section lists the addresses of the official Stork pull oracle contracts
   across currently deployed to chains. The contracts are split between the
   following ecosystems:
+icon: link-horizontal
 ---
 
 # Contract Addresses
@@ -28,5 +28,7 @@ description: >-
 [cosmwasm.md](cosmwasm.md)
 {% endcontent-ref %}
 
-
+{% content-ref url="fuel.md" %}
+[fuel.md](fuel.md)
+{% endcontent-ref %}
 

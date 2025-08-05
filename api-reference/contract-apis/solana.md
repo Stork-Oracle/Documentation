@@ -1,20 +1,9 @@
 ---
-icon: s
 description: Programming API reference for the Stork Solana contract.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
+icon: s
 ---
 
-# Solana
+# Solana / SVM
 
 ## SDK
 
@@ -38,7 +27,7 @@ or the following command:
 cargo add stork-solana-sdk
 ```
 
-You can now import the stork-sdk's interfaces with:
+You can now import the sdk's interfaces with:
 
 <pre class="language-rust"><code class="lang-rust"><strong>// your_module.rs
 </strong><strong>use stork_solana_sdk::{&#x3C;...>};
