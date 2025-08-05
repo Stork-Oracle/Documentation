@@ -21,7 +21,7 @@ layout:
 
 For documentation on interacting with these contracts in your contract, please see the [CosmWasm API Reference](../../api-reference/contract-apis/cosmwasm.md).
 
-## Zigchain
+## ZIGChain
 
 | Network | Address                                                                                                                                                            |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
