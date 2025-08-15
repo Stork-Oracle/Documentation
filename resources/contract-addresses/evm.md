@@ -56,7 +56,6 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Mainnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://www.btrscan.com/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.btrscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Bob
