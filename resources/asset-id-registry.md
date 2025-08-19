@@ -269,6 +269,7 @@ More information on the types of feeds we support is available [here](../introdu
 | NXPCUSD | 0xd3966eed9a01531e235cdfd4fb727710fd7476dd0356675357b8a91808df303d |
 | NYIELDUSD | 0x18fddef43d68963e9041e7a0c0a33379841cc97b553988c84eb1e28fba6fe2c7 |
 | NZDUSD | 0x5c83ff2c5c301789d772187c9178d16ea59290f8db90b5ee5a640c330cdaf110 |
+| OKBUSD | 0xf047ca5be1e37afacba58eb1acb608ecdd1dbadaad41757dd441ff81d9b51d3b |
 | OMNIUSD | 0x6eb1ba5b0cdfb68ae5ca78dc5557bfc87c67f921f30df71dfde4ce657fea6e48 |
 | ONDOUSD | 0xb1ee6ff0c33a677732c3ed267431a18abf0b34f3759a48ff95dbc43c9d54b5d3 |
 | ONDOUSDMARK | 0xaad6e3aa92fff98d98a70379417a12092fad9c381efaa12ca36742b992c1eabe |
@@ -429,6 +430,7 @@ More information on the types of feeds we support is available [here](../introdu
 | XTZUSD | 0x98f5edab029a7c839910b85accde81b2beeda95507812db9c42c117e9b445106 |
 | XUSD | 0x1456b963f67efe00b2f8df51feb519ca050521ab6f87f75d2d096b39a04b4259 |
 | ZENTUSD | 0x01754fec1fe1377161a2abd3ba6b7ccbdc47d66f7a4c169532cdf8c16d082255 |
+| ZIGUSD | 0xfddfa7c9735f01abfc23e193845ea9e00895ef105e5dc0f71835bd697a6074c5 |
 | ZKLUSD | 0xc467835520d4b10e4a1873824bd2fe5b7a1574ccc5e6609e3563d6a5de8fb553 |
 | ZKUSD | 0x009f759c0ba24ed921584fc705c08bd8ae4788c94ca77a3f58d59e92588e23b0 |
 | ZORAUSD | 0x5adde3e99987af0ecafc4c7a5f2dac94fa36f2cd2f6ece6bfa60a756903babe7 |
