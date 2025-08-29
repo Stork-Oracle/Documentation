@@ -29,6 +29,23 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | USDCUSD | 3600s | 0.5% |
 | USDTUSD | 3600s | 0.5% |
 
+
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| EZETHUSD | 3600s | 0.5% |
+| MAUSDTLISTAUSD_RR | 3600s | 0.5% |
+| MIBNBUSD_RR | 3600s | 0.5% |
+| MIETHUSD_RR | 3600s | 0.5% |
+| MITOUSD | 3600s | 0.5% |
+| MIUSDCUSD_RR | 3600s | 0.5% |
+| USDCUSD | 3600s | 0.5% |
+| USDTUSD | 3600s | 0.5% |
+| WBNBUSD | 3600s | 0.5% |
+| WEETHUSD | 3600s | 0.5% |
+| WETHUSD | 3600s | 0.5% |
+
 ## Monad
 
 ### Testnet
