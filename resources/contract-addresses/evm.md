@@ -221,6 +221,7 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Dognet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://blockscout.dognet.mitosis.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://mitoscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Molten
 
