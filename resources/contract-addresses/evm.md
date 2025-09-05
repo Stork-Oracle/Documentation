@@ -177,6 +177,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Sepolia | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-sepolia.inkonchain.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## Kadena Chainweb EVM
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6]( https://chain-20.evm-testnet-blockscout.chainweb.com/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
+
 ## Lightlink
 
 | Network | Address |
