@@ -1,65 +1,48 @@
 ---
 description: Programming API reference for the Stork EVM contract.
 icon: ethereum
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # EVM
 
 ## SDK
 
-EVM contracts can program against the [Stork contract'](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/evm)s interface by creating an interface and contract to include aliases for the methods and structs required from the Stork contract.  The Stork contract can also be used via the [Pyth and Chainlink](../../resources/adapters.md) adapters. The Stork contract is built using [Hardhat](https://hardhat.org/).
+EVM contracts can program against the [Stork contract'](https://github.com/Stork-Oracle/stork-external/tree/main/chains/evm/contracts/stork)s interface by using the stork-evm-sdk npm package available on [npmjs.com](https://www.npmjs.com/package/@storknetwork/stork-evm-sdk). This SDK provides an interface and useful struct for interacting with the Stork Contract.\
+\
+The Stork contract can also be used via the [Pyth and Chainlink](../../resources/adapters.md) adapters. \
+\
+The Stork contract is built using [Hardhat](https://hardhat.org/).
 
 ## Getting Started
 
 {% tabs %}
 {% tab title="Solidity" %}
-After setting up your Hardhat project, create an interface with aliases to your necessary Stork methods, and a contract to hold any necessary Stork structs. Then create an instance of the interface constructed with the Stork [contract address](../../resources/contract-addresses/).
+After setting up your Hardhat project, add the stork-evm-sdk to your project dependencies by adding the following line to the `"dependencies"` section of the programs `package.json`
+
+```json
+// package.json
+"dependencies": {
+    "@storknetwork/stork-evm-sdk": "^1.0.0"
+  }
+```
+
+or with the following command:
+
+```bash
+npm i stork-evm-sdk
+```
+
+You can now import the sdk's interface and types with:
 
 ```solidity
 // YourContract.sol
-contract YourContract {
-    IStork public stork;
-    // ...
-    
-    constructor (address _stork /*, ...*/) {
-        stork = IStork(_stork);
-        // ...
-    }
-    //...
-}
-
-// example: include getTemporalNumericValueUnsafeV1
-interface IStork {
-    function getTemporalNumericValueUnsafeV1(
-        bytes32 id
-    ) external view returns (StorkStructs.TemporalNumericValue memory value);
-}
-
-contract StorkStructs {
-    struct TemporalNumericValue {
-        // slot 1
-        // nanosecond level precision timestamp of latest publisher update in batch
-        uint64 timestampNs; // 8 bytes
-        // should be able to hold all necessary numbers (up to 6277101735386680763835789423207666416102355444464034512895)
-        int192 quantizedValue; // 8 bytes
-    }
-}
+import "@storknetwork/stork-evm-sdk/IStork.sol";
+import "@storknetwork/stork-evm-sdk/StorkStructs.sol";
 ```
-
-You can now interface with the Stork contract.
 {% endtab %}
 {% endtabs %}
+
+
 
 ## Concepts
 
@@ -200,9 +183,9 @@ Retrieves the current version of the contract.
 
 **Returns**
 
-* `string`: The version string (e.g., "1.0.2").
+* `string`: The version string (e.g., "1.0.3").
 
 ## Examples
 
-Example usage can be found in the contract adapters in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/contracts).
+An example contract can be found in the the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/evm/examples/stork).
 

@@ -1,13 +1,13 @@
 ---
-icon: droplet
 description: Programming API reference for the Stork Sui contract.
+icon: droplet
 ---
 
 # Sui
 
 ## SDK
 
-Sui contracts can integrate with the [Stork contract](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/sui) by including it as a project dependency.
+Sui contracts can integrate with the [Stork contract](https://github.com/Stork-Oracle/stork-external/tree/main/sui/contracts) by including it as a project dependency.
 
 ## Installation
 
@@ -18,7 +18,7 @@ After setting up your Sui Move project, add the Stork contract to your project d
 ```toml
 // Move.toml
 [dependencies]
-stork = { git = "https://github.com/stork-oracle/stork-external.git", subdir = "contracts/sui/contracts", rev = "main" }
+stork = { git = "https://github.com/stork-oracle/stork-external.git", subdir = "chains/sui/contracts", rev = "main" }
 ```
 
 You can now import the Stork interfaces with:
@@ -335,4 +335,4 @@ Creates a vector of update objects, each representing an update for a specific a
 
 ## Examples
 
-Example usage of the Stork Sui contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/examples/sui).&#x20;
+Example usage of the Stork Sui contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/sui/examples).&#x20;

@@ -11,11 +11,11 @@ For convenience, Stork has adapter contracts to make it easy to interact with St
 
 ### Chainlink
 
-Stork provides a Chainlink adapter SDK that exposes interface functions for interacting with Stork's contract in the same way you would with Chainlink. This contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/stork_chainlink_adapter). Example usage of this contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/examples/stork_chainlink_adapter).
+Stork provides a Chainlink adapter SDK that exposes interface functions for interacting with Stork's contract in the same way you would with Chainlink. This contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/evm/contracts/stork_chainlink_adapter). Example usage of this contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/evm/examples/stork_chainlink_adapter).
 
 ### Pyth
 
-Stork provides a Pyth adapter SDK that exposes interface functions for interacting with Stork's in the same way you would with Pyth. This contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/stork_pyth_adapter). Example usage of this contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/examples/stork_pyth_adapter).
+Stork provides a Pyth adapter SDK that exposes interface functions for interacting with Stork's in the same way you would with Pyth. This contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/evm/contracts/stork_pyth_adapter). Example usage of this contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/evm/examples/stork_pyth_adapter).
 
 
 

@@ -36,7 +36,7 @@ Where the data starts its journey, Publishers are decentralized independent firm
 * Decentralized and Centralized Exchanges
 * Predictions markets
 
-Publishers make their data available to Aggregators, and by extension Subscribers, by running the[ Stork Publisher Agent](https://github.com/Stork-Oracle/stork-external/blob/main/apps/docs/publisher_agent.md), an open-source application that can easily be deployed via a pre-built docker container. The publisher agent also handles signing and sending the data to Aggregators.
+Publishers make their data available to Aggregators, and by extension Subscribers, by running the[ Stork Publisher Agent](https://github.com/Stork-Oracle/stork-external/blob/main/apps/publisher_agent/README.md), an open-source application that can easily be deployed via a pre-built docker container. The publisher agent also handles signing and sending the data to Aggregators.
 
 Have data you want to contribute? Check out[ Becoming a Publisher](../getting-started/becoming-a-publisher.md) for more information.
 
@@ -93,7 +93,7 @@ The official Stork contracts are the on-chain components of Stork. These contrac
 * Updating relevant feeds upon submission and verification of a posted update.
 * Providing public interface functions to easily read the latest value for a feed from another smart contract.
 
-For more information on Stork’s smart-contracts, see the [API Reference](../api-reference/contract-apis/), the[ stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/contracts), or the [Contract Addresses](../resources/contract-addresses/) page.
+For more information on Stork’s smart-contracts, see the [API Reference](../api-reference/contract-apis/), the[ stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains), or the [Contract Addresses](../resources/contract-addresses/) page.
 
 ## Verifiability
 

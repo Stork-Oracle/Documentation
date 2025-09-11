@@ -5,6 +5,8 @@ icon: f
 
 # Fuel
 
+For documentation on interacting with these contracts in your contract, please see the [FUEL API Reference](../../api-reference/contract-apis/fuel.md).
+
 | Network | Address                                                                                                                                                                                 |
 | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [0x9c118ae13927dd51ba59c0370dc8c272a3b64ccd675950750c8840a649c81149](https://app.fuel.network/contract/0x9c118ae13927dd51ba59c0370dc8c272a3b64ccd675950750c8840a649c81149/transactions) |

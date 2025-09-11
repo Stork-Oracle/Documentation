@@ -3,22 +3,9 @@ description: >-
   This document describes the structure of the YAML configuration file used to
   define assets and their associated parameters for the Chain Pusher.
 icon: sliders-simple
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Asset Config YAML
-
-
 
 ## Overview
 
@@ -83,4 +70,4 @@ assets:
 
 ## Usage
 
-This configuration file is read by the [Chain Pusher](https://github.com/Stork-Oracle/stork-external/blob/main/apps/docs/chain_pusher.md) to determine which assets to pull from the aggregator and submit on-chain. Ensure that each `asset_id` is unique and correctly encoded using the Keccak256 hash to derive the `encoded_asset_id`. Supported Assets and their IDs are available in the [Asset ID Registry](../../resources/asset-id-registry.md). Misconfiguration can lead to unexpected behavior.
+This configuration file is read by the [Chain Pusher](https://github.com/Stork-Oracle/stork-external/blob/main/apps/chain_pusher/README.md) to determine which assets to pull from the aggregator and submit on-chain. Ensure that each `asset_id` is unique and correctly encoded using the Keccak256 hash to derive the `encoded_asset_id`. Supported Assets and their IDs are available in the [Asset ID Registry](../../resources/asset-id-registry.md). Misconfiguration can lead to unexpected behavior.

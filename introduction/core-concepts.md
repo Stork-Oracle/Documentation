@@ -1,8 +1,8 @@
 ---
-icon: reflect-both
 description: >-
   Understanding oracle models, Stork-specific data primitives, and Stork's
   advantages.
+icon: reflect-both
 ---
 
 # Core Concepts
@@ -72,7 +72,7 @@ Asset IDs are names for specific feeds of data. They are used throughout Stork t
 * Asset ID: `BTCUSD`
 * Encoded Asset ID: `keccak256("BTCUSD") => 0x7404e3d104ea7841c3d9e6fd20adfe99b4ad586bc08d8f3bd3afef894cf184de`
 
-For a full list of asset IDs and corresponding encodings, please see the[ Asset ID Registry](https://docs.stork.network/~/changes/suDzkkK15gqdfmjDKr9z/resources/asset-id-registry).
+For a full list of asset IDs and corresponding encodings, please see the[ Asset ID Registry](../resources/asset-id-registry.md).
 
 ## Prices
 

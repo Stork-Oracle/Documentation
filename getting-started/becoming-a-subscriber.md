@@ -1,6 +1,6 @@
 ---
-icon: download
 description: Consuming data from Stork.
+icon: download
 ---
 
 # Becoming a Subscriber
@@ -15,7 +15,7 @@ Anyone who has a need for high-frequency, high-accuracy, low-latency data can be
 
 Using data off-chain is as simple as listening to the [Aggregator](../introduction/how-it-works.md#aggregators) [websocket](../api-reference/websocket-api/) or hitting its [REST API](../api-reference/rest-api.md), and then using the update data in your application. Both APIs respond with JSON messages that have a top level field called `data` with the following structure:
 
-<pre><code><strong>{
+<pre class="language-json"><code class="lang-json"><strong>{
 </strong><strong>    "data": [
 </strong>        "&#x3C;plain-text asset id>": {
             "timestamp": &#x3C;unix timestamp>,

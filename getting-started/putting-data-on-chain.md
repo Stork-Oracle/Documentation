@@ -1,6 +1,6 @@
 ---
-icon: grid-dividers
 description: Various methods for putting off-chain Stork signed data on-chain.
+icon: grid-dividers
 ---
 
 # Putting Data On-Chain
@@ -12,7 +12,7 @@ In order for Stork signed data feeds to be usable in on-chain smart contracts, t
 
 ### Running the Chain Pusher
 
-The Chain Pusher is an application that handles the communication with an Aggregator and the on-chain stork contract automatically. Using a simple [asset config](../api-reference/chain-pusher-configs/asset-config-yaml.md) that defines which assets to write, and the triggers for writing them (time intervals, price change %s), the Chain Pusher allows a continuous stream of updates to be put on-chain with a single command. The Chain Pusher, and instructions for getting it running, can be found in the[ stork-external github repo](https://github.com/Stork-Oracle/stork-external/blob/main/apps/docs/chain_pusher.md).
+The Chain Pusher is an application that handles the communication with an Aggregator and the on-chain stork contract automatically. Using a simple [asset config](../api-reference/chain-pusher-configs/asset-config-yaml.md) that defines which assets to write, and the triggers for writing them (time intervals, price change %s), the Chain Pusher allows a continuous stream of updates to be put on-chain with a single command. The Chain Pusher, and instructions for getting it running, can be found in the[ stork-external github repo](https://github.com/Stork-Oracle/stork-external/blob/main/apps/chain_pusher/README.md).
 
 It's important to note that when using the Chain Pusher, the Subscriber is responsible for the gas fees associated with putting Stork data on-chain. These gas fees are split between all Subscribers running the Chain Pusher for the same asset based on percentage of update volume. Depending on the popularity of the asset(s), gas fees may vary.
 

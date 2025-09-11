@@ -7,7 +7,7 @@ icon: s
 
 ## SDK
 
-Solana contracts can program against [Stork's contract](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/solana) using the stork-solana-sdk rust crate available on [crates.io](https://crates.io/crates/stork-solana-sdk).  This SDK provides useful methods and structs for **reading** from stork price feed account. The Stork contract and SDK are built on top of [Anchor](https://github.com/coral-xyz/anchor).
+Solana contracts can program against [Stork's contract](https://github.com/Stork-Oracle/stork-external/tree/main/chains/solana/contracts) using the stork-solana-sdk rust crate available on [crates.io](https://crates.io/crates/stork-solana-sdk).  This SDK provides useful methods and structs for **reading** from stork price feed account. The Stork contract and SDK are built on top of [Anchor](https://github.com/coral-xyz/anchor).
 
 ### Installation
 
@@ -18,7 +18,7 @@ After setting up your Anchor project, add the stork-solana-sdk to your project d
 ```toml
 // Cargo.toml
 [dependencies]
-stork-solana-sdk = ">0.0.5"
+stork-solana-sdk = ">0.0.7"
 ```
 
 or the following command:
@@ -41,8 +41,8 @@ Documentation for the methods, structs, and constants provided by the stork-sola
 
 ### Examples
 
-Example usage of the stork-solana-sdk for consuming Stork prices can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/examples/solana).
+Example usage of the stork-solana-sdk for consuming Stork prices can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/solana/examples).
 
 ## Contract
 
-Stork's contract depends on the [stork-solana-sdk crate](https://crates.io/crates/stork-solana-sdk) and [Anchor](https://github.com/coral-xyz/anchor), and contains useful methods for **writing** to the Stork Config account, as well as Temporal Numeric Value Feed PDA accounts that represent Stork data feeds. The full source-code can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/solana). For the official deployments, please see the [Solana Contract Addresses](../../resources/contract-addresses/solana.md).
+Stork's contract depends on the [stork-solana-sdk crate](https://crates.io/crates/stork-solana-sdk) and [Anchor](https://github.com/coral-xyz/anchor), and contains useful methods for **writing** to the Stork Config account, as well as Temporal Numeric Value Feed PDA accounts that represent Stork data feeds. The full source-code can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/solana/contracts). For the official deployments, please see the [Solana Contract Addresses](../../resources/contract-addresses/solana.md).

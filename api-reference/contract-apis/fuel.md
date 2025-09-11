@@ -7,7 +7,7 @@ icon: f
 
 ## SDK
 
-Fuel contracts can program against [Stork's contract](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/fuel) using the stork\_sway\_sdk rust crate available on [forc.pub](https://forc.pub/package/stork_sway_sdk). This SDK provides useful methods and structs for interacting with the stork contract. The Stork contract and SDK are built with [Sway](https://docs.fuel.network/docs/sway/).
+Fuel contracts can program against [Stork's contract](https://github.com/Stork-Oracle/stork-external/tree/main/chains/fuel/contracts) using the stork\_sway\_sdk rust crate available on [forc.pub](https://forc.pub/package/stork_sway_sdk). This SDK provides useful methods and structs for interacting with the stork contract. The Stork contract and SDK are built with [Sway](https://docs.fuel.network/docs/sway/).
 
 ## Installation
 
@@ -18,13 +18,13 @@ After setting up your sway project, add the stork\_sway\_sdk to your project dep
 ```toml
 // Forc.toml
 [dependencies]
-stork_sway_sdk = "0.0.3"
+stork_sway_sdk = "0.0.5"
 ```
 
 or the following command:
 
 ```bash
-forc add stork_sway_sdk@0.0.3
+forc add stork_sway_sdk@0.0.5
 ```
 
 You can now import the stork sdk's interfaces with:
@@ -135,4 +135,4 @@ Retrieves the current version of the contract.
 
 ## Examples
 
-Example usage of the Stork Fuel contract and sdk can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/examples/fuel).
+Example usage of the Stork Fuel contract and sdk can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/fuel/examples).

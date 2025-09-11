@@ -1,13 +1,13 @@
 ---
-icon: circle-waveform-lines
 description: Programming API reference for the Stork Aptos contract.
+icon: circle-waveform-lines
 ---
 
 # Aptos
 
 ## SDK
 
-Aptos contracts can integrate with the [Stork contract](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/aptos) including it as a project dependency.
+Aptos contracts can integrate with the [Stork contract](https://github.com/Stork-Oracle/stork-external/tree/main/chains/aptos/contracts) including it as a project dependency.
 
 ## Installation
 
@@ -20,6 +20,11 @@ After setting up your Aptos Move project, add the Stork contract to your project
 [addresses]
 // other addresses ...
 stork = "<stork-address>"
+
+[dependencies.stork]
+git = "https://github.com/stork-oracle/stork-external.git"
+rev = "main"
+subdir = "chains/aptos/contracts"
 ```
 
 For the official Stork contract addresses, see [Aptos Contract Addresses](../../resources/contract-addresses/aptos.md).\
@@ -142,7 +147,7 @@ all belong to the same update.
 * `ss: vector<vector<u8>>`: S components of the signatures.
 * `vs: vector<u8>`: V components of the signatures.
 
-#### Behavior&#x20;
+#### Behavior
 
 * Validates that all input vectors have the same length.
 * Verifies the signature for each update using the Stork EVM public key.
@@ -212,7 +217,7 @@ public fun get_stork_evm_public_key(): EvmPubKey acquires StorkState
 
 #### Description
 
-View function that retrieves the stored EVM public key from the `StorkState`.&#x20;
+View function that retrieves the stored EVM public key from the `StorkState`.
 
 #### Returns
 
@@ -250,83 +255,4 @@ View function that checks whether or not the `StorkState` resource exists. This 
 
 ## Examples
 
-Example usage of the Stork Aptos contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/examples/aptos).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Example usage of the Stork Aptos contract can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/aptos/examples).

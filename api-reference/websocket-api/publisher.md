@@ -1,17 +1,6 @@
 ---
 description: Publishing data to a Stork Aggregator via WebSocket.
 icon: upload
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Publisher
@@ -58,7 +47,7 @@ wscat -c 'wss://api.jp.stork-oracle.network/stark/publish' -H "Authorization: Ba
 
 ### Publish Message
 
-```
+```json
 {
   "type": "signed_prices",
   "trace_id": string,

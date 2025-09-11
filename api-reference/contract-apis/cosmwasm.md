@@ -7,7 +7,7 @@ icon: solar-system
 
 ## SDK
 
-CosmWasm contracts can integrate with the [Stork contract](https://github.com/Stork-Oracle/stork-external/tree/main/contracts/cosmwasm) using the stork-cw rust crate available on [crates.io](https://crates.io/crates/stork-cw). This crate contains the full contract code, which can be used as an SDK by enabling the `library` feature. For more documentation, please also see the [docs.rs page](https://docs.rs/stork-cw/0.1.1/stork_cw/). The Stork contract / SDK are built on top of [Sylvia](https://docs.cosmwasm.com/sylvia). &#x20;
+CosmWasm contracts can integrate with the [Stork contract](https://github.com/Stork-Oracle/stork-external/tree/main/chains/cosmwasm/contracts) using the stork-cw rust crate available on [crates.io](https://crates.io/crates/stork-cw). This crate contains the full contract code, which can be used as an SDK by enabling the `library` feature. For more documentation, please also see the [docs.rs page](https://docs.rs/stork-cw/0.1.1/stork_cw/). The Stork contract / SDK are built on top of [Sylvia](https://docs.cosmwasm.com/sylvia). &#x20;
 
 ## Installation
 
@@ -18,7 +18,7 @@ After setting up your CosmWasm project, add the stork-cw crate to your project d
 ```toml
 // Cargo.toml
 [dependencies]
-stork-cw = { version = ">0.1.1", features = ["library"]
+stork-cw = { version = ">0.1.2", features = ["library"]
 ```
 
 or the following command:
@@ -160,55 +160,4 @@ Update the latest value of one or more assets based on the provided update value
 
 ## Examples
 
-Example usage of the Stork CosmWasm contract in both Sylvia and CosmWasm Core contracts can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/examples/aptos).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Example usage of the Stork CosmWasm contract in both Sylvia and CosmWasm Core contracts can be found in the [stork-external github repo](https://github.com/Stork-Oracle/stork-external/tree/main/chains/cosmwasm/examples).
