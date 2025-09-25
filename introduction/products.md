@@ -1,13 +1,13 @@
 ---
-icon: shelves
 description: Stork for Real Time, Options, StarkEx, and the Composite Oracle Service.
+icon: shelves
 ---
 
 # Products
 
 ### Stork for Real Time <a href="#docs-internal-guid-3dcde64a-7fff-735c-30d3-8dbb57e505e2" id="docs-internal-guid-3dcde64a-7fff-735c-30d3-8dbb57e505e2"></a>
 
-Stork for Real Time is an ultra low-latency, decentralized off and on-chain price feed designed for any chain. Stork for Real Time is powered by a decentralized network of data publishers, and signed with a cross-chain compatible signature.  Stork for Real Time prioritizes performance, using ultra-fast websockets to ensure data is available at the millisecond level, similar to the data used for trading in TradFi.
+Stork for Real Time is an ultra low-latency, decentralized off and on-chain price feed designed for any chain. Stork for Real Time is powered by a decentralized network of data publishers, and signed with a cross-chain compatible signature. Stork for Real Time prioritizes performance, using ultra-fast websockets to ensure data is available at the millisecond level, similar to the data used for trading in TradFi.
 
 Using an off-chain, decentralized feed gives protocols the ability to perform initial processing off-chain, and elect to only push on-chain the price updates that are relevant to their product. Since prices are signed in a chain-compatible way, protocols can use Stork’s Contract, or their own smart contract, to verify the feed on-chain, proving that the data is legitimate.
 
@@ -21,9 +21,10 @@ A Composite Oracle Service (COS) allows for modular and configurable custom [Agg
 
 For more information about how Stork’s core architecture enables COS, see [How It Works](how-it-works.md).
 
+### Auto Pushed Feeds
+
+Stork provides a service to automatically push data to any supported chain based on a configurable schedule and delta tolerance threshold. Protocols that only require on-chain data and want the simplest plug-and-play experience can request new feeds by reaching out to [sales@stork.network](mailto:sales@stork.network).
+
 {% hint style="info" %}
-Interested? Contact Stork Labs to determine appropriate feeds that meet your requirements.  [sales@stork.network](mailto:sales@stork.network) or [Twitter DMs](https://twitter.com/StorkOracle) open.
+Interested? Contact Stork Labs to determine appropriate feeds that meet your requirements. [sales@stork.network](mailto:sales@stork.network) or [Twitter DMs](https://twitter.com/StorkOracle) open.
 {% endhint %}
-
-
-
