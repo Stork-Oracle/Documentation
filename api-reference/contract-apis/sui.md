@@ -36,6 +36,12 @@ use stork::{<...>}
 
 Some functions, especially if they interact with the `StorkState` object, are considered "version gated". If the number in the version field if the passed `StorkState` is not the same as the `Version` constant in the code, the function will fail will `EIncorrectVersion`. This can occur when the Stork contract address being used is not pointing to the most recent update of the contract, and is a mechanism to protect against issues that may be present in old versions of the contract. Functions that are not directly version gated, but call version gated functions, are considered version gated.
 
+
+
+### Stork State Object
+
+Many functions require passing a reference to the `StorkState` object. We recommend deriving this address from the contract address in code, rather than hardcoding it anywhere. An example of this derivation can be found in the app in the example in [#examples](sui.md#examples "mention"). Though we recommend derivation, we also provide the address of the state object in [sui.md](../../resources/contract-addresses/sui.md "mention").
+
 ## stork::stork Methods
 
 ### Update Single Temporal Numeric Value EVM
