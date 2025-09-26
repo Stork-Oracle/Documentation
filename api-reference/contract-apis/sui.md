@@ -40,7 +40,7 @@ Some functions, especially if they interact with the `StorkState` object, are co
 
 ### Stork State Object
 
-Many functions require passing a reference to the `StorkState` object. We recommend deriving this address from the contract address in code, rather than hardcoding it anywhere. An example of this derivation can be found in the app in the example in [#examples](sui.md#examples "mention"). Though we recommend derivation, we also provide the address of the state object in [sui.md](../../resources/contract-addresses/sui.md "mention").
+Many functions require passing a reference to the `StorkState` object. We recommend deriving this address from the contract address in code, rather than hardcoding it anywhere. An example of this derivation can be found in the app in the example in [#examples](sui.md#examples "mention"). Though we recommend derivation, we also provide the address of the state object in the [Sui Contract Addresses page](../../resources/contract-addresses/sui.md).
 
 ## stork::stork Methods
 
