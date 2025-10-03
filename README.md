@@ -5,6 +5,8 @@ icon: bird
 
 # Welcome to Stork
 
+[![X Follow](https://img.shields.io/twitter/follow/StorkOracle?style=social)](https://x.com/StorkOracle)
+
 Stork is an oracle protocol that enables ultra-low latency connections between data providers and both on-chain and off-chain applications. The most common use case for Stork is pulling and consuming market data in the form of real-time price feeds for DeFi.
 
 The core technical principles of Stork are:
@@ -23,6 +25,4 @@ Chain deployments and asset additions are available upon request. For a complete
 
 To learn more about how Stork works, visit [Core Concepts](introduction/core-concepts.md) and [How It Works](introduction/how-it-works.md).
 
-{% hint style="info" %}
-Interested? Contact Stork Labs to determine appropriate feeds that meet your requirements. [sales@stork.network](mailto:sales@stork.network) or [X (formerly Twitter) DMs](https://x.com/StorkOracle) open.
-{% endhint %}
+> **Interested?** Contact Stork Labs to determine appropriate feeds that meet your requirements: [sales@stork.network](mailto:sales@stork.network) or [X DMs](https://x.com/StorkOracle) are open.
