@@ -5,6 +5,8 @@ icon: circle-waveform-lines
 
 # MiniMove
 
+For documentation on interacting with these contracts in your contract, please see the [Initia MiniMove API Reference](../../../api-reference/contract-apis/initia/minimove.md).
+
 | Network | Address                                                                                                                                                                                        |
 | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Mainnet | Coming soon...                                                                                                                                                                                 |
