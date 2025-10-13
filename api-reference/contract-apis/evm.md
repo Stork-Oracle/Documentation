@@ -29,7 +29,7 @@ After setting up your Hardhat project, add the stork-evm-sdk to your project dep
 or with the following command:
 
 ```bash
-npm i stork-evm-sdk
+npm i @storknetwork/stork-evm-sdk
 ```
 
 You can now import the sdk's interface and types with:
