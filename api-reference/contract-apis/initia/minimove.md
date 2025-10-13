@@ -24,7 +24,7 @@ stork = "<stork-address>"
 [dependencies.stork]
 git = "https://github.com/stork-oracle/stork-external.git"
 rev = "main"
-subdir = "chains/aptos/contracts"
+subdir = "chains/initia_minimove/contracts"
 ```
 
 For the official Stork contract addresses, see [Initia MiniMove Contract Addresses](../../../resources/contract-addresses/initia/minimove.md).\
