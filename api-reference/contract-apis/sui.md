@@ -7,7 +7,7 @@ icon: droplet
 
 ## SDK
 
-Sui contracts can integrate with the [Stork contract](https://github.com/Stork-Oracle/stork-external/tree/main/sui/contracts) by including it as a project dependency.
+Sui contracts can integrate with the [Stork contract](https://github.com/Stork-Oracle/stork-external/tree/main/chains/sui/contracts) by including it as a project dependency.
 
 ## Installation
 

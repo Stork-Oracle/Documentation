@@ -48,7 +48,7 @@ import "@storknetwork/stork-evm-sdk/StorkStructs.sol";
 
 ### Upgradeability
 
-The Stork contract is designed to be upgradeable using [OpenZeppelin's proxy pattern](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies). Ensure the proxy address remains consistent when interacting with the contract to avoid version mismatches.
+The Stork contract is designed to be upgradeable using [OpenZeppelin's proxy pattern](https://docs.openzeppelin.com/contracts/5.x/learn/upgrading-smart-contracts). Ensure the proxy address remains consistent when interacting with the contract to avoid version mismatches.
 
 ## Methods
 
