@@ -49,5 +49,6 @@
   * [Initia](resources/contract-addresses/initia/README.md)
     * [MiniMove](resources/contract-addresses/initia/minimove.md)
 * [Adapters](resources/adapters.md)
+* [First Party](resources/first-party.md)
 * [Public Keys](resources/public-keys.md)
 * [FAQ](resources/faq.md)
