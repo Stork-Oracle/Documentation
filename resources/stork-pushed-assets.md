@@ -19,6 +19,18 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | ----- | ------------- | ----- |
 | CF_LARGE_CAP_NAV_PER_SHARE | 3600s | 0.5% |
 
+## EDU Chain
+
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| BTCUSD | 3600s | 0.5% |
+| EDUUSD | 3600s | 0.5% |
+| ETHUSD | 3600s | 0.5% |
+| USDCUSD | 3600s | 0.5% |
+| USDTUSD | 3600s | 0.5% |
+
 ## Fuel
 
 ### Mainnet
