@@ -15,7 +15,7 @@ Stork First Party ingests [temporal numeric](../introduction/core-concepts.md#te
 
 ### Under the Hood
 
-In order to run First Party Stork, the user must provide their own custom data feed. The user then runs two distinct processes -&#x20;
+To run First Party Stork, the user must provide their own custom data feed. The user then runs two distinct processes:&#x20;
 
 1. Publisher Agent
    1. Ingests data from the provided custom data stream via WebSocket
@@ -25,7 +25,7 @@ In order to run First Party Stork, the user must provide their own custom data f
    1. Receives signed updates from Publisher Agent via WebSocket
    2. Pushes signed updates to the configured chain based on customizable staleness and delta thresholds
 
-Finally, the FirstPartyStork Contract verifies the signature, checks if the Publisher's public key is authorized, and stores the temporal numeric values. These values are keyed by the publisher public key and the Keccak-256 hash of the asset name.
+Finally, the FirstPartyStork Contract verifies the signature, checks if the Publisher's public key is authorized, and stores the temporal numeric values. These values are keyed by the publisher's public key and the Keccak-256 hash of the asset name.
 
 ## Get Started
 
@@ -35,13 +35,13 @@ Stork First Party is an application that bundles the [Publisher Agent](https://g
 
 Configuration is simple:
 
-* `publisher-config.json`: defines data source port and where signed data is forwarded
+* `publisher-config.json`: defines the data source port and where signed data is forwarded
 * `pusher-asset-config.yaml`: defines expected assets-publisher pairs and triggers (intervals, % changes)
 * `.env`: defines keys, oracle identifiers, and blockchain connection details
 
 &#x20;An `.env.example` is included for reference.
 
-It is recommend to run Stork First Party via Docker. All components are split into separate services. Docker profiles are included for convenience in the `docker-compose.yml`:
+It is recommended to run Stork First Party via Docker. All components are split into separate services. Docker profiles are included for convenience in the `docker-compose.yml`:
 
 * `first-party`: runs a Publisher and Pusher
 * `local`: runs a toy Data Provider, Publisher, Pusher, and local Contract
