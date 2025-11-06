@@ -113,6 +113,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
+| NACREDXUSD | 3600s | 0.5% |
 | NALPHAUSD | 3600s | 0.5% |
 | NBASISUSD | 3600s | 0.5% |
 | NCREDITUSD | 3600s | 0.5% |
@@ -122,6 +123,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | NPAYFIUSD | 3600s | 0.5% |
 | NTBILLUSD | 3600s | 0.5% |
 | NUSDYUSD | 3600s | 0.5% |
+| NWISDOMUSD | 3600s | 0.5% |
 | NYIELDUSD | 3600s | 0.5% |
 | PETHUSD_RR | 3600s | 0.5% |
 | PLUMEUSD | 3600s | 0.5% |
