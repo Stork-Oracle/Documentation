@@ -26,6 +26,12 @@ For documentation on interacting with these contracts in your contract, please s
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://arbiscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Sepolia | [0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627](https://sepolia.arbiscan.io/address/0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627) |
 
+## Arc
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.arcscan.app/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Avalanche
 
 | Network | Address |
