@@ -133,6 +133,14 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | WETHUSD | 3600s | 0.5% |
 | XAUMUSD | 3600s | 0.5% |
 
+## Sophon
+
+### ZKsync OS Testnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| SOPHUSD | 3600s | 0.5% |
+
 ## TAC
 
 ### Mainnet
