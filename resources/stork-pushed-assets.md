@@ -37,6 +37,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
+| ETHUSD | 3600s | 0.5% |
+| FUELUSD | 3600s | 0.5% |
 | STFUELUSD_RR | 3600s | 0.5% |
 
 ## Mitosis
@@ -67,6 +69,14 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | WETHUSD | 3600s | 0.5% |
 
 ## Monad
+
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| AUSDUSD | 3600s | 0.05% |
+| CBBTCUSD | 3600s | 0.05% |
+
 
 ### Testnet
 
@@ -132,6 +142,14 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | SUPEROETHPWETH_RR | 3600s | 0.5% |
 | WETHUSD | 3600s | 0.5% |
 | XAUMUSD | 3600s | 0.5% |
+
+## Sophon
+
+### ZKsync OS Testnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| SOPHUSD | 3600s | 0.5% |
 
 ## TAC
 
