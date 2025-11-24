@@ -86,7 +86,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | CAKEUSD | 3600s | 0.05% |
 | CBBTCUSD | 3600s | 0.05% |
 | DOGEUSD | 3600s | 0.05% |
-| EARNAUSDAUSD_RR | 3600s | 0.05% |
+| EARNAUSDAUSD_RR | 3600s | 0.5% |
 | ETHUSD | 3600s | 0.02% |
 | HYPEUSD | 3600s | 0.05% |
 | LINKUSD | 3600s | 0.05% |
