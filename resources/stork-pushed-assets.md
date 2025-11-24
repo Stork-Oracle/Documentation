@@ -37,6 +37,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
+| ETHUSD | 3600s | 0.5% |
+| FUELUSD | 3600s | 0.5% |
 | STFUELUSD_RR | 3600s | 0.5% |
 
 ## Mitosis
@@ -68,6 +70,51 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 ## Monad
 
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| AAVEUSD | 3600s | 0.05% |
+| ADAUSD | 3600s | 0.05% |
+| APTUSD | 3600s | 0.05% |
+| ARBUSD | 3600s | 0.05% |
+| AUSDUSD | 3600s | 0.05% |
+| AVAXUSD | 3600s | 0.05% |
+| BERAUSD | 3600s | 0.05% |
+| BNBUSD | 3600s | 0.05% |
+| BTCUSD | 3600s | 0.02% |
+| CAKEUSD | 3600s | 0.05% |
+| CBBTCUSD | 3600s | 0.05% |
+| DOGEUSD | 3600s | 0.05% |
+| EARNAUSDAUSD_RR | 3600s | 0.05% |
+| ETHUSD | 3600s | 0.02% |
+| HYPEUSD | 3600s | 0.05% |
+| LINKUSD | 3600s | 0.05% |
+| MONUSD | 3600s | 0.2% |
+| OPUSD | 3600s | 0.05% |
+| POLUSD | 3600s | 0.05% |
+| PYTHUSD | 3600s | 0.05% |
+| REDUSD | 3600s | 0.05% |
+| SBTCUSD | 3600s | 0.05% |
+| SEIUSD | 3600s | 0.05% |
+| SOLUSD | 3600s | 0.05% |
+| SUIUSD | 3600s | 0.05% |
+| SUSD | 3600s | 0.05% |
+| SUSDEUSD | 3600s | 0.05% |
+| TIAUSD | 3600s | 0.05% |
+| UNIUSD | 3600s | 0.05% |
+| USDCUSD | 3600s | 0.05% |
+| USDEUSD | 3600s | 0.05% |
+| USDTUSD | 3600s | 0.05% |
+| WBTCUSD | 3600s | 0.05% |
+| WEETHUSD | 3600s | 0.05% |
+| WETHUSD | 3600s | 0.05% |
+| WSTETHUSD | 3600s | 0.05% |
+| XAUUSD | 3600s | 0.05% |
+| XRPUSD | 3600s | 0.05% |
+| ZROUSD | 3600s | 0.05% |
+
+
 ### Testnet
 
 | Asset | Max Staleness | Delta |
@@ -84,6 +131,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | ETHUSD | 3600s | 0.02% |
 | HYPEUSD | 3600s | 0.05% |
 | LINKUSD | 3600s | 0.05% |
+| MONUSD | 3600s | 0.02% |
 | OPUSD | 3600s | 0.05% |
 | POLUSD | 3600s | 0.05% |
 | PYTHUSD | 3600s | 0.05% |
