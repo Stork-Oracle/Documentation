@@ -26,6 +26,12 @@ For documentation on interacting with these contracts in your contract, please s
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://arbiscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Sepolia | [0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627](https://sepolia.arbiscan.io/address/0x7Bb9740FdcbD91866CaFEd099C36445Ea8140627) |
 
+## Arc
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.arcscan.app/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Avalanche
 
 | Network | Address |
@@ -220,6 +226,7 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://megaexplorer.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| TestnetV2 | [0x376AdC2c9698E6F3A8Ad7a52810c5341dC7CDeF0](https://megaeth-testnet-v2.blockscout.com/address/0x376AdC2c9698E6F3A8Ad7a52810c5341dC7CDeF0) |
 
 ## Merlin
 
@@ -251,6 +258,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://mainnet-beta.monvision.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.monadexplorer.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## OP
