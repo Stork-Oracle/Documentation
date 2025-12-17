@@ -30,6 +30,9 @@ jobs:
           fi
 
       - name: Generate and compare tables
+        env:
+          STORK_REST_BASE_URL: ${{ secrets.STORK_REST_BASE_URL }}
+          STORK_AUTH_TOKEN: ${{ secrets.STORK_AUTH_TOKEN }}
         run: |
           # Create temporary directory for working files
           mkdir -p temp
@@ -42,7 +45,7 @@ jobs:
           fi
 
           # Generate new pushed assets table
-          curl -s "https://rest.jp.stork-oracle.network/v0/deployments/stork_pushed_assets" | jq -r '
+          curl -s "$STORK_REST_BASE_URL/v0/deployments/stork_pushed_assets" --header "Authorization: Basic $STORK_AUTH_TOKEN" | jq -r '
             .data | to_entries | sort_by(.key) | map(
               "## \(.key)\n" +
               (.value | to_entries | sort_by(.key) | map(
