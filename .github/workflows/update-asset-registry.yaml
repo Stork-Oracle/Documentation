@@ -16,25 +16,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Cache stork-asset CLI
-        uses: actions/cache@v3
-        with:
-          path: /usr/local/bin/stork-asset
-          key: stork-asset-cli-installation
-
-      - name: Install stork-asset CLI if not cached
+      - name: Install dependencies
         run: |
-          if [ ! -f /usr/local/bin/stork-asset ]; then
-            curl -fsSL https://raw.githubusercontent.com/HenryMBaldwin/stork-asset-cli/refs/heads/master/install.sh | sudo bash
-          fi
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r requirements.txt
 
       - name: Generate and compare tables
+        env:
+          STORK_REST_BASE_URL: ${{ secrets.STORK_REST_BASE_URL }}
+          STORK_AUTH_TOKEN: ${{ secrets.STORK_AUTH_TOKEN }}
         run: |
           # Create temporary directory for working files
           mkdir -p temp
           
           # Generate new asset table
-          stork-asset list --md -e > temp/new_asset_table.md
+          python3 src/scripts/get_asset_table.py > temp/new_asset_table.md
           
           # Extract just the table part from the existing file
           sed -n '/| Asset ID/,$p' resources/asset-id-registry.md | sed '/^$/q' > temp/existing_asset_table.md
