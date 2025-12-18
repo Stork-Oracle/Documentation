@@ -32,6 +32,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | ETHUSD | 3600s | 0.5% |
 | FUELUSD | 3600s | 0.5% |
 | STFUELUSD_RR | 3600s | 0.5% |
+| USDCUSD | 3600s | 0.5% |
 
 ## Mitosis
 
