@@ -18,11 +18,11 @@ layout:
 
 # REST API
 
-Instance level information for Stork Fast
+Instance-level information for Stork Fast
 
 ## Authentication
 
-All REST requests must include an `Authorization` header with the value set as `Basic <token>` . For example if your token is `gmork123`:
+All REST requests must include an `Authorization` header with the value set as `Basic <token>` . For example, if your token is `gmork123`:
 
 ```bash
 curl -X GET 'https://fast.jp.stork-oracle.network/v1/prices/assets' -H "Authorization: Basic gmork123"
@@ -38,7 +38,7 @@ Need a higher rate limit? Reach out to Stork. [sales@stork.network](mailto:sales
 
 ## Note
 
-This tool is meant to illustrate the structure of REST api responses, but unfortunately due to third party limitations, some loss of precision on large numbers may be experienced in the browser. If you wish to test the verifiability of Stork prices from the REST api, we recommend using CURL to view the raw response.
+This tool is meant to illustrate the structure of REST API responses, but unfortunately, due to third-party limitations, some loss of precision on large numbers may be experienced in the browser. If you wish to test the verifiability of Stork prices from the REST API, we recommend using CURL to view the raw response.
 
 
 
