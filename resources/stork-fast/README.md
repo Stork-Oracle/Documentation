@@ -1,5 +1,5 @@
 ---
-description: Ultra high-frequency low-latency oracl
+description: Ultra high-frequency low-latency oracle
 icon: forward
 ---
 
