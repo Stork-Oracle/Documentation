@@ -35,7 +35,7 @@ wss://fast.jp.stork-oracle.network
 
 ## Authentication <a href="#docs-internal-guid-f0db63fb-7fff-3116-d4a7-e3b22d6d2087" id="docs-internal-guid-f0db63fb-7fff-3116-d4a7-e3b22d6d2087"></a>
 
-All websocket connection requests must include an Authorization header with the value set as `Basic <token>`. For example, if your token is gmork123:
+All WebSocket connection requests must include an Authorization header with the value set as `Basic <token>`. For example, if your token is gmork123:
 
 ```bash
 wscat -c 'wss://fast.jp.stork-oracle.network/ws' -H "Authorization: Basic gmork123"
@@ -67,9 +67,7 @@ The `channel` query parameter specifies the channel Fast should send data to you
 
 **Message Type**
 
-The `message_type` query parameter determines the structure of the data coming from Fast. Fast currently supports two message types:
-
-<br>
+The `message_type` query parameter determines the structure of the data coming from Fast. Fast currently supports two message types:<br>
 
 * `unsigned`: An unsigned message type, primarily intended for human readability
 * `signed_ecdsa`: A verifiable message type including an ECDSA signature. Comprised of a single bit-packed payload for maximum on-chain efficiency. Not human-readable.
