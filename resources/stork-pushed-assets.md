@@ -159,6 +159,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | NELIXIRUSD | 3600s | 0.5% |
 | NETFUSD | 3600s | 0.5% |
 | NINSTOUSD | 3600s | 0.5% |
+| NOPALUSD | 3600s | 0.5% |
 | NPAYFIUSD | 3600s | 0.5% |
 | NTBILLUSD | 3600s | 0.5% |
 | NUSDYUSD | 3600s | 0.5% |
