@@ -226,6 +226,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
+| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://megaeth.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://megaexplorer.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | TestnetV2 | [0x376AdC2c9698E6F3A8Ad7a52810c5341dC7CDeF0](https://megaeth-testnet-v2.blockscout.com/address/0x376AdC2c9698E6F3A8Ad7a52810c5341dC7CDeF0) |
 
