@@ -95,6 +95,7 @@ jobs:
           commit-message: "Update Pushed Assets"
           title: "Update Pushed Assets"
           body: "Automated update of the Pushed Assets documentation"
+          author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
           branch: update-pushed-assets
           delete-branch: true
           base: main
