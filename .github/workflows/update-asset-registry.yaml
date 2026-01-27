@@ -58,6 +58,7 @@ jobs:
           commit-message: "Update Asset ID Registry"
           title: "Update Asset ID Registry"
           body: "Automated update of the Asset ID Registry"
+          author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
           branch: update-asset-registry
           delete-branch: true
           base: main
