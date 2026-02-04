@@ -367,6 +367,7 @@ More information on the types of feeds we support is available [here](../introdu
 | QQQM | 0xc86fba274bd8fae846cdb1311d7a37e5b5b279aab1168d64d69138e476fa5ef3 |
 | QQQM_24_5 | 0x831d12d13cdf7a8ba2604f66434ec115a011676d00b8dff4dad77ea479ea545d |
 | QQQ_24_5 | 0x7807e0d0300a7eafb097367787b5b026e0e70224bc8b2e22d39ef7e209781c1c |
+| RAILSUSD | 0x9e5d891768fe9cc4e9f5092386ebe782fed41d826a0e7d295c7de68b80ca5416 |
 | RAYUSD | 0xfeabad5f3abe0762d4cb348300df1f211a13d7e7fc6d88d59028b5fb9f5d5525 |
 | REDUSD | 0x7dfc788a1dc29f8559bcbf976dba1921ea21f3c18811aec678bd350f42229e38 |
 | RENDERUSD | 0xec1b3b6672fd8a1be34c0a7f392657f26a0e4c41f553053169cb1ddcd9a14b57 |
