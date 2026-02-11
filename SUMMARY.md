@@ -54,5 +54,6 @@
   * [Core Concepts](resources/stork-fast/core-concepts.md)
   * [Websocket API](resources/stork-fast/websocket-api.md)
   * [REST API](resources/stork-fast/rest-api.md)
+  * [Contract API](resources/stork-fast/contract-api.md)
 * [Public Keys](resources/public-keys.md)
 * [FAQ](resources/faq.md)
