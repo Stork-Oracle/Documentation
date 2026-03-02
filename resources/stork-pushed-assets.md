@@ -29,10 +29,12 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
+| BTCUSD | 3600s | 0.5% |
 | ETHUSD | 3600s | 0.5% |
 | FUELUSD | 3600s | 0.5% |
 | STFUELUSD_RR | 3600s | 0.5% |
 | USDCUSD | 3600s | 0.5% |
+| USDTUSD | 3600s | 0.5% |
 
 ## Mitosis
 
@@ -179,49 +181,51 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
-| 1000PEPEUSD | 1s | 0.5% |
-| 1000PEPEUSDMARK | 1s | 0.5% |
-| AAVEUSD | 1s | 0.5% |
-| AAVEUSDMARK | 1s | 0.5% |
-| BNBUSD | 1s | 0.5% |
-| BNBUSDMARK | 1s | 0.5% |
-| BTCUSD | 1s | 0.5% |
-| BTCUSDMARK | 1s | 0.5% |
-| COIN_24_5 | 1s | 0.5% |
-| DOGEUSD | 1s | 0.5% |
-| DOGEUSDMARK | 1s | 0.5% |
-| ETHUSD | 1s | 0.5% |
-| ETHUSDMARK | 1s | 0.5% |
-| HOOD_24_5 | 1s | 0.5% |
-| HYPEUSD | 1s | 0.5% |
-| HYPEUSDMARK | 1s | 0.5% |
-| LINKUSD | 1s | 0.5% |
-| LINKUSDMARK | 1s | 0.5% |
-| LITUSD | 1s | 0.5% |
-| LITUSDMARK | 1s | 0.5% |
-| LTCUSD | 1s | 0.5% |
-| LTCUSDMARK | 1s | 0.5% |
-| MNTUSD | 1s | 0.5% |
-| MNTUSDMARK | 1s | 0.5% |
-| PENGUUSD | 1s | 0.5% |
-| PENGUUSDMARK | 1s | 0.5% |
-| PUMPUSD | 1s | 0.5% |
-| PUMPUSDMARK | 1s | 0.5% |
-| SOLUSD | 1s | 0.5% |
-| SOLUSDMARK | 1s | 0.5% |
-| SPY_24_5 | 1s | 0.5% |
-| TAOUSD | 1s | 0.5% |
-| TAOUSDMARK | 1s | 0.5% |
-| USDCUSD | 1s | 0.5% |
-| WETHUSD | 1s | 0.5% |
-| XAGUSD | 1s | 0.5% |
-| XAUUSD | 1s | 0.5% |
-| XMRUSD | 1s | 0.5% |
-| XMRUSDMARK | 1s | 0.5% |
-| XRPUSD | 1s | 0.5% |
-| XRPUSDMARK | 1s | 0.5% |
-| ZECUSD | 1s | 0.5% |
-| ZECUSDMARK | 1s | 0.5% |
+| 1000PEPEUSD | 300s | 0.5% |
+| 1000PEPEUSDMARK | 300s | 0.5% |
+| AAVEUSD | 300s | 0.5% |
+| AAVEUSDMARK | 300s | 0.5% |
+| BNBUSD | 300s | 0.5% |
+| BNBUSDMARK | 300s | 0.5% |
+| BTCUSD | 300s | 0.5% |
+| BTCUSDMARK | 300s | 0.5% |
+| COIN_24_5 | 300s | 0.5% |
+| DOGEUSD | 300s | 0.5% |
+| DOGEUSDMARK | 300s | 0.5% |
+| ETHUSD | 300s | 0.5% |
+| ETHUSDMARK | 300s | 0.5% |
+| HOOD_24_5 | 300s | 0.5% |
+| HYPEUSD | 300s | 0.5% |
+| HYPEUSDMARK | 300s | 0.5% |
+| LINKUSD | 300s | 0.5% |
+| LINKUSDMARK | 300s | 0.5% |
+| LITUSD | 300s | 0.5% |
+| LITUSDMARK | 300s | 0.5% |
+| LTCUSD | 300s | 0.5% |
+| LTCUSDMARK | 300s | 0.5% |
+| MNTUSD | 300s | 0.5% |
+| MNTUSDMARK | 300s | 0.5% |
+| NVDA_24_5 | 300s | 0.5% |
+| PENGUUSD | 300s | 0.5% |
+| PENGUUSDMARK | 300s | 0.5% |
+| PUMPUSD | 300s | 0.5% |
+| PUMPUSDMARK | 300s | 0.5% |
+| SOLUSD | 300s | 0.5% |
+| SOLUSDMARK | 300s | 0.5% |
+| SPY_24_5 | 300s | 0.5% |
+| TAOUSD | 300s | 0.5% |
+| TAOUSDMARK | 300s | 0.5% |
+| TSLA_24_5 | 300s | 0.5% |
+| USDCUSD | 300s | 0.5% |
+| WETHUSD | 300s | 0.5% |
+| XAGUSD | 300s | 0.5% |
+| XAUUSD | 300s | 0.5% |
+| XMRUSD | 300s | 0.5% |
+| XMRUSDMARK | 300s | 0.5% |
+| XRPUSD | 300s | 0.5% |
+| XRPUSDMARK | 300s | 0.5% |
+| ZECUSD | 300s | 0.5% |
+| ZECUSDMARK | 300s | 0.5% |
 
 ## TAC
 
@@ -229,4 +233,5 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
+| LBTCBTC_RR | 3600s | 0.5% |
 | SUSNUSD | 21600s | 1% |
