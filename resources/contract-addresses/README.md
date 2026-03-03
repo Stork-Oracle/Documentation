@@ -32,3 +32,6 @@ icon: link-horizontal
 [fuel.md](fuel.md)
 {% endcontent-ref %}
 
+{% content-ref url="initia/" %}
+[initia](initia/)
+{% endcontent-ref %}
