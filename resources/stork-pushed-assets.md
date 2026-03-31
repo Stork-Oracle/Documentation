@@ -244,7 +244,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | ----- | ------------- | ----- |
 | BTCUSD | 3600s | 0.5% |
 | ETHUSD | 3600s | 0.5% |
-| STZIGUSD_RR | 3600s | 0.5% |
+| STZIGUSD_RR | 1800s | 0.5% |
 | USDCUSD | 3600s | 0.5% |
 | ZIGSTZIG_RR | 3600s | 0.5% |
 | ZIGUSD | 1800s | 0.5% |
