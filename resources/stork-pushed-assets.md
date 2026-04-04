@@ -36,6 +36,14 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | USDCUSD | 3600s | 0.5% |
 | USDTUSD | 3600s | 0.5% |
 
+## HyperEVM
+
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| SUSNUSN_RR | 3600s | 0.5% |
+
 ## Mitosis
 
 ### Dognet
