@@ -1,20 +1,6 @@
 ---
 description: Contract Addresses for Solana/SVM chains
 icon: s
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Solana / SVM
@@ -33,4 +19,3 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address                                                                                                                       |
 | ------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Testnet | [stork1JUZMKYgjNagHiK2KdMmb42iTnYe9bYUCDUk8n](https://explorer.atlas.xyz/address/stork1JUZMKYgjNagHiK2KdMmb42iTnYe9bYUCDUk8n) |
-

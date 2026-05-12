@@ -1,19 +1,8 @@
 ---
-icon: key
 description: >-
   This document describes the structure and usage of the keys. JSON file used by
   the Stork Publisher Agent.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
+icon: key
 ---
 
 # Keys JSON

@@ -6,7 +6,6 @@
 * [Core Concepts](introduction/core-concepts.md)
 * [How It Works](introduction/how-it-works.md)
 * [Products](introduction/products.md)
-* [24/7 Price Feeds](introduction/24-7-price-feeds.md)
 
 ## Getting Started
 
@@ -50,6 +49,7 @@
   * [Initia](resources/contract-addresses/initia/README.md)
     * [MiniMove](resources/contract-addresses/initia/minimove.md)
 * [Adapters](resources/adapters.md)
+* [24/7 Price Feeds](resources/24-7-price-feeds.md)
 * [First Party](resources/first-party.md)
 * [Stork Fast](resources/stork-fast/README.md)
   * [Core Concepts](resources/stork-fast/core-concepts.md)

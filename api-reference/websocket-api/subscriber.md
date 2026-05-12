@@ -1,17 +1,6 @@
 ---
 description: Listening to data from a Stork Aggregator via WebSocket.
 icon: download
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Subscriber
@@ -73,7 +62,7 @@ Subscribe to receive the stream of signed updates for assets.
 #### **Fields:**
 
 * `"type"`: Type of the message. In this case `"subscribe"`
-* `"data"`: An array of plain-text [assets ids](../../introduction/core-concepts.md#asset-ids).&#x20;
+* `"data"`: An array of plain-text [assets ids](../../introduction/core-concepts.md#asset-ids).
 
 #### **Example:**
 
@@ -586,7 +575,7 @@ Response containing the resulting list of subscriptions.
 #### **Fields:**
 
 * `"type"`: Type of message. In this case `"unsubscribe"`.
-* `"data"`:&#x20;
+* `"data"`:
   * `"subscriptions"`: Updated list of plain-text asset ids you are subscribed to.
 
 #### **Example:**

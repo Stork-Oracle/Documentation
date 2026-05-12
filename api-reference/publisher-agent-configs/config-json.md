@@ -1,19 +1,8 @@
 ---
-icon: sliders-simple
 description: >-
   This document describes the structure and usage of the config JSON file used
   by the Stork Publisher Agent.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
+icon: sliders-simple
 ---
 
 # Config JSON
@@ -176,6 +165,3 @@ The `config.json` file contains non-secret configuration settings for the Publis
   "PullBasedWsReadTimeout": "10s",
 }
 ```
-
-
-

@@ -1,21 +1,8 @@
 ---
 icon: message-question
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # FAQ
-
-
 
 <details>
 
@@ -54,7 +41,7 @@ Secondly, Stork uses multiple decentralized publishers feeding data to the Aggre
 
 <summary>How often do price feeds update in the Aggregator?</summary>
 
-Stork Aggregators are blazingly fast. Though configurable through the [COS](../introduction/products.md#composite-oracle-service), Aggregators typically update every 500ms at the slowest, and on the order of sub 10ms at the fastest during periods of high volatility. For more information, see [How It Works.](../introduction/how-it-works.md#aggregators)&#x20;
+Stork Aggregators are blazingly fast. Though configurable through the [COS](../introduction/products.md#composite-oracle-service), Aggregators typically update every 500ms at the slowest, and on the order of sub 10ms at the fastest during periods of high volatility. For more information, see [How It Works.](../introduction/how-it-works.md#aggregators)
 
 </details>
 
@@ -62,9 +49,9 @@ Stork Aggregators are blazingly fast. Though configurable through the [COS](../i
 
 <summary>How is Stork decentralized?</summary>
 
-Stork uses a decentralized network of independent publishers that contribute data to Stork. This enables decentralization and protects against pitfalls of a single point of failure.&#x20;
+Stork uses a decentralized network of independent publishers that contribute data to Stork. This enables decentralization and protects against pitfalls of a single point of failure.
 
-Stork also supports direct access to publisher data in the unlikely event of downtime. For details, please reach out to [sales@stork.network](mailto:sales@stork.network). &#x20;
+Stork also supports direct access to publisher data in the unlikely event of downtime. For details, please reach out to [sales@stork.network](mailto:sales@stork.network).
 
 For more information, see [How It Works](../introduction/how-it-works.md#publishers).
 
