@@ -49,13 +49,13 @@ Stork's 24/7 Perpetual Swap Oracle Price Feeds are configurable to be more or le
 
 The following parameters control Oracle Price responsiveness to changes in the constituent order books.
 
-1. Impact Size ($N$): a manipulation-resistant alternative to the midpoint price, the live order book Impact Price $P_{Impact}$ is equal to the price at which a given notional size $N$ can be executed in the existing order book. A lower $N$ heightens the oracle's responsiveness to order book activity.
+1. Impact Size ($$N$$): a manipulation-resistant alternative to the midpoint price, the live order book Impact Price $$P_{Impact}$$ is equal to the price at which a given notional size $$N$$ can be executed in the existing order book. A lower $$N$$ heightens the oracle's responsiveness to order book activity.
 
 $$P_{impactBid}(N) = \frac{N}{Q_{bid}(N)}$$
 
 $$P_{impactAsk}(N) = \frac{N}{Q_{ask}(N)}$$
 
-2.  EMA Window ($\tau$): The oracle applies a time-decay EMA with a configured time constant $\tau$ on top of each live order book Impact Price from constituent markets.
+2.  EMA Window ($$\tau$$): The oracle applies a time-decay EMA with a configured time constant $$\tau$$ on top of each live order book Impact Price from constituent markets.
 
     a. On the very first deploy, this value is initialized to the starting Venue Price:
 
@@ -68,10 +68,10 @@ $$P_{impactAsk}(N) = \frac{N}{Q_{ask}(N)}$$
     $$VenueEMA_{i} = \alpha \cdot VenueEMA_{i-1} + (1 - \alpha) \cdot Venue_{i}$$
 
     Shorter windows are more responsive to order book activity; an EMA over any time window improves the price's resistance to manipulation on the underlying market.
-3.  Traditional Venue Price Weight ($W$): A more restrictive oracle sets a greater Traditional Venue Price $P_{trad}$ weight $W$, muting Oracle Price $P_{oracle}$ responsiveness to the off-hours Venue Price $P_{off\text{-}hours}$.
+3.  Traditional Venue Price Weight ($$W$$): A more restrictive oracle sets a greater Traditional Venue Price $$P_{trad}$$ weight $$W$$, muting Oracle Price $$P_{oracle}$$ responsiveness to the off-hours Venue Price $$P_{off\text{-}hours}$$.
 
     $$P_{oracle} = W \cdot P_{trad} + (1 - W) \cdot P_{off\text{-}hours}$$
-4. Deviation Cap ($C$): a maximum percent change versus the traditional market close price limits the potential damage of manipulation in underlying markets. The Oracle Price will go flat once it moves more than $C$ basis points higher or lower than the traditional market close. Deviation Cap can be set fairly large as a backstop against extreme cases; if real world events occur which cause true large price changes, caps may unfairly increase funding for smart traders.
+4. Deviation Cap ($$C$$): a maximum percent change versus the traditional market close price limits the potential damage of manipulation in underlying markets. The Oracle Price will go flat once it moves more than $$C$$ basis points higher or lower than the traditional market close. Deviation Cap can be set fairly large as a backstop against extreme cases; if real world events occur which cause true large price changes, caps may unfairly increase funding for smart traders.
 
 ## A Note on Customization
 
