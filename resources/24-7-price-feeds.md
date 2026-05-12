@@ -26,7 +26,7 @@ For each constituent market, the update logic looks like this:
 
 * On the very first deploy, compute the Impact Bid and Impact Ask prices for the configured impact size. Set the initial Venue Price to:
 
-$$Venue_{0} = (ImpactBid_{0} + ImpactAsk_{0}) / 2$$
+    $$Venue_{0} = (ImpactBid_{0} + ImpactAsk_{0}) / 2$$
 
 * Each time the order book changes, update the Venue Price based on the updated Impact Bid and Impact Ask prices as well as the last Venue Price:
   * $$\text{if } ImpactBid_{i} > Venue_{i-1} \text{ then } Venue_{i} = ImpactBid_{i}$$
@@ -51,9 +51,9 @@ The following parameters control Oracle Price responsiveness to changes in the c
 
 1. Impact Size ($$N$$): a manipulation-resistant alternative to the midpoint price, the live order book Impact Price $$P_{Impact}$$ is equal to the price at which a given notional size $$N$$ can be executed in the existing order book. A lower $$N$$ heightens the oracle's responsiveness to order book activity.
 
-$$P_{impactBid}(N) = \frac{N}{Q_{bid}(N)}$$
+    $$P_{impactBid}(N) = \frac{N}{Q_{bid}(N)}$$
 
-$$P_{impactAsk}(N) = \frac{N}{Q_{ask}(N)}$$
+    $$P_{impactAsk}(N) = \frac{N}{Q_{ask}(N)}$$
 
 2.  EMA Window ($$\tau$$): The oracle applies a time-decay EMA with a configured time constant $$\tau$$ on top of each live order book Impact Price from constituent markets.
 
