@@ -185,6 +185,57 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 ## RISE
 
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| 1000PEPEUSD | 0.5s | 0.5% |
+| 1000PEPEUSDMARK | 0.5s | 0.5% |
+| AAVEUSD | 0.5s | 0.5% |
+| AAVEUSDMARK | 0.5s | 0.5% |
+| BNBUSD | 0.5s | 0.5% |
+| BNBUSDMARK | 0.5s | 0.5% |
+| BTCUSD | 0.5s | 0.5% |
+| BTCUSDMARK | 0.5s | 0.5% |
+| COIN_24_5 | 0.5s | 0.5% |
+| DOGEUSD | 0.5s | 0.5% |
+| DOGEUSDMARK | 0.5s | 0.5% |
+| ETHUSD | 0.5s | 0.5% |
+| ETHUSDMARK | 0.5s | 0.5% |
+| HOOD_24_5 | 0.5s | 0.5% |
+| HYPEUSD | 0.5s | 0.5% |
+| HYPEUSDMARK | 0.5s | 0.5% |
+| LINKUSD | 0.5s | 0.5% |
+| LINKUSDMARK | 0.5s | 0.5% |
+| LITUSD | 0.5s | 0.5% |
+| LITUSDMARK | 0.5s | 0.5% |
+| LTCUSD | 0.5s | 0.5% |
+| LTCUSDMARK | 0.5s | 0.5% |
+| MNTUSD | 0.5s | 0.5% |
+| MNTUSDMARK | 0.5s | 0.5% |
+| NVDA_24_5 | 0.5s | 0.5% |
+| PENGUUSD | 0.5s | 0.5% |
+| PENGUUSDMARK | 0.5s | 0.5% |
+| PUMPUSD | 0.5s | 0.5% |
+| PUMPUSDMARK | 0.5s | 0.5% |
+| SOLUSD | 0.5s | 0.5% |
+| SOLUSDMARK | 0.5s | 0.5% |
+| SPY_24_5 | 0.5s | 0.5% |
+| TAOUSD | 0.5s | 0.5% |
+| TAOUSDMARK | 0.5s | 0.5% |
+| TSLA_24_5 | 0.5s | 0.5% |
+| USDCUSD | 0.5s | 0.5% |
+| WETHUSD | 0.5s | 0.5% |
+| XAGUSD | 0.5s | 0.5% |
+| XAUUSD | 0.5s | 0.5% |
+| XMRUSD | 0.5s | 0.5% |
+| XMRUSDMARK | 0.5s | 0.5% |
+| XRPUSD | 0.5s | 0.5% |
+| XRPUSDMARK | 0.5s | 0.5% |
+| ZECUSD | 0.5s | 0.5% |
+| ZECUSDMARK | 0.5s | 0.5% |
+
+
 ### Testnet
 
 | Asset | Max Staleness | Delta |
