@@ -6,6 +6,7 @@
 * [Core Concepts](introduction/core-concepts.md)
 * [How It Works](introduction/how-it-works.md)
 * [Products](introduction/products.md)
+* [24/7 Price Feeds](introduction/24-7-price-feeds.md)
 
 ## Getting Started
 

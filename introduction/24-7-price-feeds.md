@@ -33,7 +33,7 @@ to a Perpetual Swap Oracle Price Feed. This feed is computed by:
 5.  Applying a cap function on top of the final adjusted price, limiting
     drift from the traditional market close.
 
-![](./247-oracle-framework.png)
+<figure><img src="../.gitbook/assets/247-oracle-framework.png" alt=""><figcaption></figcaption></figure>
 
 The oracle listens to multiple constituent venues, calculating an Impact
 Bid and Impact Ask price for each, and updating a Venue Price for each
