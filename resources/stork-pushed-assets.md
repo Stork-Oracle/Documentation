@@ -19,6 +19,14 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
 
+## Berachain
+
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| SUSNUSN_RR | 3600s | 0.5% |
+
 ## EDU Chain
 
 ### Mainnet
