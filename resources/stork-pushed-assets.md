@@ -18,6 +18,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
+| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
 
 ## Berachain
 
@@ -26,6 +27,16 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
+| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
+
+## Citrea
+
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| SUSNUSN_RR | 3600s | 0.5% |
+| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
 
 ## EDU Chain
 
@@ -59,6 +70,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
+| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
 
 ## Mitosis
 
@@ -180,13 +192,20 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | ----- | ------------- | ----- |
 | NACREDXUSD | 3600s | 0.5% |
 | NALPHAUSD | 3600s | 0.5% |
+| NAXIUSD | 3600s | 0.5% |
 | NBASISUSD | 3600s | 0.5% |
+| NCLOAUSD | 3600s | 0.5% |
 | NCREDITUSD | 3600s | 0.5% |
 | NELIXIRUSD | 3600s | 0.5% |
 | NETFUSD | 3600s | 0.5% |
+| NETHERFIUSD | 3600s | 0.5% |
+| NFALCONUSD | 3600s | 0.5% |
+| NFBNDUSD | 3600s | 0.5% |
 | NINSTOUSD | 3600s | 0.5% |
+| NLCRDUSD | 3600s | 0.5% |
 | NOPALUSD | 3600s | 0.5% |
 | NPAYFIUSD | 3600s | 0.5% |
+| NPERENAUSD | 3600s | 0.5% |
 | NTBILLUSD | 3600s | 0.5% |
 | NUSDYUSD | 3600s | 0.5% |
 | NWISDOMUSD | 3600s | 0.5% |
@@ -265,6 +284,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | USDCUSD | 0.5s | 0.5% |
 | VVVUSDC | 0.5s | 0.5% |
 | VVVUSDCMARK | 0.5s | 0.5% |
+| WBTCUSD | 3600s | 0.5% |
 | WBTCUSDC | 0.5s | 0.5% |
 | WETHUSD | 0.5s | 0.5% |
 | XAGUSD | 0.5s | 0.5% |
