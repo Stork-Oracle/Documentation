@@ -18,7 +18,6 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
-| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
 
 ## Berachain
 
@@ -27,7 +26,16 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
-| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
+
+## Citrea
+
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| BTCUSD | 21600s | 0.5% |
+| CTUSDUSDC_RR | 21600s | 0.5% |
+| SUSNUSN_RR | 3600s | 0.5% |
 
 ## EDU Chain
 
@@ -61,7 +69,6 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
-| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
 
 ## Mitosis
 
@@ -218,7 +225,11 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | 1000PEPEUSD | 0.5s | 0.5% |
 | 1000PEPEUSDMARK | 0.5s | 0.5% |
 | AAVEUSD | 0.5s | 0.5% |
+| AAVEUSDC | 0.5s | 0.5% |
+| AAVEUSDCMARK | 0.5s | 0.5% |
 | AAVEUSDMARK | 0.5s | 0.5% |
+| AEROUSDC | 0.5s | 0.5% |
+| AEROUSDCMARK | 0.5s | 0.5% |
 | BNBUSD | 0.5s | 0.5% |
 | BNBUSDC | 0.5s | 0.5% |
 | BNBUSDCMARK | 0.5s | 0.5% |
@@ -299,7 +310,11 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | 1000PEPEUSD | 1s | 0.5% |
 | 1000PEPEUSDMARK | 1s | 0.5% |
 | AAVEUSD | 1s | 0.5% |
+| AAVEUSDC | 1s | 0.5% |
+| AAVEUSDCMARK | 1s | 0.5% |
 | AAVEUSDMARK | 1s | 0.5% |
+| AEROUSDC | 1s | 0.5% |
+| AEROUSDCMARK | 1s | 0.5% |
 | BNBUSD | 1s | 0.5% |
 | BNBUSDC | 1s | 0.5% |
 | BNBUSDCMARK | 1s | 0.5% |
