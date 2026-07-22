@@ -25,3 +25,11 @@ layout:
 {% openapi-operation spec="stork-fast-from-endpoint" path="/v1/taxonomy" method="get" %}
 [OpenAPI stork-fast-from-endpoint](https://fast.jp.stork-oracle.network/openapi.yaml)
 {% endopenapi-operation %}
+
+{% openapi-operation spec="stork-fast-from-endpoint" path="/v1/prices/latest" method="get" %}
+[OpenAPI stork-fast-from-endpoint](https://fast.jp.stork-oracle.network/openapi.yaml)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="stork-fast-from-endpoint" path="/v1/market_status" method="get" %}
+[OpenAPI stork-fast-from-endpoint](https://fast.jp.stork-oracle.network/openapi.yaml)
+{% endopenapi-operation %}
