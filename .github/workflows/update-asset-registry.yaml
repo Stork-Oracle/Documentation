@@ -22,9 +22,6 @@ jobs:
           python3 -m pip install -r requirements.txt
 
       - name: Generate and compare tables
-        env:
-          STORK_REST_BASE_URL: ${{ secrets.STORK_REST_BASE_URL }}
-          STORK_AUTH_TOKEN: ${{ secrets.STORK_AUTH_TOKEN }}
         run: |
           # Create temporary directory for working files
           mkdir -p temp
