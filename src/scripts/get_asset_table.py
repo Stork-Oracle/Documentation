@@ -2,7 +2,8 @@ from Crypto.Hash import keccak
 import os
 import requests
 
-TABLE_HEADERS = ["Asset ID", "Encoded Asset ID"]
+PUBLIC_REST_BASE_URL = "https://public-rest.jp.stork-oracle.network"
+TABLE_HEADERS = ["Asset ID", "Category", "Encoded Asset ID"]
 
 
 def keccak256(data: str) -> str:
@@ -12,29 +13,27 @@ def keccak256(data: str) -> str:
 
 
 def markdown_table(table_headers, rows):
-    header_row = f"| {table_headers[0]} | {table_headers[1]} |"
-    separator = f"|{'-' * (len(table_headers[0]) + 2)}|{'-' * (len(table_headers[1]) + 2)}|"
+    header_row = "| " + " | ".join(table_headers) + " |"
+    separator = "|" + "|".join("-" * (len(h) + 2) for h in table_headers) + "|"
 
-    data_rows = [
-        f"| {col1} | {col2} |"
-        for col1, col2 in rows
-    ]
+    data_rows = ["| " + " | ".join(row) + " |" for row in rows]
 
     return "\n".join([header_row, separator, *data_rows])
 
 
-def build_asset_md_table(stork_rest_base_url, stork_auth_token):
-    resp = requests.get(f"{stork_rest_base_url}/v1/prices/assets", headers={"Authorization": f"Basic {stork_auth_token}"})
+def build_asset_md_table(stork_rest_base_url):
+    resp = requests.get(f"{stork_rest_base_url}/v1/assets")
     resp.raise_for_status()
-    resp_obj = resp.json()
-    asset_ids = resp_obj["data"]
+    assets = resp.json()["data"]
 
-    rows = [(asset_id, keccak256(asset_id)) for asset_id in asset_ids]
+    rows = [
+        (asset["asset_id"], asset["category"], keccak256(asset["asset_id"]))
+        for asset in sorted(assets, key=lambda a: a["asset_id"])
+    ]
 
     return markdown_table(TABLE_HEADERS, rows)
 
 
 if __name__ == "__main__":
-    stork_rest_base_url = os.getenv("STORK_REST_BASE_URL")
-    stork_auth_token = os.getenv("STORK_AUTH_TOKEN")
-    print(build_asset_md_table(stork_rest_base_url, stork_auth_token))
+    stork_rest_base_url = os.getenv("STORK_PUBLIC_REST_BASE_URL", PUBLIC_REST_BASE_URL)
+    print(build_asset_md_table(stork_rest_base_url))
