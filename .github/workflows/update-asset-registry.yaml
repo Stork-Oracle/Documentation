@@ -29,8 +29,8 @@ jobs:
           # Generate new asset table
           python3 src/scripts/get_asset_table.py > temp/new_asset_table.md
           
-          # Extract just the table part from the existing file
-          sed -n '/| Asset ID/,$p' resources/asset-id-registry.md | sed '/^$/q' > temp/existing_asset_table.md
+          # Extract the generated category sections (everything from the first ## heading)
+          sed -n '/^## /,$p' resources/asset-id-registry.md > temp/existing_asset_table.md
           
           # Compare the tables
           diff_output=$(diff temp/new_asset_table.md temp/existing_asset_table.md || true)
@@ -42,7 +42,7 @@ jobs:
         if: env.diff_output != ''
         run: |
           # Preserve the header of the original file
-          sed '/| Asset ID/,$d' resources/asset-id-registry.md > temp/temp_file.md
+          sed '/^## /,$d' resources/asset-id-registry.md > temp/temp_file.md
           cat temp/new_asset_table.md >> temp/temp_file.md
           mv temp/temp_file.md resources/asset-id-registry.md
           rm -rf temp
