@@ -300,14 +300,13 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | XRPUSDC | 0.5s | 0.5% |
 | XRPUSDCMARK | 0.5s | 0.5% |
 
-## TAC
+## Sui
 
 ### Mainnet
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
-| LBTCBTC_RR | 3600s | 0.5% |
-| SUSNUSD | 21600s | 1% |
+| SUSNUSN_RR | 3600s | 0.5% |
 
 ## ZIGChain
 
