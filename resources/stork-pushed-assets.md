@@ -187,6 +187,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | AAVEUSDCMARK | 0.5s | 0.5% |
 | AEROUSDC | 0.5s | 0.5% |
 | AEROUSDCMARK | 0.5s | 0.5% |
+| ARBUSDC | 0.5s | 0.5% |
+| ARBUSDCMARK | 0.5s | 0.5% |
 | BNBUSDC | 0.5s | 0.5% |
 | BNBUSDCMARK | 0.5s | 0.5% |
 | BTCUSDC | 0.5s | 0.5% |
@@ -225,6 +227,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | AAVEUSDCMARK | 1s | 0.5% |
 | AEROUSDC | 1s | 0.5% |
 | AEROUSDCMARK | 1s | 0.5% |
+| ARBUSDC | 1s | 0.5% |
+| ARBUSDCMARK | 1s | 0.5% |
 | BNBUSDC | 1s | 0.5% |
 | BNBUSDCMARK | 1s | 0.5% |
 | BTCUSDC | 1s | 0.5% |
