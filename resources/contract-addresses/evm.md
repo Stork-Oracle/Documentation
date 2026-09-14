@@ -7,18 +7,6 @@ icon: ethereum
 
 For documentation on interacting with these contracts in your contract, please see the [EVM API reference](../../api-reference/contract-apis/evm.md).
 
-## Abstract
-
-| Network | Address |
-| -------- | -------- |
-| Testnet | [0xedea47572301271280a39F8A7378C7dc54fe5F1E](https://explorer.testnet.abs.xyz/address/0xedea47572301271280a39F8A7378C7dc54fe5F1E) |
-
-## Apechain
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://apescan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
 ## Arbitrum
 
 | Network | Address |
@@ -31,12 +19,6 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.arcscan.app/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Avalanche
-
-| Network | Address |
-| -------- | -------- |
-| C-Chain | [0x647DFd812BC1e116c6992CB2bC353b2112176fD6](https://snowtrace.io/address/0x647DFd812BC1e116c6992CB2bC353b2112176fD6) |
 
 ## BNB Smart Chain
 
@@ -58,30 +40,6 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://berascan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
-## Bitlayer
-
-| Network | Address |
-| -------- | -------- |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.btrscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Bob
-
-| Network | Address |
-| -------- | -------- |
-| Sepolia | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://bob-sepolia.explorer.gobob.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Bsquared
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.bsquared.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Camp
-
-| Network | Address |
-| -------- | -------- |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://basecamp.cloud.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
 ## Citrea
 
 | Network | Address |
@@ -95,24 +53,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan.coredao.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
-## Cronos ZkEvm
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.zkevm.cronos.org/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
-| Testnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://explorer.zkevm.cronos.org/testnet/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
-
-## CrossFi
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://xfiscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
 ## EDU Chain
 
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://educhain.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://edu-chain-testnet.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Ethereum
 
@@ -126,24 +72,11 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Calibration | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://calibration.filfox.info/en/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
-## Flow EVM
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://evm.flowscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
 ## Goat
 
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.goat.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet3.goat.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Gravity
-
-| Network | Address |
-| -------- | -------- |
-| Alpha Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.gravity.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Hemi
 
@@ -163,32 +96,11 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://hyperevmscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet.purrsec.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Ink
-
-| Network | Address |
-| -------- | -------- |
-| Sepolia | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-sepolia.inkonchain.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Lightlink
-
-| Network | Address |
-| -------- | -------- |
-| Pegasus Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pegasus.lightlink.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Phoenix Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://phoenix.lightlink.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Lisk
-
-| Network | Address |
-| -------- | -------- |
-| Sepolia | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://sepolia-blockscout.lisk.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Manta Pacific
 
 | Network | Address |
 | -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pacific-explorer.manta.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Sepolia Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://pacific-explorer.sepolia-testnet.manta.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## MegaETH
@@ -196,13 +108,11 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://megaeth.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| TestnetV2 | [0x266795f5A45AEc26aBF7E1c923dC15Cbb1A4Ed96](https://megaeth-testnet-v2.blockscout.com/address/0x266795f5A45AEc26aBF7E1c923dC15Cbb1A4Ed96) |
 
 ## Merlin
 
 | Network | Address |
 | -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scan.merlinchain.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet-scan.merlinchain.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Mezo
@@ -230,20 +140,6 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.optimism.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Sepolia | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://sepolia-optimism.etherscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Open Campus
-
-| Network | Address |
-| -------- | -------- |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://edu-chain-testnet.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Perennial
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-perennial-lsv53i0ed8.t.conduit.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer-perennial-testnet-op-base-tia-dphnnr04wr.t.conduit.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Plume
 
@@ -256,15 +152,7 @@ For documentation on interacting with these contracts in your contract, please s
 
 | Network | Address |
 | -------- | -------- |
-| Amoy | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://amoy.polygonscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://polygonscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Quai
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet Cyprus1 | [0x00225fCCCC774e25606bB34821e9Db52af433963](https://quaiscan.io/address/0x00225fCCCC774e25606bB34821e9Db52af433963) |
-| Orchard Testnet Cyprus1 | [0x00754b866956D338bEA6CEc98D0D2aB4508085ff](https://orchard.quaiscan.io/address/0x00754b866956D338bEA6CEc98D0D2aB4508085ff) |
 
 ## RISE
 
@@ -286,61 +174,12 @@ For documentation on interacting with these contracts in your contract, please s
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://robinhoodchain.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet.chain.robinhood.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
-## Rootstock
-
-| Network | Address |
-| -------- | -------- |
-| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://rootstock-testnet.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## SKALE
-
-| Network | Address |
-| -------- | -------- |
-| Europa Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://juicy-low-small-testnet.explorer.testnet.skalenodes.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Scroll
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://scrollscan.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Sepolia | [0xbB4105F349072B15e300f3dAeB701EF986ae5372](https://sepolia.scrollscan.com/address/0xbB4105F349072B15e300f3dAeB701EF986ae5372) |
-
 ## Somnia
 
 | Network | Address |
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.somnia.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://shannon-explorer.somnia.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Soneium
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://soneium.blockscout.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Sonic
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.soniclabs.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Sophon
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9](https://sophscan.xyz/address/0x6a2ab154d7c5Ba9fdea6d8A0C79818A4463a63f9) |
-
-## Story
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://storyscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Superseed
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.superseed.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## TAC
 
@@ -354,25 +193,6 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Devnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://devnet.explorer.moved.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Unichain
-
-| Network | Address |
-| -------- | -------- |
-| Sepolia | [0x266795f5A45AEc26aBF7E1c923dC15Cbb1A4Ed96](https://sepolia.uniscan.xyz/address/0x266795f5A45AEc26aBF7E1c923dC15Cbb1A4Ed96) |
-
-## Viction
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://www.vicscan.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## ZKsync
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xedea47572301271280a39F8A7378C7dc54fe5F1E](https://explorer.zksync.io/address/0xedea47572301271280a39F8A7378C7dc54fe5F1E) |
-| Sepolia | [0xa4EdaB501dD4B3aD9Ad6d30dE1B3a29b8d9a9858](https://sepolia.explorer.zksync.io/address/0xa4EdaB501dD4B3aD9Ad6d30dE1B3a29b8d9a9858) |
 
 ## Zetachain
 
