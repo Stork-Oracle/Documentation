@@ -84,6 +84,12 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.hemi.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
+## Hideki
+
+| Network | Address |
+| -------- | -------- |
+| Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://hideki-explorer.somnia.network/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
+
 ## Horizen
 
 | Network | Address |
@@ -114,19 +120,6 @@ For documentation on interacting with these contracts in your contract, please s
 | Network | Address |
 | -------- | -------- |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://testnet-scan.merlinchain.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Mezo
-
-| Network | Address |
-| -------- | -------- |
-| Matsnet Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.test.mezo.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Mitosis
-
-| Network | Address |
-| -------- | -------- |
-| Dognet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://blockscout.dognet.mitosis.org/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://mitoscan.io/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Monad
 
@@ -160,12 +153,6 @@ For documentation on interacting with these contracts in your contract, please s
 | -------- | -------- |
 | Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.risechain.com/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 | Testnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.testnet.riselabs.xyz/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
-
-## Relay
-
-| Network | Address |
-| -------- | -------- |
-| Mainnet | [0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62](https://explorer.chain.relay.link/address/0xacC0a0cF13571d30B4b8637996F5D6D774d4fd62) |
 
 ## Robinhood
 
