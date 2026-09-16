@@ -235,7 +235,7 @@ An ECDSA signed verifiable message type containing a bitpacked payload for submi
 
 #### Payload Layout
 
-When connected without `addtl_attrs`, the payload after the 65-byte signature is laid out as:
+When connected without `addtl_attrs`, the payload after the 65-byte signature uses a simplified layout for messages with no additional attributes:
 
 ```
 taxonomy ID (2 bytes) || timestamp ns (8 bytes) || N x [ asset ID (2 bytes) || quantized value (16 bytes) ]
@@ -248,13 +248,13 @@ When connected with `addtl_attrs` (e.g. `addtl_attrs=ms`), the payload after the
 ```
 
 * All multi-byte fields are big-endian
-* The leading `0xFF` byte unambiguously distinguishes the versioned layout from the legacy layout
+* The leading `0xFF` byte unambiguously distinguishes the versioned layout from the simplified layout
 * The attribute mask is a uint16 bitmask declaring which attributes each asset record contains: bit 0 is price (always set) and bit 1 is market status (`ms`). Attribute bytes appear within each record in ascending mask-bit order
 * `ms` is the asset's market status code, or `0xFF` for assets with no market schedule
 
 #### Example
 
-A message using the legacy layout (connected without `addtl_attrs`):
+A message using the simplified layout (connected without `addtl_attrs`):
 
 ```json
 {
