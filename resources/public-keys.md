@@ -8,9 +8,10 @@ icon: key
 
 ### Stork
 
-| Component  | Public Key                                   |
-| ---------- | -------------------------------------------- |
-| Aggregator | `0x0a803F9b1CCe32e2773e0d2e98b37E0775cA5d44` |
+| Component | Public Key                                   |
+| --------- | -------------------------------------------- |
+| Core      | `0x0bb53E0d5E89778DCD13C2720667D292368dD053` |
+| Fast      | `0x03c9F3c5189C43A11781A01F532111cAc3d891D1` |
 
 ## Stark
 
