@@ -58,6 +58,31 @@ The `message_type` query parameter determines the structure of the data coming f
 * `unsigned`: An unsigned message type, primarily intended for human readability
 * `signed_ecdsa`: A verifiable message type including an ECDSA signature. Comprised of a single bit-packed payload for maximum on-chain efficiency. Not human-readable.
 
+**Additional Attributes**
+
+The `addtl_attrs` query parameter opts in to additional per-asset attributes beyond price. It accepts a comma-separated list of attribute names. The following attributes are supported:
+
+* `ms`: Market status — the market status code in effect for each asset at the message's timestamp
+
+For example, to receive market status alongside prices:
+
+```bash
+wscat -c 'wss://fast.jp.stork-oracle.network/ws?addtl_attrs=ms' -H "Authorization: Basic gmork123"
+```
+
+Market status codes are:
+
+| Code | Status         |
+| ---- | -------------- |
+| 0    | Closed         |
+| 1    | Regular hours  |
+| 2    | Extended hours |
+| 3    | After hours    |
+
+Market status is only meaningful for assets with a market schedule (e.g. equities). Assets that trade continuously (e.g. crypto) have no market status: the `ms` field is omitted for those assets in `unsigned` messages, and set to `0xFF` in `signed_ecdsa` payloads.
+
+The current market status is delivered inline with every price update. To also see the next upcoming status and the time at which it takes effect, use the `/v1/market_status` endpoint on the [REST API](rest-api.md).
+
 ## Messages <a href="#docs-internal-guid-b8749ed2-7fff-8573-9566-41fd1c1d5fbb" id="docs-internal-guid-b8749ed2-7fff-8573-9566-41fd1c1d5fbb"></a>
 
 ### Subscribe Message
@@ -137,6 +162,7 @@ An unsigned non-verifiable message type containing human-readable asset updates.
 * `a`: An array of asset value pairs in the form of `{"id": int, "v": string}`&#x20;
   * `id`: uint16 asset ID
   * `v`: 10^18 scaled value as a string
+  * `ms`: The asset's current market status code (see [Additional Attributes](websocket-api.md#query-parameters)). Only present when the connection was opened with `addtl_attrs=ms`, and omitted for assets with no market schedule
 
 #### Example
 
@@ -166,6 +192,27 @@ An unsigned non-verifiable message type containing human-readable asset updates.
 }
 ```
 
+When connected with `addtl_attrs=ms`, assets with a market schedule additionally include the `ms` field:
+
+```json
+{
+    "type": "unsigned",
+    "tax": 1,
+    "ts": 1764608698685038908,
+    "a": [
+        {
+            "id": 1,
+            "v": "999875000000000069"
+        },
+        {
+            "id": 12001,
+            "v": "6540000000000000",
+            "ms": 1
+        }
+    ]
+}
+```
+
 
 
 ### Signed ECDSA Message
@@ -185,6 +232,25 @@ An ECDSA signed verifiable message type containing a bitpacked payload for submi
 
 * `type`: Type of the message. In this case, `signed_ecdsa`
 * `p`: The bitpacked verifiable payload in the form of a hex string. The first 65 bytes of this payload are the signature
+
+#### Payload Layout
+
+When connected without `addtl_attrs`, the payload after the 65-byte signature is laid out as:
+
+```
+taxonomy ID (2 bytes) || timestamp ns (8 bytes) || N x [ asset ID (2 bytes) || quantized value (16 bytes) ]
+```
+
+When connected with `addtl_attrs` (e.g. `addtl_attrs=ms`), the payload after the signature uses a versioned layout that carries the additional attributes in each asset record:
+
+```
+0xFF (1 byte) || version 0x02 (1 byte) || attribute mask (2 bytes) || taxonomy ID (2 bytes) || timestamp ns (8 bytes) || N x [ asset ID (2 bytes) || quantized value (16 bytes) || ms (1 byte) ]
+```
+
+* All multi-byte fields are big-endian
+* The leading `0xFF` byte unambiguously distinguishes the versioned layout from the legacy layout
+* The attribute mask is a uint16 bitmask declaring which attributes each asset record contains: bit 0 is price (always set) and bit 1 is market status (`ms`). Attribute bytes appear within each record in ascending mask-bit order
+* `ms` is the asset's market status code, or `0xFF` for assets with no market schedule
 
 #### Example
 
