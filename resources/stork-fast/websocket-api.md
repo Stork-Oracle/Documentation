@@ -254,9 +254,36 @@ When connected with `addtl_attrs` (e.g. `addtl_attrs=ms`), the payload after the
 
 #### Example
 
+A message using the legacy layout (connected without `addtl_attrs`):
+
 ```json
 {
     "type": "signed_ecdsa",
     "p": "0x435766eac9298f4dcbfe8bdfe46361161d6eeca88f783e3cd215db90c0581cd1511382180840e70bfd43e5382aa4e4c2910aca251ee2c3a5e27d5343fb105556010001187d265fe630404b000100000000000000000de029bae7734fef000200000000000000000ddffc432d25cd5c000a0000000000000000b02db33d2f95811c0022000000000000009480fc8e62b51ff1ac"
 }
 ```
+
+A message using the versioned layout (connected with `addtl_attrs=ms`):
+
+```json
+{
+    "type": "signed_ecdsa",
+    "p": "0xc8a24321a3f048143b54784ce120006b188cd2c6ff10100a24e655253bb870b3398a898330b3a8e25e222c2300660e77b6e66065878893d7af2f8ff92822c99e01ff0200030001187d26431cafa13c000100000000000000000de04503d2cb3045ff2ee1000000000000000000173c1868d4c00001"
+}
+```
+
+Broken down after the 65-byte signature, this payload reads as:
+
+| Bytes                                | Field                                     |
+| ------------------------------------ | ----------------------------------------- |
+| `ff`                                 | Versioned layout magic byte               |
+| `02`                                 | Layout version                            |
+| `0003`                               | Attribute mask (price + market status)    |
+| `0001`                               | Taxonomy ID (1)                           |
+| `187d26431cafa13c`                   | Timestamp (1764608698685038908 ns)        |
+| `0001`                               | Asset ID (1)                              |
+| `00000000000000000de04503d2cb3045`   | Quantized value (999875000000000069)      |
+| `ff`                                 | Market status (no market schedule)        |
+| `2ee1`                               | Asset ID (12001)                          |
+| `000000000000000000173c1868d4c000`   | Quantized value (6540000000000000)        |
+| `01`                                 | Market status (regular hours)             |
