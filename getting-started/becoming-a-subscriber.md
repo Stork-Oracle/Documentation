@@ -29,11 +29,11 @@ Using data off-chain is as simple as listening to the [Aggregator](../introducti
                 "price": "&#x3C;price multiplied by 10^18>",
                 "timestamped_signature": {
                     "signature": {
-                        "r": "&#x3C;r component of ECDSA secp256k1 signature>",
-                        "s": "&#x3C;r component of ECDSA secp256k1 signature>",
-                        "v": "&#x3C;s component of ECDSA secp256k1 signature"
+                        "r": "r component of ECDSA secp256k1 signature>",
+                        "s": "s component of ECDSA secp256k1 signature>",
+                        "v": "v recovery parameter of ECDSA secp256k1 signature"
                     },
-                    "timestamp": &#x3C;unix timestamp>,
+                    "timestamp": <unix timestamp>,
                     "msg_hash": "keccak256 message hash"
                 },
                 "publisher_merkle_root": "&#x3C;publisher merkle root",
