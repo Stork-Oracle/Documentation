@@ -33,7 +33,7 @@ The `keys.json` file contains sensitive configuration settings, including privat
 ### **`EvmPrivateKey`**
 
 * **Type**: String
-* **Description**: The private key for signing updates on the Ethereum Virtual Machine (EVM).
+* **Description**: The private key for signing updates on the Ethereum Virtual Machine (EVM). (Development example only; never use in production.)
 * **Required**: Yes (if `evm` is included in `SignatureTypes` in `config.json`)
 * **Example**: `"0x8b558d5fc31eb64bb51d44b4b28658180e96764d5d5ac68e6d124f86f576d9de"`
 
