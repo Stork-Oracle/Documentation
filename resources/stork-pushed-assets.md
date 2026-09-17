@@ -11,6 +11,14 @@ Stork regularly pushes a set of price feeds on-chain across multiple chains. The
 Want access to a price feed on-chain that we're not pushing? See the [Putting Data On-Chain](../getting-started/putting-data-on-chain.md) to push it yourself, or reach out to Stork so we can get it pushed for you in as little as 24 hours. [sales@stork.network](mailto:sales@stork.network) or [Twitter DMs](https://x.com/storkoracle) open.
 {% endhint %}
 
+## BNB Smart Chain
+
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| SUSNUSD_RR_NOON | 3600s | 0.5% |
+
 ## Base
 
 ### Mainnet
@@ -18,6 +26,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
+| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
 
 ## Berachain
 
@@ -26,6 +35,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
+| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
 
 ## Citrea
 
@@ -36,6 +46,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | BTCUSD | 21600s | 0.5% |
 | CTUSDUSDC_RR | 21600s | 0.5% |
 | SUSNUSN_RR | 3600s | 0.5% |
+| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
 
 ## EDU Chain
 
@@ -49,6 +60,45 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | USDCUSD | 3600s | 0.5% |
 | USDTUSD | 3600s | 0.5% |
 
+## Hideki
+
+### Testnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| ADAUSDC | 0.5s | 0.5% |
+| ADAUSDCMARK | 0.5s | 0.5% |
+| AVAXUSDC | 0.5s | 0.5% |
+| AVAXUSDCMARK | 0.5s | 0.5% |
+| BNBUSDC | 0.5s | 0.5% |
+| BNBUSDCMARK | 0.5s | 0.5% |
+| BTCUSDC | 0.5s | 0.5% |
+| BTCUSDCMARK | 0.5s | 0.5% |
+| DOGEUSDC | 0.5s | 0.5% |
+| DOGEUSDCMARK | 0.5s | 0.5% |
+| ETHUSDC | 0.5s | 0.5% |
+| ETHUSDCMARK | 0.5s | 0.5% |
+| HYPEUSDC | 0.5s | 0.5% |
+| HYPEUSDCMARK | 0.5s | 0.5% |
+| LINKUSDC | 0.5s | 0.5% |
+| LINKUSDCMARK | 0.5s | 0.5% |
+| NEARUSDC | 0.5s | 0.5% |
+| NEARUSDCMARK | 0.5s | 0.5% |
+| SOLUSDC | 0.5s | 0.5% |
+| SOLUSDCMARK | 0.5s | 0.5% |
+| SOMIUSDC | 0.5s | 0.5% |
+| SOMIUSDCMARK | 0.5s | 0.5% |
+| SUIUSDC | 0.5s | 0.5% |
+| SUIUSDCMARK | 0.5s | 0.5% |
+| TAOUSDC | 0.5s | 0.5% |
+| TAOUSDCMARK | 0.5s | 0.5% |
+| WLDUSDC | 0.5s | 0.5% |
+| WLDUSDCMARK | 0.5s | 0.5% |
+| XLMUSDC | 0.5s | 0.5% |
+| XLMUSDCMARK | 0.5s | 0.5% |
+| XRPUSDC | 0.5s | 0.5% |
+| XRPUSDCMARK | 0.5s | 0.5% |
+
 ## HyperEVM
 
 ### Mainnet
@@ -56,6 +106,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
+| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
 
 ## Monad
 
@@ -311,6 +362,7 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
 | SUSNUSN_RR | 3600s | 0.5% |
+| USNUSD_RR_CAPPED_1 | 3600s | 0.5% |
 
 ## ZIGChain
 
