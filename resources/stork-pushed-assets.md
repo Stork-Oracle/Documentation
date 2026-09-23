@@ -316,45 +316,6 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | ZECUSDC | 1s | 0.5% |
 | ZECUSDCMARK | 1s | 0.5% |
 
-## Somnia
-
-### Testnet
-
-| Asset | Max Staleness | Delta |
-| ----- | ------------- | ----- |
-| ADAUSDC | 0.5s | 0.5% |
-| ADAUSDCMARK | 0.5s | 0.5% |
-| AVAXUSDC | 0.5s | 0.5% |
-| AVAXUSDCMARK | 0.5s | 0.5% |
-| BNBUSDC | 0.5s | 0.5% |
-| BNBUSDCMARK | 0.5s | 0.5% |
-| BTCUSDC | 0.5s | 0.5% |
-| BTCUSDCMARK | 0.5s | 0.5% |
-| DOGEUSDC | 0.5s | 0.5% |
-| DOGEUSDCMARK | 0.5s | 0.5% |
-| ETHUSDC | 0.5s | 0.5% |
-| ETHUSDCMARK | 0.5s | 0.5% |
-| HYPEUSDC | 0.5s | 0.5% |
-| HYPEUSDCMARK | 0.5s | 0.5% |
-| LINKUSDC | 0.5s | 0.5% |
-| LINKUSDCMARK | 0.5s | 0.5% |
-| NEARUSDC | 0.5s | 0.5% |
-| NEARUSDCMARK | 0.5s | 0.5% |
-| SOLUSDC | 0.5s | 0.5% |
-| SOLUSDCMARK | 0.5s | 0.5% |
-| SOMIUSDC | 0.5s | 0.5% |
-| SOMIUSDCMARK | 0.5s | 0.5% |
-| SUIUSDC | 0.5s | 0.5% |
-| SUIUSDCMARK | 0.5s | 0.5% |
-| TAOUSDC | 0.5s | 0.5% |
-| TAOUSDCMARK | 0.5s | 0.5% |
-| WLDUSDC | 0.5s | 0.5% |
-| WLDUSDCMARK | 0.5s | 0.5% |
-| XLMUSDC | 0.5s | 0.5% |
-| XLMUSDCMARK | 0.5s | 0.5% |
-| XRPUSDC | 0.5s | 0.5% |
-| XRPUSDCMARK | 0.5s | 0.5% |
-
 ## Sui
 
 ### Mainnet
