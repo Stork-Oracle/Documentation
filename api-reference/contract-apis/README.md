@@ -1,5 +1,4 @@
 ---
-description: Th
 icon: file-signature
 ---
 
@@ -10,7 +9,7 @@ This section contains an enumeration of the available smart-contract APIs that c
 * Writing Stork signed updates for specific assets to the contract - typically from off-chain applications
 * Reading latest values for specific assets from the contract - typically from on-chain applications
 
-The following APIs are available for supported chains:&#x20;
+The following APIs are available for supported chains:
 
 {% content-ref url="evm.md" %}
 [evm.md](evm.md)
