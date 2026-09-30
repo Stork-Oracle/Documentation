@@ -246,6 +246,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | BTCUSDCMARK | 0.5s | 0.5% |
 | DOGEUSDC | 0.5s | 0.5% |
 | DOGEUSDCMARK | 0.5s | 0.5% |
+| ENAUSDC | 0.5s | 0.5% |
+| ENAUSDCMARK | 0.5s | 0.5% |
 | ETHUSDC | 0.5s | 0.5% |
 | ETHUSDCMARK | 0.5s | 0.5% |
 | HYPEUSDC | 0.5s | 0.5% |
@@ -287,6 +289,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | COIN_24_5_USDC | 1s | 0.5% |
 | DOGEUSDC | 1s | 0.5% |
 | DOGEUSDCMARK | 1s | 0.5% |
+| ENAUSDC | 1s | 0.5% |
+| ENAUSDCMARK | 1s | 0.5% |
 | ETHUSDC | 1s | 0.5% |
 | ETHUSDCMARK | 1s | 0.5% |
 | HOOD_24_5_USDC | 1s | 0.5% |
