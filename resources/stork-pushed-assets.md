@@ -66,6 +66,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
+| 1000PEPEUSDC | 0.5s | 0.5% |
+| 1000PEPEUSDCMARK | 0.5s | 0.5% |
 | ADAUSDC | 0.5s | 0.5% |
 | ADAUSDCMARK | 0.5s | 0.5% |
 | AVAXUSDC | 0.5s | 0.5% |
@@ -82,8 +84,12 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | HYPEUSDCMARK | 0.5s | 0.5% |
 | LINKUSDC | 0.5s | 0.5% |
 | LINKUSDCMARK | 0.5s | 0.5% |
+| LITUSDC | 0.5s | 0.5% |
+| LITUSDCMARK | 0.5s | 0.5% |
 | NEARUSDC | 0.5s | 0.5% |
 | NEARUSDCMARK | 0.5s | 0.5% |
+| PUMPUSDC | 0.5s | 0.5% |
+| PUMPUSDCMARK | 0.5s | 0.5% |
 | SOLUSDC | 0.5s | 0.5% |
 | SOLUSDCMARK | 0.5s | 0.5% |
 | SOMIUSDC | 0.5s | 0.5% |
@@ -92,12 +98,18 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | SUIUSDCMARK | 0.5s | 0.5% |
 | TAOUSDC | 0.5s | 0.5% |
 | TAOUSDCMARK | 0.5s | 0.5% |
+| VVVUSDC | 0.5s | 0.5% |
+| VVVUSDCMARK | 0.5s | 0.5% |
 | WLDUSDC | 0.5s | 0.5% |
 | WLDUSDCMARK | 0.5s | 0.5% |
 | XLMUSDC | 0.5s | 0.5% |
 | XLMUSDCMARK | 0.5s | 0.5% |
 | XRPUSDC | 0.5s | 0.5% |
 | XRPUSDCMARK | 0.5s | 0.5% |
+| ZECUSDC | 0.5s | 0.5% |
+| ZECUSDCMARK | 0.5s | 0.5% |
+| ZROUSDC | 0.5s | 0.5% |
+| ZROUSDCMARK | 0.5s | 0.5% |
 
 ## HyperEVM
 
@@ -246,12 +258,16 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | BTCUSDCMARK | 0.5s | 0.5% |
 | DOGEUSDC | 0.5s | 0.5% |
 | DOGEUSDCMARK | 0.5s | 0.5% |
+| ENAUSDC | 0.5s | 0.5% |
+| ENAUSDCMARK | 0.5s | 0.5% |
 | ETHUSDC | 0.5s | 0.5% |
 | ETHUSDCMARK | 0.5s | 0.5% |
 | HYPEUSDC | 0.5s | 0.5% |
 | HYPEUSDCMARK | 0.5s | 0.5% |
 | LITUSDC | 0.5s | 0.5% |
 | LITUSDCMARK | 0.5s | 0.5% |
+| MONUSDC | 0.5s | 0.5% |
+| MONUSDCMARK | 0.5s | 0.5% |
 | NEARUSDC | 0.5s | 0.5% |
 | NEARUSDCMARK | 0.5s | 0.5% |
 | ONDOUSDC | 0.5s | 0.5% |
@@ -264,6 +280,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | TAOUSDCMARK | 0.5s | 0.5% |
 | VVVUSDC | 0.5s | 0.5% |
 | VVVUSDCMARK | 0.5s | 0.5% |
+| WLDUSDC | 0.5s | 0.5% |
+| WLDUSDCMARK | 0.5s | 0.5% |
 | XRPUSDC | 0.5s | 0.5% |
 | XRPUSDCMARK | 0.5s | 0.5% |
 | ZECUSDC | 0.5s | 0.5% |
@@ -287,6 +305,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | COIN_24_5_USDC | 1s | 0.5% |
 | DOGEUSDC | 1s | 0.5% |
 | DOGEUSDCMARK | 1s | 0.5% |
+| ENAUSDC | 1s | 0.5% |
+| ENAUSDCMARK | 1s | 0.5% |
 | ETHUSDC | 1s | 0.5% |
 | ETHUSDCMARK | 1s | 0.5% |
 | HOOD_24_5_USDC | 1s | 0.5% |
@@ -294,6 +314,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | HYPEUSDCMARK | 1s | 0.5% |
 | LITUSDC | 1s | 0.5% |
 | LITUSDCMARK | 1s | 0.5% |
+| MONUSDC | 1s | 0.5% |
+| MONUSDCMARK | 1s | 0.5% |
 | NEARUSDC | 1s | 0.5% |
 | NEARUSDCMARK | 1s | 0.5% |
 | NVDA_24_5_USDC | 1s | 0.5% |
@@ -309,6 +331,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | TSLA_24_5_USDC | 1s | 0.5% |
 | VVVUSDC | 1s | 0.5% |
 | VVVUSDCMARK | 1s | 0.5% |
+| WLDUSDC | 1s | 0.5% |
+| WLDUSDCMARK | 1s | 0.5% |
 | XAGUSDC | 1s | 0.5% |
 | XAUUSDC | 1s | 0.5% |
 | XRPUSDC | 1s | 0.5% |
