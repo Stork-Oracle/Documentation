@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # REST API
@@ -49,10 +51,6 @@ This tool is meant to illustrate the structure of REST api responses, but unfort
 {% endopenapi-operation %}
 
 {% openapi-operation spec="stork-rest-from-endpoint" path="/v1/prices/latest" method="get" %}
-[OpenAPI stork-rest-from-endpoint](https://rest.jp.stork-oracle.network/openapi.yaml)
-{% endopenapi-operation %}
-
-{% openapi-operation spec="stork-rest-from-endpoint" path="/v1/prices/recent" method="get" %}
 [OpenAPI stork-rest-from-endpoint](https://rest.jp.stork-oracle.network/openapi.yaml)
 {% endopenapi-operation %}
 
