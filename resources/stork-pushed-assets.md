@@ -66,6 +66,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
+| 1000PEPEUSDC | 0.5s | 0.5% |
+| 1000PEPEUSDCMARK | 0.5s | 0.5% |
 | ADAUSDC | 0.5s | 0.5% |
 | ADAUSDCMARK | 0.5s | 0.5% |
 | AVAXUSDC | 0.5s | 0.5% |
@@ -82,8 +84,12 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | HYPEUSDCMARK | 0.5s | 0.5% |
 | LINKUSDC | 0.5s | 0.5% |
 | LINKUSDCMARK | 0.5s | 0.5% |
+| LITUSDC | 0.5s | 0.5% |
+| LITUSDCMARK | 0.5s | 0.5% |
 | NEARUSDC | 0.5s | 0.5% |
 | NEARUSDCMARK | 0.5s | 0.5% |
+| PUMPUSDC | 0.5s | 0.5% |
+| PUMPUSDCMARK | 0.5s | 0.5% |
 | SOLUSDC | 0.5s | 0.5% |
 | SOLUSDCMARK | 0.5s | 0.5% |
 | SOMIUSDC | 0.5s | 0.5% |
@@ -92,12 +98,18 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | SUIUSDCMARK | 0.5s | 0.5% |
 | TAOUSDC | 0.5s | 0.5% |
 | TAOUSDCMARK | 0.5s | 0.5% |
+| VVVUSDC | 0.5s | 0.5% |
+| VVVUSDCMARK | 0.5s | 0.5% |
 | WLDUSDC | 0.5s | 0.5% |
 | WLDUSDCMARK | 0.5s | 0.5% |
 | XLMUSDC | 0.5s | 0.5% |
 | XLMUSDCMARK | 0.5s | 0.5% |
 | XRPUSDC | 0.5s | 0.5% |
 | XRPUSDCMARK | 0.5s | 0.5% |
+| ZECUSDC | 0.5s | 0.5% |
+| ZECUSDCMARK | 0.5s | 0.5% |
+| ZROUSDC | 0.5s | 0.5% |
+| ZROUSDCMARK | 0.5s | 0.5% |
 
 ## HyperEVM
 
@@ -200,33 +212,21 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
-| NACREDXUSD | 3600s | 0.5% |
 | NALPHAUSD | 3600s | 0.5% |
 | NAXIUSD | 3600s | 0.5% |
 | NBASISUSD | 3600s | 0.5% |
 | NCLOAUSD | 3600s | 0.5% |
 | NCREDITUSD | 3600s | 0.5% |
-| NELIXIRUSD | 3600s | 0.5% |
-| NETFUSD | 3600s | 0.5% |
 | NETHERFIUSD | 3600s | 0.5% |
 | NFALCONUSD | 3600s | 0.5% |
 | NFBNDUSD | 3600s | 0.5% |
-| NINSTOUSD | 3600s | 0.5% |
 | NLCRDUSD | 3600s | 0.5% |
 | NOPALUSD | 3600s | 0.5% |
-| NPAYFIUSD | 3600s | 0.5% |
 | NPERENAUSD | 3600s | 0.5% |
 | NTBILLUSD | 3600s | 0.5% |
-| NUSDYUSD | 3600s | 0.5% |
-| NWISDOMUSD | 3600s | 0.5% |
-| NYIELDUSD | 3600s | 0.5% |
-| PETHUSD_RR | 3600s | 0.5% |
 | PLUMEUSD | 3600s | 0.5% |
 | PUSDUSD | 3600s | 0.5% |
-| SPLUMEUSD | 3600s | 0.5% |
-| SUPEROETHPWETH_RR | 3600s | 0.5% |
 | WETHUSD | 3600s | 0.5% |
-| XAUMUSD | 3600s | 0.5% |
 
 ## RISE
 
@@ -234,6 +234,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
+| 1000PEPEUSDC | 0.5s | 0.5% |
+| 1000PEPEUSDCMARK | 0.5s | 0.5% |
 | AAVEUSDC | 0.5s | 0.5% |
 | AAVEUSDCMARK | 0.5s | 0.5% |
 | AEROUSDC | 0.5s | 0.5% |
@@ -244,14 +246,22 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | BNBUSDCMARK | 0.5s | 0.5% |
 | BTCUSDC | 0.5s | 0.5% |
 | BTCUSDCMARK | 0.5s | 0.5% |
+| CHIPUSDC | 0.5s | 0.5% |
+| CHIPUSDCMARK | 0.5s | 0.5% |
 | DOGEUSDC | 0.5s | 0.5% |
 | DOGEUSDCMARK | 0.5s | 0.5% |
+| DRVUSDC | 0.5s | 0.5% |
+| DRVUSDCMARK | 0.5s | 0.5% |
+| ENAUSDC | 0.5s | 0.5% |
+| ENAUSDCMARK | 0.5s | 0.5% |
 | ETHUSDC | 0.5s | 0.5% |
 | ETHUSDCMARK | 0.5s | 0.5% |
 | HYPEUSDC | 0.5s | 0.5% |
 | HYPEUSDCMARK | 0.5s | 0.5% |
 | LITUSDC | 0.5s | 0.5% |
 | LITUSDCMARK | 0.5s | 0.5% |
+| MONUSDC | 0.5s | 0.5% |
+| MONUSDCMARK | 0.5s | 0.5% |
 | NEARUSDC | 0.5s | 0.5% |
 | NEARUSDCMARK | 0.5s | 0.5% |
 | ONDOUSDC | 0.5s | 0.5% |
@@ -260,20 +270,30 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | PUMPUSDCMARK | 0.5s | 0.5% |
 | SOLUSDC | 0.5s | 0.5% |
 | SOLUSDCMARK | 0.5s | 0.5% |
+| STRKUSDC | 0.5s | 0.5% |
+| STRKUSDCMARK | 0.5s | 0.5% |
 | TAOUSDC | 0.5s | 0.5% |
 | TAOUSDCMARK | 0.5s | 0.5% |
 | VVVUSDC | 0.5s | 0.5% |
 | VVVUSDCMARK | 0.5s | 0.5% |
+| WLDUSDC | 0.5s | 0.5% |
+| WLDUSDCMARK | 0.5s | 0.5% |
+| XMRUSDC | 0.5s | 0.5% |
+| XMRUSDCMARK | 0.5s | 0.5% |
 | XRPUSDC | 0.5s | 0.5% |
 | XRPUSDCMARK | 0.5s | 0.5% |
 | ZECUSDC | 0.5s | 0.5% |
 | ZECUSDCMARK | 0.5s | 0.5% |
+| ZROUSDC | 0.5s | 0.5% |
+| ZROUSDCMARK | 0.5s | 0.5% |
 
 
 ### Testnet
 
 | Asset | Max Staleness | Delta |
 | ----- | ------------- | ----- |
+| 1000PEPEUSDC | 1s | 0.5% |
+| 1000PEPEUSDCMARK | 1s | 0.5% |
 | AAVEUSDC | 1s | 0.5% |
 | AAVEUSDCMARK | 1s | 0.5% |
 | AEROUSDC | 1s | 0.5% |
@@ -284,9 +304,15 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | BNBUSDCMARK | 1s | 0.5% |
 | BTCUSDC | 1s | 0.5% |
 | BTCUSDCMARK | 1s | 0.5% |
+| CHIPUSDC | 1s | 0.5% |
+| CHIPUSDCMARK | 1s | 0.5% |
 | COIN_24_5_USDC | 1s | 0.5% |
 | DOGEUSDC | 1s | 0.5% |
 | DOGEUSDCMARK | 1s | 0.5% |
+| DRVUSDC | 1s | 0.5% |
+| DRVUSDCMARK | 1s | 0.5% |
+| ENAUSDC | 1s | 0.5% |
+| ENAUSDCMARK | 1s | 0.5% |
 | ETHUSDC | 1s | 0.5% |
 | ETHUSDCMARK | 1s | 0.5% |
 | HOOD_24_5_USDC | 1s | 0.5% |
@@ -294,6 +320,8 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | HYPEUSDCMARK | 1s | 0.5% |
 | LITUSDC | 1s | 0.5% |
 | LITUSDCMARK | 1s | 0.5% |
+| MONUSDC | 1s | 0.5% |
+| MONUSDCMARK | 1s | 0.5% |
 | NEARUSDC | 1s | 0.5% |
 | NEARUSDCMARK | 1s | 0.5% |
 | NVDA_24_5_USDC | 1s | 0.5% |
@@ -304,17 +332,65 @@ Want access to a price feed on-chain that we're not pushing? See the [Putting Da
 | SOLUSDC | 1s | 0.5% |
 | SOLUSDCMARK | 1s | 0.5% |
 | SPY_24_5_USDC | 1s | 0.5% |
+| STRKUSDC | 1s | 0.5% |
+| STRKUSDCMARK | 1s | 0.5% |
 | TAOUSDC | 1s | 0.5% |
 | TAOUSDCMARK | 1s | 0.5% |
 | TSLA_24_5_USDC | 1s | 0.5% |
 | VVVUSDC | 1s | 0.5% |
 | VVVUSDCMARK | 1s | 0.5% |
+| WLDUSDC | 1s | 0.5% |
+| WLDUSDCMARK | 1s | 0.5% |
 | XAGUSDC | 1s | 0.5% |
 | XAUUSDC | 1s | 0.5% |
+| XMRUSDC | 1s | 0.5% |
+| XMRUSDCMARK | 1s | 0.5% |
 | XRPUSDC | 1s | 0.5% |
 | XRPUSDCMARK | 1s | 0.5% |
 | ZECUSDC | 1s | 0.5% |
 | ZECUSDCMARK | 1s | 0.5% |
+| ZROUSDC | 1s | 0.5% |
+| ZROUSDCMARK | 1s | 0.5% |
+
+## Somnia Tokyo
+
+### Mainnet
+
+| Asset | Max Staleness | Delta |
+| ----- | ------------- | ----- |
+| ADAUSDC | 0.5s | 0.5% |
+| ADAUSDCMARK | 0.5s | 0.5% |
+| AVAXUSDC | 0.5s | 0.5% |
+| AVAXUSDCMARK | 0.5s | 0.5% |
+| BNBUSDC | 0.5s | 0.5% |
+| BNBUSDCMARK | 0.5s | 0.5% |
+| BTCUSDC | 0.5s | 0.5% |
+| BTCUSDCMARK | 0.5s | 0.5% |
+| DOGEUSDC | 0.5s | 0.5% |
+| DOGEUSDCMARK | 0.5s | 0.5% |
+| ETHUSDC | 0.5s | 0.5% |
+| ETHUSDCMARK | 0.5s | 0.5% |
+| HYPEUSDC | 0.5s | 0.5% |
+| HYPEUSDCMARK | 0.5s | 0.5% |
+| LINKUSDC | 0.5s | 0.5% |
+| LINKUSDCMARK | 0.5s | 0.5% |
+| LITUSDC | 0.5s | 0.5% |
+| LITUSDCMARK | 0.5s | 0.5% |
+| NEARUSDC | 0.5s | 0.5% |
+| NEARUSDCMARK | 0.5s | 0.5% |
+| SOLUSDC | 0.5s | 0.5% |
+| SOLUSDCMARK | 0.5s | 0.5% |
+| SOMIUSDC | 0.5s | 0.5% |
+| SUIUSDC | 0.5s | 0.5% |
+| SUIUSDCMARK | 0.5s | 0.5% |
+| WLDUSDC | 0.5s | 0.5% |
+| WLDUSDCMARK | 0.5s | 0.5% |
+| XLMUSDC | 0.5s | 0.5% |
+| XLMUSDCMARK | 0.5s | 0.5% |
+| XRPUSDC | 0.5s | 0.5% |
+| XRPUSDCMARK | 0.5s | 0.5% |
+| ZECUSDC | 0.5s | 0.5% |
+| ZECUSDCMARK | 0.5s | 0.5% |
 
 ## Sui
 
